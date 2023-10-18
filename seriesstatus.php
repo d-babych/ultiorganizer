@@ -34,7 +34,8 @@ foreach ($teams as $team) {
   $teamstats['team_id']=$team['team_id'];
   $teamstats['seed']=$team['rank'];
   $teamstats['flagfile']=$team['flagfile'];
-  
+  $teamstats['pool']=$team['poolname'];
+
   $teamstats['wins']=$stats['wins'];
   $teamstats['games']=$stats['games'];
 
