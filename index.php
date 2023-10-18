@@ -70,3 +70,4 @@ if(!iget("view")){
 include $view.".php";
 
 CloseConnection();
+?>

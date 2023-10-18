@@ -279,3 +279,5 @@ if ($list == "allteams" || $list == "byseeding") {
 }
 
 showPage($title, $html);
+
+?>
