@@ -24,6 +24,7 @@ include_once 'lib/yui.functions.php';
 echo yuiLoad(array("utilities", "slider", "colorpicker", "datasource", "autocomplete"));
 ?>
 <script type="text/javascript">
+<!--
 function setId(id1,id2) 
 	{
 	var input = document.getElementById("hiddenDeleteId");
@@ -72,6 +73,7 @@ function checkMove2(frompool, infield, pteamname)
 	}
 	pteamname.value = frompool[frompool.selectedIndex].innerHTML + " " + input.value;
 	}	
+//-->
 </script>
 <?php
 pageTopHeadClose($title);

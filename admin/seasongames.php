@@ -80,7 +80,7 @@ pageTopHeadOpen($title);
 $html .= yuiLoad(array("utilities"));
 ?>
 <script type="text/javascript">
-
+<!--
 function setId(id)
   {
   var input = document.getElementById("hiddenDeleteId");
@@ -90,7 +90,7 @@ function ChgName(index) {
   YAHOO.util.Dom.get('gamenameEdited' + index).value = 'yes';
   YAHOO.util.Dom.get("save").disabled = false;
 }
-
+//-->
 </script>
 <?php
 pageTopHeadClose($title);
@@ -208,7 +208,7 @@ foreach ($pools as $pool) {
         $html .= "<td class='right'><a href='?view=user/addresult&amp;game=" . $game['game_id'] . "'>" . _("Result") . "</a> | ";
         $html .= "<a href='?view=user/addplayerlists&amp;game=" . $game['game_id'] . "'>" . _("Players") . "</a> | ";
         $html .= "<a href='?view=user/addscoresheet&amp;game=" . $game['game_id'] . "'>" . _("Scoresheet") . "</a>";
-        if ((isset($seasoninfo['spiritmode']) && $seasoninfo['spiritmode']>0)) {
+        if ($seasoninfo['spiritmode'] > 0) {
           $html .= " | <a href='?view=user/addspirit&amp;game=" . $game['game_id'] . "'>" . _("Spirit") . "</a>";
         }
         if (ShowDefenseStats()) {

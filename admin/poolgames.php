@@ -24,12 +24,13 @@ $html = "";
 pageTopHeadOpen($title);
 ?>
 <script type="text/javascript">
+<!--
 function setId(id) 
 	{
 	var input = document.getElementById("hiddenDeleteId");
 	input.value = id;
 	}
-
+//-->
 </script>
 <?php
 pageTopHeadClose($title);

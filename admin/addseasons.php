@@ -144,6 +144,7 @@ echo yuiLoad(array("utilities", "calendar", "datasource", "autocomplete"));
 <link rel="stylesheet" type="text/css" href="script/yui/calendar/calendar.css" />
 
 <script type="text/javascript">
+<!--
 
 YAHOO.namespace("calendar");
 
@@ -250,7 +251,7 @@ YAHOO.calendar.init = function() {
 	YAHOO.calendar.cal3.selectEvent.subscribe(handleSelect3, YAHOO.calendar.cal3, true);
 }
 YAHOO.util.Event.onDOMReady(YAHOO.calendar.init);
-
+//-->
 </script>
 <?php
 pageTopHeadClose($title);
