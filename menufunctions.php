@@ -83,6 +83,8 @@ function pageTopHeadOpen($title)
   //no cache
   echo "<meta http-equiv=\"Pragma\" content=\"no-cache\"/>";
   echo "<meta http-equiv=\"Expires\" content=\"-1\"/>";
+  
+  echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
 
   echo  "<link rel='icon' type='image/png' href='$icon' />
 		<title>" . GetPageTitle() . "" . $title . "</title>\n";
@@ -498,7 +500,7 @@ function leftMenu($id = 0, $pagestart = true, $printable = false)
   //Event administration menu
   $editlinks = getEditSeasonLinks();
   if (count($editlinks)) {
-    foreach ($editlinks as $season => $links) {
+    foreach (array_reverse($editlinks) as $season => $links) {
       echo "<table class='leftmenulinks'>\n";
       echo "<tr><td class='menuseasonlevel'>" . utf8entities(SeasonName($season)) . " " . utf8entities(_("Administration")) . "</td>";
       echo "<td class='menuseasonlevel'><a style='text-decoration: none;' href='?view=frontpage&amp;hideseason=$season'>x</a></td>";
@@ -862,3 +864,4 @@ function pageMenu($menuitems, $current = "", $echoed = true)
   }
   return $html;
 }
+?>
