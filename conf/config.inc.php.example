@@ -12,7 +12,9 @@ Server Defaults.
 */
 define('BASEURL', 'http://localhost/ultiorganizer');
 define('UPLOAD_DIR', 'images/uploads/');
-define('CUSTOMIZATIONS', 'slkl');
+define('CUSTOMIZATIONS', 'wfdf');
+define('DEFAULT_LOCALE', 'en_GB.utf8');
+define('DEFAULT_TIMEZONE','Europe/Helsinki');
 define('DATE_FORMAT', _("%d.%m.%Y %H:%M"));
 define('WORD_DELIMITER', '/([\;\,\-_\s\/\.])/');
 
@@ -20,5 +22,10 @@ define('ENABLE_ADMIN_DB_ACCESS', 'disabled');
 
 global $locales;
 $locales = array("en_GB.utf8" => "English", "fi_FI.utf8" => "Suomi");
+
+global $CFG;
+$CFG=new stdClass();
+$CFG->debug=0;
+
 ?>
 
