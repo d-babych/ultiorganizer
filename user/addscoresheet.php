@@ -24,7 +24,7 @@ include_once 'lib/yui.functions.php';
 echo yuiLoad(array("yahoo-dom-event"));
 ?>
 <script type="text/javascript">
-
+<!--
 function validTime(field) 
 	{
 	field.value=field.value.replace(/[^0-9]/g, '.');
