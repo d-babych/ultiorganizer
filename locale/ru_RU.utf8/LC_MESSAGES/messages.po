@@ -1,0 +1,7029 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-29 04:01+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Алексей Вердин <wanderer.kh@gmail.com>\n"
+"Language-Team: Ultiorganizer\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ext\n"
+"X-Poedit-SearchPath-2: lib\n"
+"X-Poedit-SearchPath-3: user\n"
+"X-Poedit-SearchPath-4: admin\n"
+"X-Poedit-SearchPath-5: cust\n"
+
+#: admin/accreditation.php:6 admin/accreditation.php:59
+#: admin/accreditation.php:145 menufunctions.php:693 menufunctions.php:708
+#: menufunctions.php:747 menufunctions.php:756
+msgid "Accreditation"
+msgstr "Аккредитация"
+
+#: admin/accreditation.php:61
+msgid "Automatic Accreditation"
+msgstr "Автоматическая аккредитации"
+
+#: admin/accreditation.php:63
+msgid "Accreditation log"
+msgstr "Лог аккредитации"
+
+#: admin/accreditation.php:65 admin/accreditation.php:130
+msgid "Accreditation events"
+msgstr "Аккредитационные события"
+
+#: admin/accreditation.php:67
+msgid "Missing IDs"
+msgstr "Отсутствующие ID"
+
+#: admin/accreditation.php:75
+msgid ""
+"Accreditation can be done manually player by player from team roster or "
+"automatically against event organizer's external license database."
+msgstr ""
+"Аккредитация игрока может быть сделана вручную игроком из списка команды или "
+"автоматически во внешней базе данных лицензий организаторов."
+
+#: admin/accreditation.php:89
+msgid "Games played without accreditation"
+msgstr "Игры без аккредитации"
+
+#: admin/accreditation.php:91 admin/accreditation.php:112
+#: admin/accreditation.php:131 cust/default/pdfprinter.php:928
+#: cust/gummis/pdfprinter.php:1079 defensestatus.php:49 defensestatus.php:51
+#: ext/poolscoreboard.php:32 ext/teamscoreboard.php:41 gamecard.php:191
+#: gamecard.php:195 gameplay.php:575 poolstatus.php:122 poolstatus.php:141
+#: poolstatus.php:184 poolstatus.php:202 scorekeeper/addplayerlists.php:98
+#: scorestatus.php:47 scorestatus.php:49 seriesstatus.php:250
+#: seriesstatus.php:270 user/adddefensesheet.php:382
+msgid "Player"
+msgstr "Игрок"
+
+#: admin/accreditation.php:91 admin/accreditation.php:112
+#: admin/accreditation.php:132 admin/dbequalize.php:136
+#: admin/seasonstandings.php:343 admin/seasonstandings.php:382
+#: admin/seasonstandings.php:433 admin/serieteams.php:185 admin/smsmoves.php:42
+#: admin/smsmoves.php:105 clubcard.php:126 clubcard.php:148 countrycard.php:19
+#: countrycard.php:71 countrycard.php:79 defensestatus.php:54
+#: defensestatus.php:56 ext/countrystatus.php:46 ext/eventpools.php:43
+#: ext/poolscoreboard.php:33 ext/poolstatus.php:35 gamecard.php:89
+#: gamecard.php:199 gamecard.php:203 lib/search.functions.php:104
+#: lib/search.functions.php:146 lib/search.functions.php:205
+#: lib/search.functions.php:344 lib/search.functions.php:503
+#: lib/search.functions.php:668 lib/swissdraw.functions.php:185
+#: menufunctions.php:725 menufunctions.php:746 playercard.php:39
+#: playercard.php:209 playercard.php:384 plugins/reassign_playoffpools.php:49
+#: poolstatus.php:122 poolstatus.php:141 poolstatus.php:184 poolstatus.php:202
+#: poolstatus.php:246 poolstatus.php:318 scorestatus.php:52 scorestatus.php:54
+#: seriesstatus.php:86 seriesstatus.php:88 seriesstatus.php:250
+#: seriesstatus.php:270 seriesstatus.php:292 teamcard.php:541
+#: user/enrollteam.php:81 user/respteams.php:20
+msgid "Team"
+msgstr "Команда"
+
+#: admin/accreditation.php:91 admin/accreditation.php:112
+#: admin/accreditation.php:132 admin/editgame.php:15
+#: cust/bula/pdfprinter.php:239 cust/default/pdfprinter.php:242
+#: cust/fpudd/pdfprinter.php:260 cust/gummis/pdfprinter.php:250
+#: cust/slkl/pdfprinter.php:229 cust/wfdf/pdfprinter.php:238
+#: cust/windmill/pdfprinter.php:238 gamecard.php:125
+#: lib/search.functions.php:805 poolstatus.php:612 poolstatus.php:715
+msgid "Game"
+msgstr "Игра"
+
+#: admin/accreditation.php:91 admin/accreditation.php:111
+#: admin/accreditation.php:112
+msgid "Acknowledged"
+msgstr "Подтвержденный"
+
+#: admin/accreditation.php:110
+msgid "Acknowledge"
+msgstr "Подтвердить"
+
+#: admin/accreditation.php:131 admin/dbequalize.php:136
+#: admin/dbequalize.php:178 admin/dbequalize.php:198 admin/seasonadmin.php:11
+#: admin/seasonstats.php:33 clubcard.php:148 countrycard.php:71
+#: countrycard.php:79 lib/search.functions.php:7 lib/search.functions.php:26
+#: lib/search.functions.php:57 lib/search.functions.php:94
+#: lib/search.functions.php:131 lib/search.functions.php:190
+#: lib/search.functions.php:421 lib/search.functions.php:461
+#: lib/search.functions.php:503 menufunctions.php:686 playercard.php:209
+#: playercard.php:384 statistics.php:40 statistics.php:84 teamcard.php:218
+#: teamcard.php:381 user/select_poolselector.php:25 user/userinfo.php:389
+#: user/userinfo.php:414
+msgid "Event"
+msgstr "Турнир"
+
+#: admin/accreditation.php:131 admin/eventviewer.php:71
+#: admin/seasonadmin.php:38 admin/smsmoves.php:109 cust/bula/pdfprinter.php:998
+#: cust/default/pdfprinter.php:895 cust/default/pdfprinter.php:932
+#: cust/gummis/pdfprinter.php:1049 cust/gummis/pdfprinter.php:1083
+#: cust/slkl/pdfprinter.php:933 cust/wfdf/pdfprinter.php:980
+#: cust/windmill/pdfprinter.php:957 gameplay.php:177
+#: mobile/addscoresheet.php:190 user/adddefensesheet.php:178
+#: user/adddefensesheet.php:384 user/addmedialink.php:169
+#: user/addmedialink.php:187 user/addscoresheet.php:356
+#: user/addscoresheet.php:558
+msgid "Time"
+msgstr "Время"
+
+#: admin/accreditation.php:132
+msgid "Value"
+msgstr "Значение"
+
+#: admin/accreditation.php:133 admin/eventviewer.php:71 menufunctions.php:162
+#: user/enrollteam.php:88
+msgid "User"
+msgstr "Пользователь"
+
+#: admin/accreditation.php:133 admin/eventviewer.php:73
+#: admin/twitterconf.php:54
+msgid "Source"
+msgstr "Источник"
+
+#: admin/accreditation.php:143
+msgid "Game acknowledgement"
+msgstr "Подтвержджение игры"
+
+#: admin/accreditation.php:173
+msgid "Players without membership Id"
+msgstr "Игроки без номера членства"
+
+#: admin/accreditation.php:190
+msgid "Players not accredited"
+msgstr "Не аккредитованные игроки"
+
+#: admin/addreservation.php:64
+msgid "Reservations added"
+msgstr "Бронирование добавлено"
+
+#: admin/addreservation.php:77 user/adddefensesheet.php:210
+#: user/addscoresheet.php:387
+msgid "field"
+msgstr "поле"
+
+#: admin/addreservation.php:85
+msgid "Add field reservation"
+msgstr "Добавить бронирование поля"
+
+#: admin/addreservation.php:172 admin/reservations.php:107
+#: lib/search.functions.php:728
+msgid "Date"
+msgstr "Дата"
+
+#: admin/addreservation.php:172 admin/addseasons.php:346
+#: admin/addseasons.php:349 lib/search.functions.php:242
+#: lib/search.functions.php:254 lib/search.functions.php:307
+#: lib/search.functions.php:319 user/playerprofile.php:258
+msgid "dd.mm.yyyy"
+msgstr "дд.мм.гггг"
+
+#: admin/addreservation.php:178 lib/search.functions.php:242
+#: lib/search.functions.php:307
+msgid "Start time"
+msgstr "Время начала"
+
+#: admin/addreservation.php:178 admin/addreservation.php:182
+msgid "hh:mm"
+msgstr "чч:мм"
+
+#: admin/addreservation.php:182 lib/search.functions.php:254
+#: lib/search.functions.php:319
+msgid "End time"
+msgstr "Время окончания"
+
+#: admin/addreservation.php:192 lib/search.functions.php:263
+msgid "Grouping name"
+msgstr "Название группы"
+
+#: admin/addreservation.php:194 admin/locations.php:236 admin/locations.php:265
+#: admin/locations.php:389 admin/reservations.php:55 reservationinfo.php:72
+msgid "Fields"
+msgstr "Поля"
+
+#: admin/addreservation.php:199
+msgid "Enter separate field numbers (1,2,3) or multiple fields (1-30)"
+msgstr "Введите отдельные номера полей (1,2,3) или несколько полей (1-30)"
+
+#: admin/addreservation.php:211 admin/editgame.php:188
+#: admin/reservations.php:107 lib/search.functions.php:273
+#: lib/search.functions.php:339 lib/search.functions.php:728
+#: lib/search.functions.php:805
+msgid "Location"
+msgstr "Местоположение"
+
+#: admin/addreservation.php:215 admin/seasonadmin.php:26
+#: restful/seasons/index.php:39
+msgid "Season"
+msgstr "Сезон"
+
+#: admin/addreservation.php:237 admin/addseasonlinks.php:121
+#: admin/addseasonpools.php:492 admin/addseasons.php:372
+#: admin/addseasonseries.php:135 admin/addseasonteams.php:209
+#: admin/addserieformats.php:187 admin/clubs.php:80 admin/clubs.php:117
+#: admin/editgame.php:258 admin/editstanding.php:56 admin/locations.php:296
+#: admin/locations.php:396 admin/schedule.php:547 admin/seasongames.php:236
+#: admin/seasonmoves.php:216 admin/seasonpools.php:290
+#: admin/seasonseries.php:158 admin/seasonstandings.php:499
+#: admin/seasonteams.php:215 admin/select_teams.php:146
+#: admin/seriesseeding.php:72 admin/serieteams.php:178 admin/serverconf.php:392
+#: admin/translations.php:137 mobile/addfirstoffence.php:45
+#: mobile/addhalftime.php:34 mobile/addofficial.php:25
+#: mobile/addplayerlists.php:126 mobile/addspiritpoints.php:54
+#: mobile/addtimeouts.php:95 mobile/respgames.php:131
+#: plugins/lisence_modifier.php:65 result.php:97
+#: scorekeeper/addfirstoffence.php:45 scorekeeper/addhalftime.php:67
+#: scorekeeper/addofficial.php:22 scorekeeper/addplayerlists.php:143
+#: scorekeeper/addspiritpoints.php:57 scorekeeper/addtimeouts.php:203
+#: scorekeeper/result.php:96 user/addmedialink.php:215
+#: user/addplayerlists.php:296 user/addspirit.php:67 user/clubprofile.php:222
+#: user/facebookpublishing.php:81 user/playerprofile.php:373
+#: user/respgames.php:218 user/teamplayers.php:269 user/teamprofile.php:183
+#: user/userinfo.php:335
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/addreservation.php:239 admin/addseasonpools.php:253
+#: admin/addseasons.php:370 admin/addseasonseries.php:137
+#: admin/addseasonteams.php:211 admin/addserieformats.php:189
+#: admin/adduser.php:127 admin/clubs.php:52 admin/clubs.php:87
+#: admin/locations.php:327 admin/locations.php:351 admin/poolmoves.php:346
+#: admin/seasonpools.php:286 admin/seasons.php:155 admin/seasonseries.php:151
+#: admin/seasonteams.php:210 admin/serieformats.php:50
+#: admin/translations.php:133 user/addextraemail.php:82 user/enrollteam.php:144
+#: user/teamplayers.php:259 user/userinfo.php:422 user/userinfo.php:558
+msgid "Add"
+msgstr "Добавить"
+
+#: admin/addreservation.php:241 admin/addseasonpools.php:254
+#: admin/addseasonpools.php:493 admin/addseasons.php:375
+#: admin/addseasonseries.php:139 admin/addseasonteams.php:215
+#: admin/addteamadmins.php:89 admin/dbbackup.php:120 admin/dbequalize.php:127
+#: admin/dbrestore.php:64 admin/editgame.php:260 admin/editstanding.php:78
+#: admin/eventdataimport.php:62 admin/eventdataimport.php:66
+#: admin/executesql.php:134 admin/failed.php:26 admin/help.php:20
+#: admin/poolmoves.php:348 admin/schedule.php:246 admin/schedule.php:554
+#: admin/seasonmoves.php:217 admin/seriesseeding.php:73
+#: admin/serieteams.php:256 admin/success.php:26 games.php:212
+#: plugins/lisence_modifier.php:66 plugins/reassign_playoffpools.php:118
+#: poolstatus.php:103 privacy.php:22 privacy.php:24 user/addmedialink.php:216
+#: user/clubprofile.php:223 user/playerprofile.php:374 user/teamprofile.php:184
+#: user_guide.php:18
+msgid "Return"
+msgstr "Назад"
+
+#: admin/addseasonlinks.php:7
+msgid "Event links"
+msgstr "Ссылки события"
+
+#: admin/addseasonlinks.php:79 admin/serverconf.php:273
+msgid "Facebook Update Page"
+msgstr "Обновить страницу Фейсбук"
+
+#: admin/addseasonlinks.php:89 admin/addseasonpools.php:279
+#: admin/addseasons.php:77 admin/addseasons.php:276
+#: admin/addseasonseries.php:113 admin/eventviewer.php:72
+#: admin/seasonadmin.php:28 admin/seasonpools.php:101 admin/seasons.php:92
+#: admin/seasonseries.php:59 admin/seasonstats.php:19 admin/seasonstats.php:33
+#: admin/serverconf.php:344 user/addmedialink.php:189 user/clubprofile.php:185
+#: user/playerprofile.php:336 user/teamprofile.php:145
+msgid "Type"
+msgstr "Тип"
+
+#: admin/addseasonlinks.php:89 admin/addseasonpools.php:233
+#: admin/addseasonpools.php:271 admin/addseasonseries.php:110
+#: admin/seasonpools.php:97 admin/serverconf.php:344
+msgid "Order"
+msgstr "Порядок"
+
+#: admin/addseasonlinks.php:89 admin/addseasonpools.php:229
+#: admin/addseasonpools.php:262 admin/addseasonpools.php:391
+#: admin/addseasons.php:76 admin/addseasons.php:273
+#: admin/addseasonseries.php:106 admin/addseasonteams.php:144
+#: admin/addserieformats.php:114 admin/adduser.php:91 admin/clubs.php:55
+#: admin/clubs.php:84 admin/clubs.php:90 admin/dbadmin.php:41
+#: admin/dbbackup.php:92 admin/dbequalize.php:159 admin/dbequalize.php:178
+#: admin/dbequalize.php:198 admin/editgame.php:238 admin/locations.php:378
+#: admin/seasonpools.php:96 admin/seasons.php:91 admin/seasonseries.php:59
+#: admin/seasonstats.php:19 admin/seasonstats.php:33 admin/seasonteams.php:122
+#: admin/serieformats.php:27 admin/seriesseeding.php:44
+#: admin/serieteams.php:144 admin/serverconf.php:344
+#: cust/bula/pdfprinter.php:131 cust/bula/pdfprinter.php:141
+#: cust/bula/pdfprinter.php:252 cust/default/pdfprinter.php:156
+#: cust/default/pdfprinter.php:166 cust/default/pdfprinter.php:255
+#: cust/fpudd/pdfprinter.php:170 cust/fpudd/pdfprinter.php:273
+#: cust/gummis/pdfprinter.php:147 cust/gummis/pdfprinter.php:157
+#: cust/gummis/pdfprinter.php:258 cust/slkl/pdfprinter.php:135
+#: cust/slkl/pdfprinter.php:145 cust/slkl/pdfprinter.php:242
+#: cust/wfdf/pdfprinter.php:130 cust/wfdf/pdfprinter.php:140
+#: cust/wfdf/pdfprinter.php:251 cust/windmill/pdfprinter.php:130
+#: cust/windmill/pdfprinter.php:140 cust/windmill/pdfprinter.php:251
+#: gameplay.php:52 gameplay.php:78 gameplay.php:529 gameplay.php:553
+#: lib/search.functions.php:140 lib/search.functions.php:199
+#: lib/search.functions.php:580 lib/search.functions.php:668 playerlist.php:21
+#: register.php:114 statistics.php:114 statistics.php:154 teamcard.php:113
+#: teamcard.php:159 user/addmedialink.php:191 user/addplayerlists.php:213
+#: user/addplayerlists.php:255 user/clubprofile.php:132
+#: user/clubprofile.php:187 user/playerprofile.php:338 user/teamprofile.php:147
+#: user/userinfo.php:263
+msgid "Name"
+msgstr "Имя"
+
+#: admin/addseasonlinks.php:89 admin/serverconf.php:344
+msgid "Url"
+msgstr "Url"
+
+#: admin/addseasonlinks.php:98 admin/addseasonusers.php:69
+#: admin/addseasonusers.php:94 admin/addseasonusers.php:200
+#: admin/addteamadmins.php:69 admin/clubs.php:73 admin/clubs.php:109
+#: admin/poolgames.php:282 admin/poolgames.php:283 admin/poolgames.php:317
+#: admin/poolgames.php:318 admin/poolgames.php:336 admin/poolgames.php:337
+#: admin/poolmoves.php:205 admin/poolmoves.php:280 admin/reservations.php:121
+#: admin/seasongames.php:226 admin/seasonmoves.php:167
+#: admin/seasonpools.php:248 admin/seasons.php:146 admin/seasonseries.php:114
+#: admin/seasonstandings.php:370 admin/seasonstandings.php:416
+#: admin/seasonteams.php:187 admin/serieformats.php:46 admin/serverconf.php:353
+#: admin/translations.php:123 lib/search.functions.php:741
+#: plugins/simulate_games.php:219
+msgid "X"
+msgstr "X"
+
+#: admin/addseasonlinks.php:104 admin/serverconf.php:359
+msgid "Menu link"
+msgstr "Меню ссылки"
+
+#: admin/addseasonlinks.php:105 admin/serverconf.php:360
+msgid "Menu mail"
+msgstr "Меню почты"
+
+#: admin/addseasonlinks.php:114 admin/serverconf.php:370
+msgid "3rd party API settings"
+msgstr "Настройки сторонних API"
+
+#: admin/addseasonpools.php:55
+msgid "Pool added"
+msgstr "Группа добавлена"
+
+#: admin/addseasonpools.php:59
+msgid "Pool name is mandatory!"
+msgstr "Обязательно название группы!"
+
+#: admin/addseasonpools.php:156 admin/addseasonseries.php:16
+#: admin/addseasonteams.php:99 admin/addserieformats.php:8
+#: admin/editstanding.php:15 admin/seasonstandings.php:116
+#: admin/seasonstandings.php:495
+msgid "Edit"
+msgstr "Редактировать"
+
+#: admin/addseasonpools.php:225
+msgid "Add pool"
+msgstr "Добавить группу"
+
+#: admin/addseasonpools.php:237
+msgid "Template"
+msgstr "Шаблон"
+
+#: admin/addseasonpools.php:257
+msgid "Edit pool"
+msgstr "Редактировать группу"
+
+#: admin/addseasonpools.php:267 admin/addseasonpools.php:285
+#: admin/addseasonteams.php:164 admin/dbequalize.php:105
+#: admin/dbequalize.php:136 admin/dbequalize.php:178 admin/editgame.php:213
+#: admin/seasonstats.php:31 admin/stats.php:80 clubcard.php:126
+#: clubcard.php:148 countrycard.php:19 countrycard.php:71 countrycard.php:79
+#: cust/bula/pdfprinter.php:51 cust/default/pdfprinter.php:51
+#: cust/gummis/pdfprinter.php:49 cust/slkl/pdfprinter.php:51
+#: cust/wfdf/pdfprinter.php:51 cust/windmill/pdfprinter.php:51 gamecard.php:127
+#: lib/search.functions.php:30 lib/search.functions.php:61
+#: lib/search.functions.php:67 lib/search.functions.php:98
+#: lib/search.functions.php:421 lib/search.functions.php:461
+#: lib/search.functions.php:503 playercard.php:209 playercard.php:286
+#: playercard.php:384 playercard.php:453 restful/seasons/index.php:42
+#: restful/seasons/series.php:5 restful/seasons/series.php:26 teamcard.php:199
+#: teamcard.php:219 teamcard.php:382 teamcard.php:543 teams.php:158
+#: user/respteams.php:21 user/select_poolselector.php:28
+#: user/select_poolselector.php:31 user/userinfo.php:393 user/userinfo.php:397
+#: user/userinfo.php:415 user/userinfo.php:416
+msgid "Division"
+msgstr "Дивизион"
+
+#: admin/addseasonpools.php:283
+msgid "Round Robin"
+msgstr "Групповой этап"
+
+#: admin/addseasonpools.php:288 admin/addseasonpools.php:290
+msgid "Play-off"
+msgstr "Плей-Офф"
+
+#: admin/addseasonpools.php:293 admin/addseasonpools.php:295
+msgid "Swissdraw"
+msgstr "Швейцарская система"
+
+#: admin/addseasonpools.php:298 admin/addseasonpools.php:300
+msgid "Crossmatch"
+msgstr "Стыковые игры"
+
+#: admin/addseasonpools.php:302
+msgid "Special playoff template"
+msgstr "Специальный шаблон сетки плейофф."
+
+#: admin/addseasonpools.php:306 admin/poolmoves.php:186
+#: admin/seasonmoves.php:165
+msgid "Move games"
+msgstr "Переместить игры"
+
+#: admin/addseasonpools.php:310 admin/addseasonpools.php:312
+#: admin/reservations.php:98 admin/reservations.php:100 games.php:177
+#: games.php:179 user/respgames.php:97 user/respgames.php:99
+msgid "All"
+msgstr "Все"
+
+#: admin/addseasonpools.php:315 admin/addseasonpools.php:317
+msgid "Nothing"
+msgstr "Ничего"
+
+#: admin/addseasonpools.php:320 admin/addseasonpools.php:322
+msgid "Mutual"
+msgstr "Общие"
+
+#: admin/addseasonpools.php:326 admin/seasonadmin.php:51
+#: admin/seasonpools.php:98 admin/seasons.php:96 admin/seasonseries.php:59
+msgid "Visible"
+msgstr "Видимость"
+
+#: admin/addseasonpools.php:341 gamecard.php:120 user/addplayerlists.php:213
+#: user/addplayerlists.php:255
+msgid "Played"
+msgstr "Сыграно"
+
+#: admin/addseasonpools.php:349 admin/poolmoves.php:19
+msgid "Continuing pool"
+msgstr "Продолжающаяся группа"
+
+#: admin/addseasonpools.php:361
+msgid "Placement pool"
+msgstr "Группа за места"
+
+#: admin/addseasonpools.php:369
+msgid "Initial moves"
+msgstr "Первоначальные перемещения"
+
+#: admin/addseasonpools.php:370
+msgid "select"
+msgstr "выбор"
+
+#: admin/addseasonpools.php:373
+msgid "Color"
+msgstr "Цвет"
+
+#: admin/addseasonpools.php:375 admin/select_userrole.php:27
+#: admin/select_userrole.php:36 admin/select_userrole.php:45
+#: admin/select_userrole.php:51 admin/select_userrole.php:54
+#: admin/select_userrole.php:57 admin/select_userrole.php:60
+#: admin/select_userrole.php:63 admin/select_userrole.php:66
+#: admin/select_userrole.php:69 admin/select_userrole.php:72 ext/index.php:61
+#: user/select_poolselector.php:19 user/select_poolselector.php:23
+#: user/select_poolselector.php:26 user/select_poolselector.php:29
+#: user/select_poolselector.php:32
+msgid "Select"
+msgstr "Выбрать"
+
+#: admin/addseasonpools.php:379 admin/addseasons.php:327
+msgid "Comment (you can use <b>, <em>, and <br /> tags)"
+msgstr ""
+
+#: admin/addseasonpools.php:386 admin/clubs.php:55 admin/clubs.php:90
+#: admin/dbequalize.php:99 admin/dbequalize.php:159 admin/seasonadmin.php:68
+#: admin/seasonpools.php:213 admin/seasonseries.php:106
+#: admin/seasonstats.php:19 admin/seasonstats.php:33 admin/seasonteams.php:14
+#: admin/serieteams.php:22 admin/stats.php:77 menufunctions.php:556
+#: menufunctions.php:577 menufunctions.php:624 menufunctions.php:688
+#: menufunctions.php:705 restful/seasons/series.php:30 seasonlist.php:27
+#: teams.php:7 teams.php:42
+msgid "Teams"
+msgstr "Команды"
+
+#: admin/addseasonpools.php:391 admin/addseasonteams.php:147
+#: admin/dbequalize.php:136 admin/seasonteams.php:126
+#: admin/seriesseeding.php:46 admin/serieteams.php:144 teamcard.php:26
+#: user/enrollteam.php:83
+msgid "Club"
+msgstr "Клуб"
+
+#: admin/addseasonpools.php:401
+msgid "No teams"
+msgstr "Нет команд"
+
+#: admin/addseasonpools.php:405 admin/seasonseries.php:59
+msgid "Rules"
+msgstr "Правила"
+
+#: admin/addseasonpools.php:405
+msgid "(from the selected template)"
+msgstr "(из выбранных шаблонов)"
+
+#: admin/addseasonpools.php:409 admin/addserieformats.php:117
+msgid "Game points"
+msgstr "Игровые очки"
+
+#: admin/addseasonpools.php:413 admin/addserieformats.php:121 gameplay.php:189
+#: mobile/gameplay.php:34 scorekeeper/gameplay.php:33
+msgid "Half-time"
+msgstr "Перерыв"
+
+#: admin/addseasonpools.php:415 admin/addseasonpools.php:423
+#: admin/addseasonpools.php:427 admin/addserieformats.php:123
+#: admin/addserieformats.php:131 admin/addserieformats.php:135
+#: admin/schedule.php:422
+msgid "minutes"
+msgstr "минут(ы)"
+
+#: admin/addseasonpools.php:417 admin/addserieformats.php:125
+msgid "Half-time at point"
+msgstr "Перерыв на счете"
+
+#: admin/addseasonpools.php:421 admin/addserieformats.php:129
+#: admin/serieformats.php:27
+msgid "Time cap"
+msgstr "Предел времени"
+
+#: admin/addseasonpools.php:425 admin/addserieformats.php:133
+msgid "Time slot"
+msgstr "Временные рамки"
+
+#: admin/addseasonpools.php:429 admin/addserieformats.php:137
+#: admin/serieformats.php:27
+msgid "Point cap"
+msgstr "Предел счета"
+
+#: admin/addseasonpools.php:431 admin/addseasonpools.php:435
+#: admin/addserieformats.php:139 admin/addserieformats.php:143
+msgid "points"
+msgstr "очки"
+
+#: admin/addseasonpools.php:433 admin/addserieformats.php:141
+msgid "Additional points after time cap"
+msgstr "Добавочные очки после окончания основного времени"
+
+#: admin/addseasonpools.php:438 admin/addserieformats.php:146
+msgid "Time between points"
+msgstr "Время между очками"
+
+#: admin/addseasonpools.php:440 admin/addseasonpools.php:461
+#: admin/addserieformats.php:148 admin/addserieformats.php:171
+msgid "seconds"
+msgstr "секунды"
+
+#: admin/addseasonpools.php:442 admin/addserieformats.php:150
+#: admin/serieformats.php:27 cust/bula/pdfprinter.php:872
+#: cust/default/pdfprinter.php:794 cust/fpudd/pdfprinter.php:812
+#: cust/gummis/pdfprinter.php:942 cust/wfdf/pdfprinter.php:854
+#: cust/windmill/pdfprinter.php:831 gameplay.php:498
+#: mobile/addscoresheet.php:195 scorekeeper/addscoresheet.php:258
+#: scorekeeper/addtimeouts.php:47 user/adddefensesheet.php:238
+#: user/addscoresheet.php:415
+msgid "Time-outs"
+msgstr "Тайм-ауты"
+
+#: admin/addseasonpools.php:447 admin/addseasonpools.php:449
+#: admin/addserieformats.php:156 admin/addserieformats.php:158
+msgid "per game"
+msgstr "на игру"
+
+#: admin/addseasonpools.php:452 admin/addseasonpools.php:454
+#: admin/addserieformats.php:162 admin/addserieformats.php:164
+msgid "per half"
+msgstr "на половину"
+
+#: admin/addseasonpools.php:459 admin/addserieformats.php:169
+msgid "Time-out duration"
+msgstr "Продлжительность тайм-аута"
+
+#: admin/addseasonpools.php:463
+msgid "Time-outs in overtime"
+msgstr "Тайм-ауты в добавленом времени"
+
+#: admin/addseasonpools.php:465 admin/addserieformats.php:175
+msgid "per team"
+msgstr "на команду"
+
+#: admin/addseasonpools.php:471
+msgid "Forfeit/BYE against"
+msgstr "Forfeit/BYE against"
+
+#: admin/addseasonpools.php:473
+msgid "points for the team giving up / BYE"
+msgstr "points for the team giving up / BYE"
+
+#: admin/addseasonpools.php:475
+msgid "Forfeit/BYE score"
+msgstr "Forfeit/BYE score"
+
+#: admin/addseasonpools.php:477
+msgid "points for their remaining opponent"
+msgstr "points for their remaining opponent"
+
+#: admin/addseasonpools.php:481 admin/addserieformats.php:177
+#: admin/serieformats.php:27
+msgid "Draws allowed"
+msgstr "Разрешены ничьи"
+
+#: admin/addseasons.php:56
+msgid "Event id can not be empty"
+msgstr "Номер события не может быть пустым"
+
+#: admin/addseasons.php:58
+msgid "Event id may not have spaces or special characters"
+msgstr "ID события не может содержать пробелов и специальных символов"
+
+#: admin/addseasons.php:60 admin/addseasons.php:88 admin/adduser.php:34
+#: register.php:34
+msgid "Name can not be empty"
+msgstr "Имя не может быть пустым"
+
+#: admin/addseasons.php:62
+msgid "Type can not be empty"
+msgstr "Тип не может быть пустым"
+
+#: admin/addseasons.php:71
+msgid "New tournament added"
+msgstr "Добавлен новый турнир"
+
+#: admin/addseasons.php:73
+msgid "New season added"
+msgstr "Новый сезон добавлен"
+
+#: admin/addseasons.php:78 admin/addseasons.php:346 admin/reservations.php:108
+#: admin/seasons.php:93 lib/search.functions.php:729
+msgid "Starts"
+msgstr "Начало"
+
+#: admin/addseasons.php:79 admin/addseasons.php:349 admin/reservations.php:108
+#: admin/seasons.php:94 lib/search.functions.php:729
+msgid "Ends"
+msgstr "Окончание"
+
+#: admin/addseasons.php:80
+msgid "Enrollment open"
+msgstr "Регистрация открыта"
+
+#: admin/addseasons.php:80 admin/seasonadmin.php:50 admin/seasons.php:128
+msgid "yes"
+msgstr "да"
+
+#: admin/addseasons.php:80 admin/seasonadmin.php:50 admin/seasons.php:128
+msgid "no"
+msgstr "нет"
+
+#: admin/addseasons.php:111
+msgid "Edit event"
+msgstr "Редактировать событие"
+
+#: admin/addseasons.php:262
+msgid "Add new season/tournament"
+msgstr "Добавить новый сезон/турнир"
+
+#: admin/addseasons.php:266
+msgid "Edit season/tournament"
+msgstr "Редактировать сезон/турнир"
+
+#: admin/addseasons.php:272
+msgid "Event id"
+msgstr "Номер события"
+
+#: admin/addseasons.php:289 admin/seasonadmin.php:26
+#: lib/search.functions.php:329 lib/search.functions.php:805
+msgid "Tournament"
+msgstr "Турнир"
+
+#: admin/addseasons.php:295
+msgid "International"
+msgstr "Международный"
+
+#: admin/addseasons.php:301
+msgid "For national teams"
+msgstr "Для национальных команд"
+
+#: admin/addseasons.php:307
+msgid "Spirit mode"
+msgstr "Формат Духа"
+
+#: admin/addseasons.php:318
+msgid "Spirit points visible"
+msgstr "Дух игры видимый"
+
+#: admin/addseasons.php:324 admin/seasonadmin.php:29
+msgid "Organizer"
+msgstr "Организатор"
+
+#: admin/addseasons.php:325 admin/eventviewer.php:72
+msgid "Category"
+msgstr "Категория"
+
+#: admin/addseasons.php:330 admin/seasonadmin.php:43
+#: lib/timetable.functions.php:557
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: admin/addseasons.php:352
+msgid "Open for enrollment"
+msgstr "Открыт для регистрации"
+
+#: admin/addseasons.php:357 user/enrollteam.php:77
+msgid "Enrolling ends"
+msgstr "Регистрация завершается"
+
+#: admin/addseasons.php:357
+msgid "only informational"
+msgstr "только информационно"
+
+#: admin/addseasons.php:362
+msgid "Shown in main menu"
+msgstr "Показать в главном меню"
+
+#: admin/addseasonseries.php:47 admin/addseasonseries.php:70
+msgid "Division name is mandatory!"
+msgstr "Название дивизиона обязательно!"
+
+#: admin/addseasonseries.php:99
+msgid "Edit division"
+msgstr "Редактировать дивизион"
+
+#: admin/addseasonseries.php:101
+msgid "Add division"
+msgstr "Добавить дивизион"
+
+#: admin/addseasonseries.php:127 admin/addseasonteams.php:193
+#: admin/clubs.php:55 admin/clubs.php:90 admin/editgame.php:245
+#: admin/editgame.php:250
+msgid "Valid"
+msgstr "Актуально"
+
+#: admin/addseasonteams.php:37
+msgid "Name is mandatory!"
+msgstr "Имя обязательно!!!"
+
+#: admin/addseasonteams.php:75
+msgid "Changes saved"
+msgstr "Изменения сохранены"
+
+#: admin/addseasonteams.php:81
+msgid "added"
+msgstr "добавленный"
+
+#: admin/addseasonteams.php:137
+msgid "Edit team"
+msgstr "Редактировать команду"
+
+#: admin/addseasonteams.php:140
+msgid "Add team"
+msgstr "Добавить команду"
+
+#: admin/addseasonteams.php:157 admin/seasonteams.php:129
+#: admin/seriesseeding.php:49 clubcard.php:28 user/clubprofile.php:139
+#: user/enrollteam.php:86
+msgid "Country"
+msgstr "Страна"
+
+#: admin/addseasonteams.php:160 admin/clubs.php:85 admin/clubs.php:90
+#: user/teamprofile.php:102
+msgid "Abbreviation"
+msgstr "Сокращение"
+
+#: admin/addseasonteams.php:167
+msgid "Starting pool"
+msgstr "Стартовая группа"
+
+#: admin/addseasonteams.php:190 admin/editstanding.php:49
+#: admin/seasonstandings.php:341 admin/seasonstandings.php:380
+#: admin/seasonteams.php:121 admin/seriesseeding.php:43
+#: admin/serieteams.php:143
+msgid "Seed"
+msgstr "Рейтинг"
+
+#: admin/addseasonteams.php:206
+msgid "Select contact person"
+msgstr "Выбирете контактное лицо"
+
+#: admin/addseasonusers.php:7
+msgid "Event users"
+msgstr "Пользователи события"
+
+#: admin/addseasonusers.php:40
+#, php-format
+msgid "User rights added for %s."
+msgstr "Добавлены права пользователя для %s."
+
+#: admin/addseasonusers.php:42
+msgid "Invalid user"
+msgstr "Неверный пользователь"
+
+#: admin/addseasonusers.php:62
+msgid "Event admins"
+msgstr "Администраторы события"
+
+#: admin/addseasonusers.php:75 admin/addseasonusers.php:108
+#: admin/addseasonusers.php:163 admin/addseasonusers.php:206
+#: admin/addteamadmins.php:81 admin/editgame.php:234
+msgid "User Id"
+msgstr "Номер пользователя"
+
+#: admin/addseasonusers.php:75 admin/addseasonusers.php:108
+#: admin/addseasonusers.php:163 admin/addseasonusers.php:206
+#: admin/addteamadmins.php:81 admin/editgame.php:234
+msgid "or"
+msgstr "или"
+
+#: admin/addseasonusers.php:76 admin/addseasonusers.php:109
+#: admin/addseasonusers.php:164 admin/addseasonusers.php:207
+#: admin/addteamadmins.php:82 admin/editgame.php:235
+msgid "E-Mail"
+msgstr "Электронная почта"
+
+#: admin/addseasonusers.php:78 admin/addseasonusers.php:111
+#: admin/addseasonusers.php:175 admin/addseasonusers.php:218
+#: admin/addteamadmins.php:88
+msgid "Grant rights"
+msgstr "Выдать права"
+
+#: admin/addseasonusers.php:80 admin/addseasonusers.php:113
+#: admin/addseasonusers.php:177 admin/addseasonusers.php:220
+msgid "Add more ..."
+msgstr "Добавить еще ..."
+
+#: admin/addseasonusers.php:85 admin/addteamadmins.php:7
+#: admin/addteamadmins.php:55
+msgid "Team admins"
+msgstr "Администраторы команды"
+
+#: admin/addseasonusers.php:120
+msgid "Scorekeepers"
+msgstr "Счетовод"
+
+#: admin/addseasonusers.php:129 admin/addseasonusers.php:140
+msgid "All games"
+msgstr "Все игры"
+
+#: admin/addseasonusers.php:130 admin/addseasonusers.php:190
+msgid "In role of event admin"
+msgstr "В роли администратора события"
+
+#: admin/addseasonusers.php:142
+msgid "Some games"
+msgstr "Некоторые игры"
+
+#: admin/addseasonusers.php:156
+msgid "All team admins have scorekeeping rights for teams' games."
+msgstr "Все администраторы командн имеют права счетовода для комадных игр."
+
+#: admin/addseasonusers.php:170 admin/editgame.php:199 admin/editgame.php:203
+#: admin/reservations.php:114 admin/reservations.php:142 admin/smsmoves.php:110
+#: cust/bula/pdfprinter.php:52 cust/bula/pdfprinter.php:365
+#: cust/bula/pdfprinter.php:504 cust/default/pdfprinter.php:52
+#: cust/default/pdfprinter.php:368 cust/default/pdfprinter.php:478
+#: cust/fpudd/pdfprinter.php:386 cust/fpudd/pdfprinter.php:496
+#: cust/gummis/pdfprinter.php:50 cust/gummis/pdfprinter.php:368
+#: cust/gummis/pdfprinter.php:529 cust/slkl/pdfprinter.php:52
+#: cust/slkl/pdfprinter.php:357 cust/slkl/pdfprinter.php:479
+#: cust/wfdf/pdfprinter.php:52 cust/wfdf/pdfprinter.php:364
+#: cust/wfdf/pdfprinter.php:495 cust/windmill/pdfprinter.php:52
+#: cust/windmill/pdfprinter.php:364 cust/windmill/pdfprinter.php:481
+#: lib/reservation.functions.php:23 lib/reservation.functions.php:31
+#: lib/reservation.functions.php:74 lib/search.functions.php:268
+#: lib/search.functions.php:334 lib/search.functions.php:734
+#: lib/search.functions.php:759 lib/timetable.functions.php:263
+#: lib/timetable.functions.php:343 lib/timetable.functions.php:394
+#: lib/timetable.functions.php:448 lib/user.functions.php:1231
+#: mobile/respgames.php:110 mobile/respgames.php:113 reservationinfo.php:9
+#: reservationinfo.php:89 scorekeeper/respgames.php:101
+#: user/adddefensesheet.php:209 user/addscoresheet.php:386
+#: user/pdfscoresheet.php:134
+#, php-format
+msgid "Field"
+msgstr "Поле"
+
+#: admin/addseasonusers.php:181
+msgid "Roster accreditation rights"
+msgstr "Права аккредитации списка игроков"
+
+#: admin/addseasonusers.php:188 allteams.php:4
+msgid "All teams"
+msgstr "Все команды"
+
+#: admin/addserieformats.php:106
+msgid "Edit rule template"
+msgstr "Редактировать шаблон правил"
+
+#: admin/addserieformats.php:109
+msgid "Add rule template"
+msgstr "Добавить шаблон правил"
+
+#: admin/addserieformats.php:173
+msgid "Time-outs on overtime"
+msgstr "Тайм ауты на овертайм"
+
+#: admin/addserieformats.php:192 scorekeeper/respgames.php:74
+#: scorekeeper/respgames.php:80 scorekeeper/respgames.php:96
+#: scorekeeper/respgames.php:162 scorekeeper/respgames.php:167
+msgid "Back"
+msgstr "Назад"
+
+#: admin/addteamadmins.php:31 admin/addteamadmins.php:40
+msgid "Invalid user:"
+msgstr "Неверный пользователь:"
+
+#: admin/addteamadmins.php:38
+msgid "User rights added for:"
+msgstr "Добавлены права пользователя для:"
+
+#: admin/addteamadmins.php:74
+msgid "Add more"
+msgstr "Добавить еще"
+
+#: admin/addteamadmins.php:86 admin/adduser.php:79 admin/users.php:49
+msgid "Add new user"
+msgstr "Добавить нового пользователя"
+
+#: admin/adduser.php:19 register.php:19 user/userinfo.php:57
+msgid "Username is too short (min. 3 letters)"
+msgstr "Имя пользователя слишком короткое (мин. 3 символа)"
+
+#: admin/adduser.php:24 register.php:24
+msgid "The username is already in use"
+msgstr "Имя пользователя уже используется"
+
+#: admin/adduser.php:29 register.php:29 user/userinfo.php:124
+msgid "Password is too short (min. 5 letters)."
+msgstr "Короткий пароль (мин. 5 символов)."
+
+#: admin/adduser.php:39 register.php:39 user/addextraemail.php:24
+msgid "Email can not be empty"
+msgstr "Имейл не может быть пустым"
+
+#: admin/adduser.php:44 register.php:44 user/addextraemail.php:29
+msgid "Invalid email address"
+msgstr "Неверный имейл адрес"
+
+#: admin/adduser.php:52 register.php:52
+msgid "User id may not have spaces or special characters"
+msgstr ""
+"Идентификатор пользователя не может содержать пробелов и специальных символов"
+
+#: admin/adduser.php:60 register.php:60
+msgid "Illegal characters in the password"
+msgstr "Недопустимые символы в пароле"
+
+#: admin/adduser.php:69
+msgid "Added new user"
+msgstr "Новый пользователь добавлен"
+
+#: admin/adduser.php:70 admin/adduser.php:95 lib/search.functions.php:580
+#: menufunctions.php:255 register.php:118 scorekeeper/login.php:19
+#: user/userinfo.php:265
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: admin/adduser.php:71 admin/adduser.php:99 menufunctions.php:259
+#: register.php:122 scorekeeper/login.php:21
+msgid "Password"
+msgstr "Пароль"
+
+#: admin/adduser.php:74 register.php:74 user/addextraemail.php:44
+msgid "Correct the errors and try again"
+msgstr "Исправьте ошибки и попробуйте снова"
+
+#: admin/adduser.php:104 lib/search.functions.php:152
+#: lib/search.functions.php:211 lib/search.functions.php:580
+#: lib/search.functions.php:668 register.php:130 user/addextraemail.php:76
+msgid "Email"
+msgstr "Email"
+
+#: admin/adduser.php:109 admin/editgame.php:225
+msgid "Responsible team"
+msgstr "Ответственная команда"
+
+#: admin/clubs.php:40
+msgid "Clubs and Countries"
+msgstr "Клубы и Страны"
+
+#: admin/clubs.php:49
+msgid "All Clubs"
+msgstr "Все клубы"
+
+#: admin/clubs.php:50 admin/clubs.php:83
+msgid "Add new"
+msgstr "Добавить новое"
+
+#: admin/clubs.php:55 admin/clubs.php:90
+msgid "Id"
+msgstr "ID"
+
+#: admin/clubs.php:82
+msgid "All Countries"
+msgstr "Все страны"
+
+#: admin/clubs.php:86
+msgid "Flag filename"
+msgstr "Flag filename"
+
+#: admin/dbadmin.php:9 admin/dbadmin.php:17
+msgid "Database administration"
+msgstr "Администрирование базы данных"
+
+#: admin/dbadmin.php:18 admin/executesql.php:5 admin/executesql.php:12
+msgid "Run SQL"
+msgstr "Выполнить  SQL"
+
+#: admin/dbadmin.php:19 admin/dbbackup.php:119
+msgid "Backup"
+msgstr "Резервная копия"
+
+#: admin/dbadmin.php:20 admin/dbrestore.php:34 admin/dbrestore.php:63
+msgid "Restore"
+msgstr "Восстановление"
+
+#: admin/dbadmin.php:21
+msgid "Equalization"
+msgstr "Выравнивание"
+
+#: admin/dbadmin.php:29
+msgid "Plugins"
+msgstr "Плагины"
+
+#: admin/dbadmin.php:39
+msgid "Tables"
+msgstr "Таблицы"
+
+#: admin/dbadmin.php:42 admin/dbbackup.php:95
+msgid "Rows"
+msgstr "Строки"
+
+#: admin/dbadmin.php:43 admin/dbbackup.php:96
+msgid "avg. row length"
+msgstr "сред. длина строки"
+
+#: admin/dbadmin.php:44 admin/dbbackup.php:93
+msgid "Data"
+msgstr "Данные"
+
+#: admin/dbadmin.php:45 admin/dbbackup.php:94
+msgid "Index"
+msgstr "Индекс"
+
+#: admin/dbadmin.php:46 admin/dbbackup.php:97
+msgid "Auto Increment"
+msgstr "Автоматическое увеличение"
+
+#: admin/dbadmin.php:47 admin/dbbackup.php:98
+msgid "Updated"
+msgstr "Обновлено"
+
+#: admin/dbadmin.php:65 admin/dbadmin.php:79
+msgid "Execute"
+msgstr "Выполнить"
+
+#: admin/dbadmin.php:68 admin/dbbackup.php:118
+msgid "Database size"
+msgstr "Размер базы данных"
+
+#: admin/dbadmin.php:68 admin/dbbackup.php:118
+msgid "bytes"
+msgstr "байты"
+
+#: admin/dbadmin.php:70 menufunctions.php:620 seriesstatus.php:9
+#: statistics.php:6
+msgid "Statistics"
+msgstr "Статистика"
+
+#: admin/dbadmin.php:82
+msgid "Client Library version"
+msgstr "Версия библиотеки клиента"
+
+#: admin/dbadmin.php:83
+msgid "Type of connection in use"
+msgstr "Используемый тип соединения"
+
+#: admin/dbadmin.php:84
+msgid "Protocol version"
+msgstr "Версия протокола"
+
+#: admin/dbadmin.php:85
+msgid "Server version"
+msgstr "Версия сервера"
+
+#: admin/dbadmin.php:87
+msgid "Character set and collation"
+msgstr "Набор символов и порядок сопоставления"
+
+#: admin/dbadmin.php:101 admin/dbbackup.php:124 admin/dbrestore.php:68
+#: admin/visitors.php:43
+msgid "User credentials does not match"
+msgstr "Учетные данные пользователя не совпадает"
+
+#: admin/dbbackup.php:78 admin/dbrestore.php:72
+msgid "Database backup"
+msgstr "Резервное копирование базы данных"
+
+#: admin/dbbackup.php:89
+msgid "Select tables to backup"
+msgstr "Выбрать таблицы для копирования"
+
+#: admin/dbequalize.php:8
+msgid "Database equalization"
+msgstr "База данных выравнивание"
+
+#: admin/dbequalize.php:37 admin/dbequalize.php:59 admin/dbequalize.php:66
+#: admin/dbequalize.php:73 admin/dbequalize.php:80
+msgid "removed"
+msgstr "удалено"
+
+#: admin/dbequalize.php:40 admin/dbequalize.php:62 admin/dbequalize.php:69
+#: admin/dbequalize.php:76 admin/dbequalize.php:83
+msgid "cannot delete"
+msgstr "нельзя удалить"
+
+#: admin/dbequalize.php:98
+msgid "List"
+msgstr "Список"
+
+#: admin/dbequalize.php:101 menufunctions.php:625
+msgid "Clubs"
+msgstr "Клубы"
+
+#: admin/dbequalize.php:103 admin/seasonadmin.php:63 admin/seasonpools.php:12
+#: admin/seasonseries.php:107 menufunctions.php:689
+#: restful/seasons/series.php:29
+msgid "Pools"
+msgstr "Группы"
+
+#: admin/dbequalize.php:111
+msgid "Club to keep"
+msgstr "Хранить клуб"
+
+#: admin/dbequalize.php:119
+msgid "Join selected"
+msgstr "Объединить выбранное"
+
+#: admin/dbequalize.php:121
+msgid "New name"
+msgstr "Новое имя"
+
+#: admin/dbequalize.php:123
+msgid "Rename selected"
+msgstr "Переименовать выбранное"
+
+#: admin/dbequalize.php:125
+msgid "Delete selected"
+msgstr "Удалить выбранное"
+
+#: admin/dbequalize.php:126 user/addresult.php:99
+msgid "Clear"
+msgstr "Очистить"
+
+#: admin/dbrestore.php:7 admin/executesql.php:13
+msgid ""
+"Direct database access is disabled. To enable it, "
+"define(ENABLE_ADMIN_DB_ACCESS,'enabled') in the config.inc.php file"
+msgstr ""
+
+#: admin/dbrestore.php:59
+msgid "Select backup to restore"
+msgstr "Выберите резервную копию для восстановления"
+
+#: admin/editgame.php:150
+msgid "Edit game"
+msgstr "Редактировать игру"
+
+#: admin/editgame.php:159
+msgid "Game played"
+msgstr "Игра сыграна"
+
+#: admin/editgame.php:159
+msgid "Final scores"
+msgstr "Финальный счет"
+
+#: admin/editgame.php:162
+msgid "Change game result"
+msgstr "Изменить результат игры"
+
+#: admin/editgame.php:163
+msgid "Change game roster"
+msgstr "Изменить список игроков команды на игру"
+
+#: admin/editgame.php:164
+msgid "Change game score sheet"
+msgstr "Изменить игровой протокол"
+
+#: admin/editgame.php:167
+msgid "Change game defense sheet"
+msgstr "Изменить лист защиты"
+
+#: admin/editgame.php:170
+msgid "Print score sheet"
+msgstr "Распечатать проткол"
+
+#: admin/editgame.php:171 clubcard.php:170 gameplay.php:512 playercard.php:583
+#: teamcard.php:574
+msgid "Add media"
+msgstr "Добавить медиа"
+
+#: admin/editgame.php:177 cust/bula/pdfprinter.php:49
+#: cust/gummis/pdfprinter.php:47 cust/slkl/pdfprinter.php:49
+#: cust/wfdf/pdfprinter.php:49 cust/windmill/pdfprinter.php:49
+#: user/adddefensesheet.php:205 user/addscoresheet.php:382
+msgid "Home team"
+msgstr "Хозяева"
+
+#: admin/editgame.php:182
+msgid "Guest team"
+msgstr "Гости"
+
+#: admin/editgame.php:209
+msgid "Starting time"
+msgstr "Время начала"
+
+#: admin/editgame.php:229
+msgid "Responsible person"
+msgstr "Ответственный человек"
+
+#: admin/editstanding.php:43 admin/editstanding.php:46
+msgid "Standing"
+msgstr "Положение"
+
+#: admin/editstanding.php:58 admin/poolgames.php:16 admin/reservations.php:108
+#: admin/seasonadmin.php:83 admin/seasongames.php:20 admin/seasonseries.php:108
+#: admin/seasonstandings.php:298 admin/seasonstandings.php:344
+#: admin/seasonstandings.php:383 admin/seasonstats.php:19
+#: admin/seasonstats.php:33 admin/seriesgames.php:29 admin/stats.php:79
+#: clubcard.php:138 clubcard.php:162 countrycard.php:31 countrycard.php:56
+#: defensestatus.php:59 defensestatus.php:61 ext/countrystatus.php:47
+#: ext/eventpools.php:44 ext/poolscoreboard.php:34 ext/poolstatus.php:36
+#: ext/teamscoreboard.php:42 gamecard.php:89 gamecard.php:207 gamecard.php:211
+#: lib/search.functions.php:729 menufunctions.php:554 menufunctions.php:575
+#: menufunctions.php:691 menufunctions.php:706 playercard.php:156
+#: playercard.php:209 playercard.php:286 playercard.php:384 playercard.php:453
+#: playerlist.php:23 poolstatus.php:122 poolstatus.php:141 poolstatus.php:184
+#: poolstatus.php:202 poolstatus.php:247 poolstatus.php:319 scorestatus.php:57
+#: scorestatus.php:59 seriesstatus.php:112 seriesstatus.php:114
+#: seriesstatus.php:250 seriesstatus.php:270 seriesstatus.php:278
+#: seriesstatus.php:293 statistics.php:114 statistics.php:154 teamcard.php:114
+#: teamcard.php:160 teamcard.php:221 teamcard.php:295 teamcard.php:384
+#: teamcard.php:454 teams.php:97 teams.php:148
+msgid "Games"
+msgstr "Игры"
+
+#: admin/editstanding.php:72 admin/poolgames.php:280 admin/poolgames.php:316
+#: admin/poolgames.php:335 plugins/lisence_modifier.php:79
+#: user/teamplayers.php:203
+msgid "edit"
+msgstr "редактировать"
+
+#: admin/eventdataimport.php:48 plugins/import_xml_ffindr.php:58
+msgid "Data imported!"
+msgstr "Данные импортированы!"
+
+#: admin/eventdataimport.php:55 plugins/import_xml_ffindr.php:65
+msgid "Select file to import"
+msgstr "Выберите файл для импорта"
+
+#: admin/eventdataimport.php:61 plugins/import_xml_ffindr.php:71
+msgid "Import"
+msgstr "Импорт"
+
+#: admin/eventdataimport.php:64
+msgid ""
+"This operation updates and adds event data in the database with the content "
+"of the file. It will not delete any data or change user rights."
+msgstr ""
+"Эта операция обновляет и добавляет в базу данные о событиях  из файла. Это "
+"не приведет к удалению каких-либо данных или изменению прав пользователей."
+
+#: admin/eventdataimport.php:65 plugins/import_xml_ffindr.php:74
+msgid "Update"
+msgstr "Обновить"
+
+#: admin/eventviewer.php:10
+msgid "Event log"
+msgstr "Лог события"
+
+#: admin/eventviewer.php:39
+msgid "Visitor count"
+msgstr "Счетчик гостей"
+
+#: admin/eventviewer.php:44
+msgid "Select type of event"
+msgstr "Выберите тип события"
+
+#: admin/eventviewer.php:64
+msgid "Resolve IDs"
+msgstr "Определить ID"
+
+#: admin/eventviewer.php:66
+msgid "Only user"
+msgstr "Только пользователь"
+
+#: admin/eventviewer.php:68
+msgid "Refresh"
+msgstr "Обновить"
+
+#: admin/eventviewer.php:72
+msgid "IP Address"
+msgstr "IP-Адрес"
+
+#: admin/eventviewer.php:73
+msgid "Id1"
+msgstr "Id1"
+
+#: admin/eventviewer.php:74
+msgid "Id2"
+msgstr "Id2"
+
+#: admin/eventviewer.php:74 user/clubprofile.php:152 user/playerprofile.php:299
+#: user/teamprofile.php:111
+msgid "Description"
+msgstr "Описание"
+
+#: admin/eventviewer.php:146
+msgid "Delete events"
+msgstr "Удалить события"
+
+#: admin/executesql.php:130 admin/executesql.php:132
+msgid "Column information"
+msgstr "Информация о столбцах"
+
+#: admin/executesql.php:130 admin/executesql.php:132
+msgid "Run"
+msgstr "Выполнить"
+
+#: admin/help.php:9 menufunctions.php:478
+msgid "Helps"
+msgstr "Помощь"
+
+#: admin/help.php:22 games.php:219 poolstatus.php:106 privacy.php:25
+#: user_guide.php:20
+msgid "Printable version"
+msgstr "Версия для печати"
+
+#: admin/locations.php:12 admin/locations.php:33
+msgid "Not named"
+msgstr "Не названо"
+
+#: admin/locations.php:63
+msgid "Game locations"
+msgstr "Игровое местоположение"
+
+#: admin/locations.php:125
+msgid "not found"
+msgstr "не найдено"
+
+#: admin/locations.php:140 admin/locations.php:203 admin/locations.php:284
+#: reservationinfo.php:52
+msgid "outdoors"
+msgstr "уличные"
+
+#: admin/locations.php:142 admin/locations.php:205 reservationinfo.php:54
+msgid "indoors"
+msgstr "зальные"
+
+#: admin/locations.php:298 admin/locations.php:397 admin/poolmoves.php:188
+#: admin/poolmoves.php:258 admin/users.php:52 mobile/deletescore.php:24
+#: mobile/deletescore.php:44 scorekeeper/deletescore.php:51
+#: user/teamplayers.php:168
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/locations.php:329 admin/seasonpools.php:291 admin/seasonseries.php:159
+#: admin/seasonteams.php:216 admin/select_userrole.php:28
+#: admin/select_userrole.php:51 admin/select_userrole.php:54
+#: admin/select_userrole.php:57 admin/select_userrole.php:60
+#: admin/select_userrole.php:63 admin/select_userrole.php:66
+#: admin/select_userrole.php:69 admin/select_userrole.php:72
+#: admin/translations.php:138 mobile/addscoresheet.php:215 result.php:79
+#: scorekeeper/addscoresheet.php:280 scorekeeper/result.php:83
+#: user/adddefensesheet.php:346 user/addscoresheet.php:523
+#: user/select_poolselector.php:23 user/select_poolselector.php:26
+#: user/select_poolselector.php:29 user/select_poolselector.php:32
+#: user/teamplayers.php:270 user/userinfo.php:336
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/locations.php:347
+msgid "Name or address"
+msgstr "Имя или адрес"
+
+#: admin/locations.php:350 admin/reservations.php:85
+#: cust/slkl/teamplayers.functions.php:42 lib/search.functions.php:36
+#: lib/search.functions.php:73 lib/search.functions.php:110
+#: lib/search.functions.php:166 lib/search.functions.php:217
+#: lib/search.functions.php:279 lib/search.functions.php:350
+#: user/teamplayers.php:226 user/teamplayers.php:258
+msgid "Search"
+msgstr "Поиск"
+
+#: admin/locations.php:381
+msgid "Address"
+msgstr "Адрес"
+
+#: admin/locations.php:381
+msgid "Fetch coordinates"
+msgstr "Выбор координатов"
+
+#: admin/locations.php:385 cust/bula/pdfprinter.php:133
+#: cust/bula/pdfprinter.php:143 cust/bula/pdfprinter.php:255
+#: cust/default/pdfprinter.php:258 cust/fpudd/pdfprinter.php:276
+#: cust/gummis/pdfprinter.php:149 cust/gummis/pdfprinter.php:159
+#: cust/gummis/pdfprinter.php:261 cust/slkl/pdfprinter.php:138
+#: cust/slkl/pdfprinter.php:148 cust/slkl/pdfprinter.php:245
+#: cust/wfdf/pdfprinter.php:132 cust/wfdf/pdfprinter.php:142
+#: cust/wfdf/pdfprinter.php:254 cust/windmill/pdfprinter.php:132
+#: cust/windmill/pdfprinter.php:142 cust/windmill/pdfprinter.php:254
+msgid "Info"
+msgstr "Инфо"
+
+#: admin/locations.php:390
+msgid "Indoor pitch"
+msgstr "Зальный питч"
+
+#: admin/locations.php:391
+msgid "Longitude"
+msgstr "Долгота"
+
+#: admin/locations.php:392
+msgid "Latitude"
+msgstr "Широта"
+
+#: admin/poolgames.php:49 admin/seasongames.php:68
+msgid "Game has"
+msgstr "Игра имела"
+
+#: admin/poolgames.php:49 admin/seasongames.php:68
+msgid "goals"
+msgstr "голы"
+
+#: admin/poolgames.php:49 admin/seasongames.php:68
+msgid "Goals must be removed before removing the team"
+msgstr "Голы должны быть удалены перед удалением команды"
+
+#: admin/poolgames.php:95 gamecard.php:120
+msgid "games"
+msgstr "игры"
+
+#: admin/poolgames.php:95
+msgid "Previous round winner vs. winners and losers vs. losers"
+msgstr ""
+"Победитель предыдущего этапа против победителя и проигравший против "
+"проигравшего"
+
+#: admin/poolgames.php:166
+msgid "Creation of pool games"
+msgstr "Создание игр в группе"
+
+#: admin/poolgames.php:169 admin/seriesgames.php:76
+msgid "Round Robin pool"
+msgstr "Круговая группа"
+
+#: admin/poolgames.php:170 admin/seriesgames.php:77
+msgid "Game rounds"
+msgstr "Игровые этапы"
+
+#: admin/poolgames.php:171 admin/poolgames.php:188 admin/poolgames.php:196
+#: admin/poolgames.php:205 admin/poolgames.php:350 admin/seriesgames.php:85
+msgid "Home team has rights to edit game score sheet"
+msgstr "Хозяева имеют право редактировать протокол"
+
+#: admin/poolgames.php:178
+msgid "Do not generate mutual games for teams moved from same pool"
+msgstr "Не создавать взаимные игры для команд, перемещенных из одного пула"
+
+#: admin/poolgames.php:186 admin/seriesgames.php:83
+msgid "Play-off pool"
+msgstr "Плей-Офф"
+
+#: admin/poolgames.php:187 admin/poolgames.php:204
+#, php-format
+msgid "best of %s games"
+msgstr "лучшие из %s игр"
+
+#: admin/poolgames.php:195
+msgid "Swissdraw pool: "
+msgstr "Швейцарская группа:"
+
+#: admin/poolgames.php:195
+msgid "rounds"
+msgstr "раунды"
+
+#: admin/poolgames.php:203
+msgid "Crossmatch pool"
+msgstr "Стыковые игры"
+
+#: admin/poolgames.php:214
+msgid "Show games"
+msgstr "Показать игры"
+
+#: admin/poolgames.php:215 admin/seasonpools.php:296 admin/seriesgames.php:90
+msgid "Generate all games"
+msgstr "Сгенерировать все игры"
+
+#: admin/poolgames.php:217
+msgid "Scheduling and Reservation management"
+msgstr "Управление Расписанием и Резервацией"
+
+#: admin/poolgames.php:220
+msgid "Games to generate"
+msgstr "Игры для генерации"
+
+#: admin/poolgames.php:259
+msgid "Add games"
+msgstr "Добавить игры"
+
+#: admin/poolgames.php:294
+msgid "No schedule"
+msgstr "Нет расписания"
+
+#: admin/poolgames.php:326
+msgid "Moved games"
+msgstr "Перемещенные игры"
+
+#: admin/poolgames.php:344
+msgid "Remove all games"
+msgstr "Убрать все игры"
+
+#: admin/poolgames.php:344
+msgid "This will remove all games from this pool."
+msgstr "Это уберёт все игры из этой группы"
+
+#: admin/poolgames.php:349
+msgid "Creation of single game"
+msgstr "Создание одной игры"
+
+#: admin/poolgames.php:379
+msgid "Create"
+msgstr "Создать"
+
+#: admin/poolmoves.php:104 admin/poolmoves.php:133
+msgid "No scheduling name given"
+msgstr "Нет названия расписания"
+
+#: admin/poolmoves.php:107 admin/poolmoves.php:136
+msgid "Transfer already exists"
+msgstr "Переход уже существует"
+
+#: admin/poolmoves.php:151 admin/poolmoves.php:161
+msgid "Team has already moved."
+msgstr "Команды уже перемещены."
+
+#: admin/poolmoves.php:182 admin/poolmoves.php:214 admin/poolmoves.php:251
+#: admin/poolmoves.php:257 admin/poolmoves.php:291 admin/seasonmoves.php:160
+#: admin/seasonstandings.php:428 admin/serieteams.php:183
+#: admin/smsmoves.php:101 lib/swissdraw.functions.php:183
+#: plugins/reassign_playoffpools.php:47
+msgid "From pool"
+msgstr "Из группы"
+
+#: admin/poolmoves.php:183 admin/poolmoves.php:215 admin/poolmoves.php:292
+#: admin/seasonmoves.php:161 admin/smsmoves.php:102
+msgid "From position"
+msgstr "С позиции"
+
+#: admin/poolmoves.php:184 admin/seasonmoves.php:162
+#: admin/seasonstandings.php:431 admin/serieteams.php:187
+#: admin/smsmoves.php:103 lib/swissdraw.functions.php:187
+#: plugins/reassign_playoffpools.php:51
+msgid "To pool"
+msgstr "В группу"
+
+#: admin/poolmoves.php:185 admin/poolmoves.php:216 admin/seasonmoves.php:163
+#: admin/smsmoves.php:104
+msgid "To position"
+msgstr "На позицию"
+
+#: admin/poolmoves.php:187 admin/poolmoves.php:217 admin/poolmoves.php:253
+#: admin/poolmoves.php:255 admin/poolmoves.php:293 admin/serieteams.php:188
+#: lib/swissdraw.functions.php:188 plugins/reassign_playoffpools.php:52
+msgid "Name in Schedule"
+msgstr "Имя в расписании"
+
+#: admin/poolmoves.php:199 admin/seasonmoves.php:190
+msgid "all"
+msgstr "все"
+
+#: admin/poolmoves.php:201 admin/seasonmoves.php:192
+msgid "nothing"
+msgstr "ничего"
+
+#: admin/poolmoves.php:203 admin/seasonmoves.php:194
+msgid "mutual"
+msgstr "общее/взаимное"
+
+#: admin/poolmoves.php:210 admin/poolmoves.php:288
+msgid "Make transfer rule"
+msgstr "Создать правила перехода"
+
+#: admin/poolmoves.php:252 admin/poolmoves.php:256 admin/serieteams.php:184
+#: lib/swissdraw.functions.php:184 plugins/reassign_playoffpools.php:48
+msgid "From pos."
+msgstr "С поз."
+
+#: admin/poolmoves.php:270
+msgid "vs."
+msgstr "против"
+
+#: admin/poolmoves.php:302
+msgid "Pair"
+msgstr "Пара"
+
+#: admin/reservations.php:83 admin/reservations.php:130
+msgid "Schedule selected"
+msgstr "Распланировать выбранные"
+
+#: admin/reservations.php:107 lib/search.functions.php:728
+msgid "Group"
+msgstr "Групповые игры"
+
+#: admin/reservations.php:109 lib/search.functions.php:730
+msgid "Scoresheets"
+msgstr "Протоколы"
+
+#: admin/reservations.php:119 lib/search.functions.php:739
+msgid "PDF"
+msgstr "PDF"
+
+#: admin/reservations.php:136
+msgid "Transfer times"
+msgstr "Время трансфера"
+
+#: admin/reservations.php:137
+msgid "Minimum times (in minutes) to move between fields"
+msgstr "Минимальное время (в минутах) для перемещения между полями"
+
+#: admin/reservations.php:146
+msgid "from\\to"
+msgstr "из\\в"
+
+#: admin/reservations.php:175
+msgid "Save times"
+msgstr "Сохранить время"
+
+#: admin/reservations.php:181
+msgid "Add reservation"
+msgstr "Добавить бронирования"
+
+#: admin/reservations.php:182
+msgid "Add location"
+msgstr "Добавить место"
+
+#: admin/saveschedule.php:35
+#, php-format
+msgid "Game %s exceeds reserved time %s."
+msgstr "Игра %s достигла зарезервированное время %s."
+
+#: admin/saveschedule.php:61
+#, php-format
+msgid ""
+"Warning: Game %s (%d, pool %d) has a scheduling conflict with %s (%d, pool "
+"%d)."
+msgstr "Внимание: Игра %s (%d, группа %d) конфликтует с %s (%d, группа %d)."
+
+#: admin/saveschedule.php:77
+#, php-format
+msgid "Warning: Game %s has a scheduling conflict with %s."
+msgstr "Внимание: Игра %s конфликтует с  %s."
+
+#: admin/saveschedule.php:85
+msgid "Error, unknown season!"
+msgstr "Ошибка, неизвестный сезон!"
+
+#: admin/saveschedule.php:89
+msgid "Schedule saved with errors:"
+msgstr "Расписание сохранено с ошибками:"
+
+#: admin/saveschedule.php:91
+msgid "Schedule saved and checked."
+msgstr "Расписание сохранено и проверено."
+
+#: admin/saveteampools.php:45
+msgid "Teams saved"
+msgstr "Команды сохранены"
+
+#: admin/saveteamstandings.php:23
+msgid "Standings saved"
+msgstr "Положение сохранено"
+
+#: admin/schedule.php:10 menufunctions.php:457 menufunctions.php:690
+msgid "Scheduling"
+msgstr "Создание расписания"
+
+#: admin/schedule.php:269
+#, php-format
+msgid "Pause: %s&thinsp;min."
+msgstr "Пауза: %s&thinsp;мин"
+
+#: admin/schedule.php:293
+#, php-format
+msgid "%d&nbsp;min."
+msgstr "%d&nbsp;мин"
+
+#: admin/schedule.php:332 admin/schedule.php:509
+msgid "Field "
+msgstr "Поле "
+
+#: admin/schedule.php:353
+msgid "Unscheduled"
+msgstr "Незапланированные"
+
+#: admin/schedule.php:356 ext/export.php:34 ext/index.php:64
+#: scorekeeper/respgames.php:39
+msgid "Select event"
+msgstr "Выберите турнир"
+
+#: admin/schedule.php:370
+msgid "All divisions"
+msgstr "Все дивизионы"
+
+#: admin/schedule.php:384 ext/index.php:218
+msgid "All pools"
+msgstr "Все группы"
+
+#: admin/schedule.php:421
+msgid "Add pause"
+msgstr "Добавить паузу"
+
+#: admin/schedule.php:550
+#, php-format
+msgid ""
+"Warning: Games with duration 0 found. They can not be scheduled. Edit the "
+"game duration or the time slot length of pool %s ..."
+msgstr ""
+"Внимание: Найдены игры длительностью 0. Они не могут быть запланированы. "
+"Отредактируйте продолжительность игры или длину слота времени в группе  "
+"%s ..."
+
+#: admin/schedule.php:654
+msgid "Save changes?"
+msgstr "Сохранить изменения?"
+
+#: admin/schedule.php:659
+msgid ""
+"Do you want to leave anyway? If you select Yes, you will lose all your "
+"changes."
+msgstr "Хотите выйти? Если вы выберете Да, вы потеряете все ваши изменения."
+
+#: admin/seasonadmin.php:24
+msgid "National Teams"
+msgstr "Национальные Команды"
+
+#: admin/seasonadmin.php:24
+msgid "Club Teams"
+msgstr "Клубные команды"
+
+#: admin/seasonadmin.php:25
+msgid "National"
+msgstr "Национальный"
+
+#: admin/seasonadmin.php:31
+msgid "not given"
+msgstr "не дает"
+
+#: admin/seasonadmin.php:34
+msgid "visible"
+msgstr "видимый"
+
+#: admin/seasonadmin.php:34
+msgid "not visible"
+msgstr "не видимый"
+
+#: admin/seasonadmin.php:36 cust/bula/pdfprinter.php:929
+#: cust/default/pdfprinter.php:827 cust/gummis/pdfprinter.php:991
+#: cust/slkl/pdfprinter.php:863 cust/wfdf/pdfprinter.php:911
+#: cust/windmill/pdfprinter.php:888 gameplay.php:503
+#: mobile/addscoresheet.php:205 scorekeeper/addscoresheet.php:273
+#: seriesstatus.php:154 seriesstatus.php:156 user/adddefensesheet.php:64
+#: user/addplayerlists.php:194 user/addresult.php:60 user/addscoresheet.php:175
+#: user/addspirit.php:47
+msgid "Spirit points"
+msgstr "Дух Игры"
+
+#: admin/seasonadmin.php:40 admin/seasons.php:125
+msgid "open"
+msgstr "открыт"
+
+#: admin/seasonadmin.php:40 admin/seasons.php:125
+msgid "closed"
+msgstr "закрыт"
+
+#: admin/seasonadmin.php:41 admin/seasons.php:95
+msgid "Enrollment"
+msgstr "Регистрация"
+
+#: admin/seasonadmin.php:58 admin/seasonseries.php:11 admin/seasonseries.php:53
+#: menufunctions.php:687
+msgid "Divisions"
+msgstr "Дивизионы"
+
+#: admin/seasonadmin.php:73 admin/seasongames.php:209 admin/seasonstats.php:19
+#: admin/seasonstats.php:33 admin/stats.php:78 clubcard.php:136
+#: clubcard.php:160 countrycard.php:29 countrycard.php:54 menufunctions.php:623
+#: mobile/respgames.php:168 scorekeeper/addscoresheet.php:271
+#: scorekeeper/respgames.php:144 user/adddefensesheet.php:61
+#: user/addplayerlists.php:191 user/addresult.php:57 user/addscoresheet.php:172
+#: user/addspirit.php:45 user/respgames.php:198 user/respteams.php:38
+msgid "Players"
+msgstr "Игроки"
+
+#: admin/seasonadmin.php:78
+msgid "Reservations"
+msgstr "Бронирование"
+
+#: admin/seasonadmin.php:90
+msgid "Comment"
+msgstr "Комментарий"
+
+#: admin/seasonadmin.php:93
+msgid "Change event properties"
+msgstr "Изменение свойств события"
+
+#: admin/seasonadmin.php:94
+msgid "Edit User access rights"
+msgstr "Редактировать права доступа пользователя"
+
+#: admin/seasonadmin.php:95
+msgid "Edit side menu links"
+msgstr "Редактировать ссылки в боковом меню"
+
+#: admin/seasonadmin.php:97
+msgid "Configure Twitter"
+msgstr "Настроить Твиттер"
+
+#: admin/seasonadmin.php:101
+msgid "Re-archive statistics"
+msgstr "Переархивировать статистику"
+
+#: admin/seasonadmin.php:103
+msgid "Archive statistics"
+msgstr "Архивировать статистику"
+
+#: admin/seasonadmin.php:109
+msgid "Export event data"
+msgstr "Экспортировать данные события"
+
+#: admin/seasonadmin.php:110
+msgid "Import event data"
+msgstr "Импортировать данные события"
+
+#: admin/seasongames.php:23 admin/seasonpools.php:15
+#: admin/seasonstandings.php:18 admin/seasonteams.php:17
+msgid "No divisions defined. Define at least one division first."
+msgstr "Дивизионы не выбраны. Выберите сначала минимум один дивизион."
+
+#: admin/seasongames.php:114 admin/seasonpools.php:87
+#: admin/seasonstandings.php:168 admin/seasonteams.php:112
+#: admin/seasonteams.php:179 admin/seriesseeding.php:35 user/respgames.php:69
+msgid "..."
+msgstr ""
+
+#: admin/seasongames.php:121 admin/seasonstandings.php:173
+msgid "Show played pools"
+msgstr "Показать сыгранные группы"
+
+#: admin/seasongames.php:124 admin/seasonstandings.php:175
+msgid "Hide played pools"
+msgstr "Скрыть сыгранные игры"
+
+#: admin/seasongames.php:129
+msgid "Show played games"
+msgstr "Показать сыгранные игры"
+
+#: admin/seasongames.php:132 user/respgames.php:106
+msgid "Hide played games"
+msgstr "Скрыть сыгранные игры"
+
+#: admin/seasongames.php:137 mobile/respgames.php:69 user/respgames.php:120
+msgid "Just display values"
+msgstr "Показывать лишь значения"
+
+#: admin/seasongames.php:140 mobile/respgames.php:71 user/respgames.php:122
+msgid "Mass input"
+msgstr "Массовый ввод"
+
+#: admin/seasongames.php:161 user/respgames.php:165
+msgid "Print scoresheets"
+msgstr "Распечатать протоколы"
+
+#: admin/seasongames.php:208 gamecard.php:126 mobile/respgames.php:167
+#: scorekeeper/addresult.php:25 scorekeeper/respgames.php:143 teamcard.php:542
+#: user/adddefensesheet.php:60 user/addplayerlists.php:190
+#: user/addresult.php:18 user/addresult.php:56 user/addscoresheet.php:171
+#: user/addspirit.php:44 user/respgames.php:22 user/respgames.php:197
+msgid "Result"
+msgstr "Результат"
+
+#: admin/seasongames.php:210 cust/slkl/pdfprinter.php:37
+#: mobile/respgames.php:169 scorekeeper/addscoresheet.php:129
+#: scorekeeper/respgames.php:145 user/respgames.php:199
+msgid "Scoresheet"
+msgstr "Протокол"
+
+#: admin/seasongames.php:212 scorekeeper/respgames.php:147
+#: user/addspirit.php:12 user/respgames.php:201
+msgid "Spirit"
+msgstr "Дух"
+
+#: admin/seasongames.php:215
+msgid "Defensesheet"
+msgstr "Лист защиты"
+
+#: admin/seasongames.php:223 admin/seasonpools.php:244
+#: admin/seasonteams.php:185
+msgid "edit details"
+msgstr "редактировать подробности"
+
+#: admin/seasongames.php:247
+msgid "Reservation management"
+msgstr "Управление бронированием"
+
+#: admin/seasonmoves.php:11
+msgid "Moved teams"
+msgstr "Перемещенные команды"
+
+#: admin/seasonmoves.php:126
+msgid "Move to"
+msgstr "Перемещается в"
+
+#: admin/seasonmoves.php:128
+msgid "Move from"
+msgstr "Перемещен из"
+
+#: admin/seasonmoves.php:164
+msgid "Scheduling name"
+msgstr "Имя в расписании"
+
+#: admin/seasonmoves.php:166 admin/seasonmoves.php:198
+#: admin/seasonstandings.php:533
+msgid "Undo"
+msgstr "Отмена"
+
+#: admin/seasonpools.php:98 admin/seasonseries.php:59
+msgid "V"
+msgstr ""
+
+#: admin/seasonpools.php:99
+msgid "Continuing"
+msgstr "Продолжающаяся"
+
+#: admin/seasonpools.php:99 admin/seasonpools.php:246
+msgid "C"
+msgstr ""
+
+#: admin/seasonpools.php:100 ext/countrystatus.php:221 ext/eventpools.php:181
+#: ext/poolstatus.php:168 poolstatus.php:626 poolstatus.php:629 teams.php:190
+msgid "Placement"
+msgstr "Места"
+
+#: admin/seasonpools.php:102 admin/seasons.php:97 admin/seasonseries.php:60
+msgid "Operations"
+msgstr "Функции"
+
+#: admin/seasonpools.php:208 admin/seasonpools.php:210 admin/serieteams.php:136
+msgid "Select teams"
+msgstr "Выберите команды"
+
+#: admin/seasonpools.php:217 admin/seasonpools.php:219
+msgid "Move teams"
+msgstr "Переместить команды"
+
+#: admin/seasonpools.php:222 admin/seasonstandings.php:481
+#: admin/serieteams.php:228
+msgid "Manage moves"
+msgstr "Управление перемещениями"
+
+#: admin/seasonpools.php:229 admin/seasonpools.php:231
+msgid "Play-off games"
+msgstr "Игры Плей-Офф"
+
+#: admin/seasonpools.php:236 admin/seasonpools.php:238
+msgid "Game management"
+msgstr "Управление игрой"
+
+#: admin/seasonpools.php:246
+msgid "clone"
+msgstr "копировать"
+
+#: admin/seasonpools.php:248
+msgid "remove"
+msgstr "удалить"
+
+#: admin/seasonpools.php:295
+msgid "Show all moves"
+msgstr "Показать все перемещения"
+
+#: admin/seasons.php:10 admin/seasonstats.php:17 menufunctions.php:450
+#: menufunctions.php:622 playerlist.php:22
+msgid "Events"
+msgstr "Турниры"
+
+#: admin/seasons.php:42
+msgid "Event has"
+msgstr "Турнир"
+
+#: admin/seasons.php:42
+msgid "Division(s)"
+msgstr "Дивизион(ы)"
+
+#: admin/seasons.php:42
+msgid "Divisions must be removed before removing the event"
+msgstr "Перед удалением турнира должны быть удалены дивизионы"
+
+#: admin/seasons.php:49
+msgid "You can not remove a current event"
+msgstr "Вы не можете удалить текущее событие"
+
+#: admin/seasons.php:70
+msgid "Are you sure you want to delete the event?"
+msgstr "Вы уверены что хотите удалить это событие?"
+
+#: admin/seasons.php:86
+msgid "Seasons/Tournaments"
+msgstr "Сезоны/Турниры"
+
+#: admin/seasons.php:133
+msgid "Conf. Twitter"
+msgstr "Конф. Twitter"
+
+#: admin/seasons.php:137
+msgid "Re-calc. stats"
+msgstr "Пересчтитать статистику"
+
+#: admin/seasons.php:139
+msgid "Calc. stats"
+msgstr "Расчитать статистику"
+
+#: admin/seasons.php:142
+msgid "Export"
+msgstr "Экспорт"
+
+#: admin/seasons.php:153
+msgid "Import event"
+msgstr "Импортировать событие"
+
+#: admin/seasons.php:154
+msgid "All event statistics"
+msgstr "Вся статистика события"
+
+#: admin/seasonseries.php:59
+msgid "Ordering"
+msgstr "Порядок"
+
+#: admin/seasonseries.php:167
+msgid "Edit rule templates"
+msgstr "Редактировать шаблоны правил"
+
+#: admin/seasonstandings.php:15 ext/export.php:30 menufunctions.php:707
+msgid "Pool standings"
+msgstr "Положение групп"
+
+#: admin/seasonstandings.php:183
+msgid "Add pools first"
+msgstr "Добавить группы первыми"
+
+#: admin/seasonstandings.php:186
+msgid "Tasks"
+msgstr "Задачи"
+
+#: admin/seasonstandings.php:218
+#, php-format
+msgid "Confirm moves to pool %s."
+msgstr "Подтвердить перемещения в группу %s."
+
+#: admin/seasonstandings.php:220
+#, php-format
+msgid "Check standings of %s. Then: %s"
+msgstr "Проверьте положение %s. Затем: %s"
+
+#: admin/seasonstandings.php:226
+msgid "Games results missing for"
+msgstr "Не хватает результатов игр для"
+
+#: admin/seasonstandings.php:228
+msgid "Division completed."
+msgstr "Дивизион завершён."
+
+#: admin/seasonstandings.php:245
+msgid "Go to top"
+msgstr "Вверх"
+
+#: admin/seasonstandings.php:247
+msgid "edit pool"
+msgstr "редактировать группу"
+
+#: admin/seasonstandings.php:275
+msgid "Reset"
+msgstr "Сброс"
+
+#: admin/seasonstandings.php:294
+msgid "Pool is completed:"
+msgstr "Группа сыграна:"
+
+#: admin/seasonstandings.php:296
+msgid "Pool games not completed:"
+msgstr "Групповые игры не завершены:"
+
+#: admin/seasonstandings.php:342 admin/seasonstandings.php:381 teamcard.php:220
+#: teamcard.php:383
+msgid "Pos."
+msgstr "Поз."
+
+#: admin/seasonstandings.php:345 poolstatus.php:248
+msgid "Victory Points"
+msgstr "Победные очки(VP)"
+
+#: admin/seasonstandings.php:346 poolstatus.php:249
+msgid "Opponent VPs"
+msgstr "Соперник VP's"
+
+#: admin/seasonstandings.php:347 poolstatus.php:250
+msgid "Margin"
+msgstr "Разность"
+
+#: admin/seasonstandings.php:348 ext/poolscoreboard.php:36
+#: ext/teamscoreboard.php:44 gamecard.php:223 gamecard.php:227 gameplay.php:52
+#: gameplay.php:79 gameplay.php:453 playercard.php:156 playercard.php:209
+#: playercard.php:286 playercard.php:384 playercard.php:453 playerlist.php:25
+#: poolstatus.php:123 poolstatus.php:142 poolstatus.php:251 scorestatus.php:67
+#: scorestatus.php:69 seriesstatus.php:251 statistics.php:115
+#: statistics.php:155 teamcard.php:116 teamcard.php:162
+msgid "Goals"
+msgstr "Голы"
+
+#: admin/seasonstandings.php:369 admin/seasonstandings.php:415
+msgid "delete team from pool"
+msgstr "удалить команду из группы"
+
+#: admin/seasonstandings.php:384 ext/countrystatus.php:48 ext/eventpools.php:45
+#: ext/poolstatus.php:37 gamecard.php:89 playercard.php:165 playercard.php:213
+#: playercard.php:289 playercard.php:385 playercard.php:454 poolstatus.php:320
+#: seriesstatus.php:118 seriesstatus.php:120 teamcard.php:222 teamcard.php:296
+#: teamcard.php:385 teamcard.php:455
+msgid "Wins"
+msgstr "Победы"
+
+#: admin/seasonstandings.php:386 poolstatus.php:322
+msgid "Draws"
+msgstr "Ничьи"
+
+#: admin/seasonstandings.php:387 ext/countrystatus.php:49 ext/eventpools.php:46
+#: ext/poolstatus.php:38 gamecard.php:89 poolstatus.php:323
+#: seriesstatus.php:124 seriesstatus.php:126 teamcard.php:223 teamcard.php:297
+#: teamcard.php:386 teamcard.php:456
+msgid "Losses"
+msgstr "Поражения"
+
+#: admin/seasonstandings.php:388 ext/countrystatus.php:50 ext/eventpools.php:47
+#: ext/poolstatus.php:39 poolstatus.php:324 seriesstatus.php:130
+#: seriesstatus.php:132 teamcard.php:225 teamcard.php:299 teamcard.php:388
+#: teamcard.php:458
+msgid "Goals for"
+msgstr "Забитые"
+
+#: admin/seasonstandings.php:389 ext/countrystatus.php:51 poolstatus.php:325
+#: teamcard.php:227 teamcard.php:301 teamcard.php:390 teamcard.php:460
+msgid "against"
+msgstr "пропущенные"
+
+#: admin/seasonstandings.php:390 ext/countrystatus.php:52 poolstatus.php:326
+#: teamcard.php:229 teamcard.php:303 teamcard.php:392 teamcard.php:462
+msgid "diff."
+msgstr "разн."
+
+#: admin/seasonstandings.php:427
+msgid "Moves to"
+msgstr "Перемещается в"
+
+#: admin/seasonstandings.php:428 admin/seasonstandings.php:431
+msgid "Pos"
+msgstr "Поз."
+
+#: admin/seasonstandings.php:428
+msgid "To"
+msgstr "В"
+
+#: admin/seasonstandings.php:430
+msgid "Moves from"
+msgstr "Перемещается из"
+
+#: admin/seasonstandings.php:431
+msgid "From"
+msgstr "Из"
+
+#: admin/seasonstandings.php:470 admin/serieteams.php:253
+msgid "Confirm moves"
+msgstr "Подтвердить перемещения"
+
+#: admin/seasonstandings.php:474
+msgid "Hide pool"
+msgstr "Скрыть группу"
+
+#: admin/seasonstandings.php:477
+msgid "Show pool"
+msgstr "Показать группу"
+
+#: admin/seasonstandings.php:493
+msgid "change initial pool ranking"
+msgstr "изменить ранжирование исходной группы"
+
+#: admin/seasonstandings.php:493
+msgid "change final pool ranking"
+msgstr "изменить ранжирование финальной группы"
+
+#: admin/seasonstandings.php:498
+msgid "save ranking"
+msgstr "сохранить положение"
+
+#: admin/seasonstandings.php:538
+msgid "Undo all"
+msgstr "Отменить всё"
+
+#: admin/seasonstats.php:11 admin/stats.php:5
+msgid "Event statistics"
+msgstr "Статистика турнира"
+
+#: admin/seasonteams.php:123
+msgid "Abbrev"
+msgstr "Сокращение"
+
+#: admin/seasonteams.php:131
+msgid "Contact person"
+msgstr "Контактное лицо"
+
+#: admin/seasonteams.php:132 admin/seasonteams.php:182 clubcard.php:133
+#: clubcard.php:157 countrycard.php:26 countrycard.php:51
+#: cust/bula/pdfprinter.php:106 cust/bula/pdfprinter.php:228
+#: cust/default/pdfprinter.php:131 cust/default/pdfprinter.php:231
+#: cust/fpudd/pdfprinter.php:249 cust/gummis/pdfprinter.php:126
+#: cust/gummis/pdfprinter.php:241 cust/slkl/pdfprinter.php:110
+#: cust/slkl/pdfprinter.php:218 cust/wfdf/pdfprinter.php:105
+#: cust/wfdf/pdfprinter.php:227 cust/windmill/pdfprinter.php:105
+#: cust/windmill/pdfprinter.php:227 playerlist.php:12 playerlist.php:17
+#: scorekeeper/addplayerlists.php:84 teams.php:91 user/clubprofile.php:112
+#: user/respteams.php:22 user/teamplayers.php:10 user/teamplayers.php:131
+#: user/teamprofile.php:91
+msgid "Roster"
+msgstr "Список игроков"
+
+#: admin/seasonteams.php:150
+msgid "No name"
+msgstr "Нет названия"
+
+#: admin/seasonteams.php:222
+msgid "Add teams from:"
+msgstr "Добавить команды из:"
+
+#: admin/seasonteams.php:235 user/teamplayers.php:188
+msgid "Copy"
+msgstr "Копировать"
+
+#: admin/seasonteams.php:241
+msgid "Add Team Admins"
+msgstr "Добавить администраторов команды"
+
+#: admin/seasonteams.php:242
+msgid "Print team rosters"
+msgstr "Распечатать списки игроков команд"
+
+#: admin/select_teams.php:12
+msgid "Team selection"
+msgstr "Выбор команд"
+
+#: admin/select_teams.php:100
+msgid "Without pool"
+msgstr "Без группы"
+
+#: admin/select_userrole.php:5
+msgid "Select user roles"
+msgstr "Выбор ролей пользователей"
+
+#: admin/select_userrole.php:23 admin/serverconf.php:361 user/userinfo.php:441
+#: user/userinfo.php:542
+msgid "Administrator"
+msgstr "Администратор"
+
+#: admin/select_userrole.php:32 user/userinfo.php:445 user/userinfo.php:543
+msgid "Translation administrator"
+msgstr "Администратор перевода"
+
+#: admin/select_userrole.php:37 admin/select_userrole.php:46
+msgid "cancel"
+msgstr "отмена"
+
+#: admin/select_userrole.php:41 user/userinfo.php:449 user/userinfo.php:544
+msgid "User administrator"
+msgstr "Администратор пользователей"
+
+#: admin/select_userrole.php:50 user/userinfo.php:454 user/userinfo.php:545
+msgid "Team contact person"
+msgstr "Контактное лицо команды"
+
+#: admin/select_userrole.php:53 user/userinfo.php:475 user/userinfo.php:548
+msgid "Accreditation official"
+msgstr "Accreditation official"
+
+#: admin/select_userrole.php:56 user/userinfo.php:461 user/userinfo.php:546
+msgid "Event responsible"
+msgstr "Ответственность события"
+
+#: admin/select_userrole.php:59 user/userinfo.php:468 user/userinfo.php:547
+msgid "Division organizer"
+msgstr "Организатор дивизиона"
+
+#: admin/select_userrole.php:62 user/userinfo.php:482 user/userinfo.php:549
+msgid "Scheduling right"
+msgstr "Права на составления расписания"
+
+#: admin/select_userrole.php:65 admin/select_userrole.php:68
+#: user/userinfo.php:491 user/userinfo.php:550
+msgid "Reservation game input responsible"
+msgstr "Reservation game input responsible"
+
+#: admin/select_userrole.php:71 user/userinfo.php:509 user/userinfo.php:552
+msgid "Player profile administrator"
+msgstr "Администратор профиля игрока"
+
+#: admin/serieformats.php:8
+msgid "Rule Templates"
+msgstr "Шаблоны правил"
+
+#: admin/serieformats.php:24 menufunctions.php:451
+msgid "Rule templates"
+msgstr "Шаблоны правил"
+
+#: admin/serieformats.php:27
+msgid "Winning points"
+msgstr "Выигранные очки"
+
+#: admin/seriesgames.php:75
+msgid "Creation of games"
+msgstr "Создание игр"
+
+#: admin/seriesgames.php:82
+msgid ""
+"Do not generate mutual games for teams moved from same pool, if pool format "
+"includes mutual games"
+msgstr ""
+"Не создавайте взаимные игры для команд, перемещенных из одной группы, если "
+"формат группы включает взаимные игры"
+
+#: admin/seriesgames.php:84
+msgid "best of"
+msgstr "лучший из"
+
+#: admin/seriesseeding.php:23
+msgid "Division seeding"
+msgstr "Посев дивизионов"
+
+#: admin/serieteams.php:132
+msgid "Resolve Ties"
+msgstr "Решение связей(!)"
+
+#: admin/serieteams.php:143
+msgid "Plays"
+msgstr "Игры"
+
+#: admin/serieteams.php:146
+msgid "No teams without a pool"
+msgstr "Нет команд без групп"
+
+#: admin/serieteams.php:186 lib/swissdraw.functions.php:186
+#: plugins/reassign_playoffpools.php:50
+msgid "To pos."
+msgstr "На поз."
+
+#: admin/serieteams.php:230 plugins/reassign_playoffpools.php:88
+msgid "Games to move"
+msgstr "Игры для перемещения"
+
+#: admin/serieteams.php:248 plugins/reassign_playoffpools.php:93
+msgid "No games to move"
+msgstr "Нет игр для перемещения"
+
+#: admin/serieteams.php:252
+msgid "Make this pool visible on menu"
+msgstr "Сделать эту группу видимой в меню"
+
+#: admin/serverconf.php:7
+msgid "Server configuration"
+msgstr "Конфигурация сервера"
+
+#: admin/serverconf.php:184
+msgid "Show phpinfo()"
+msgstr "Показать phpinfo()"
+
+#: admin/serverconf.php:194
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+#: admin/serverconf.php:202
+msgid "Google Maps key"
+msgstr "Ключ Google Maps"
+
+#: admin/serverconf.php:210
+msgid "Twitter enabled"
+msgstr "Твиттер активирован"
+
+#: admin/serverconf.php:220
+msgid "Twitter Consumer Key"
+msgstr "Пользовательский ключ Твиттера"
+
+#: admin/serverconf.php:226
+msgid "Twitter Consumer Secret"
+msgstr "Пользовательский секрет Твиттера"
+
+#: admin/serverconf.php:232
+msgid "Twitter OAuth Callback"
+msgstr "Обратный вызов OAuth Твиттера"
+
+#: admin/serverconf.php:239
+msgid "Facebook enabled"
+msgstr "Фейсбук активирован"
+
+#: admin/serverconf.php:249
+msgid "Facebook Application Id"
+msgstr "Номер приложения Фейсбук"
+
+#: admin/serverconf.php:255
+msgid "Facebook Application Key"
+msgstr "Ключ приложения Фейсбук"
+
+#: admin/serverconf.php:261
+msgid "Facebook Application Secret"
+msgstr "Секрет приложения Фейсбук"
+
+#: admin/serverconf.php:267
+msgid "Facebook Game Message"
+msgstr "Игровое сообщение Фейсбук"
+
+#: admin/serverconf.php:280
+msgid "System email sender address"
+msgstr "Системный адрес электронной почты отправителя"
+
+#: admin/serverconf.php:287
+msgid "Show Defense statistics"
+msgstr "Показать статистику защит"
+
+#: admin/serverconf.php:298
+msgid "Home team is game responsible"
+msgstr "Ответственность за игру на принимающей команде"
+
+#: admin/serverconf.php:309
+msgid "Default Timezone"
+msgstr "Часовой пояс по умолчанию"
+
+#: admin/serverconf.php:325
+msgid "Default Locale"
+msgstr "Язык по умолчанию"
+
+#: admin/serverconf.php:342
+msgid "UI settings"
+msgstr "Настройки пользовательского интерфейса"
+
+#: admin/serverconf.php:377
+msgid "Authorize facebook updates"
+msgstr "Авторизовать обновления на Фейсбук"
+
+#: admin/serverconf.php:380
+msgid "Unauthorize facebook updates"
+msgstr "Отменить авторизацию обновлений на Фейсбуке"
+
+#: admin/serverconf.php:388
+msgid "Internal settings"
+msgstr "Внутренние настройки"
+
+#: admin/sms.php:9
+msgid "SMS handling"
+msgstr "SMS-обработка"
+
+#: admin/sms.php:63
+msgid "Msg"
+msgstr "Сообщение"
+
+#: admin/sms.php:64
+msgid "To1"
+msgstr "To1"
+
+#: admin/sms.php:65
+msgid "To2"
+msgstr "To2"
+
+#: admin/sms.php:66
+msgid "To3"
+msgstr "To3"
+
+#: admin/sms.php:67
+msgid "Created"
+msgstr "Создано"
+
+#: admin/sms.php:68
+msgid "Sent"
+msgstr "Отправлено"
+
+#: admin/sms.php:69
+msgid "Delivered"
+msgstr "Получено"
+
+#: admin/sms.php:70
+msgid "click_id"
+msgstr "click_id"
+
+#: admin/smsmoves.php:9
+msgid "Create SMS"
+msgstr "Создать  SMS"
+
+#: admin/smsmoves.php:40 cust/bula/pdfprinter.php:51
+#: cust/default/pdfprinter.php:51 cust/gummis/pdfprinter.php:49
+#: cust/slkl/pdfprinter.php:51 cust/wfdf/pdfprinter.php:51
+#: cust/windmill/pdfprinter.php:51 teams.php:152 teams.php:154
+msgid "Pool"
+msgstr "Группа"
+
+#: admin/smsmoves.php:41
+msgid "Final Rank"
+msgstr "Финальный рейтинг"
+
+#: admin/smsmoves.php:43 admin/smsmoves.php:106
+msgid "Outcome"
+msgstr "Результат/исход"
+
+#: admin/smsmoves.php:44 admin/smsmoves.php:111
+msgid "SMS"
+msgstr "SMS"
+
+#: admin/smsmoves.php:107
+msgid "Next Opp."
+msgstr "Следующий соперник"
+
+#: admin/smsmoves.php:108
+msgid "Next Opp. Rank"
+msgstr "Рейтинг следующего соперника"
+
+#: admin/smsmoves.php:227
+msgid "Return without sending"
+msgstr "Возврат без отправки"
+
+#: admin/stats.php:65
+msgid ""
+"Calculation of statistics takes some time; please wait without closing "
+"browser."
+msgstr ""
+"Расчет статистики займет некоторое время, пожалуйста, подождите и не "
+"закрывайте браузер."
+
+#: admin/stats.php:68
+msgid "Calculate"
+msgstr "Расчитать"
+
+#: admin/stats.php:82
+msgid "Re-Calculate"
+msgstr "Пересчитать"
+
+#: admin/stats.php:85
+msgid "Final Standings"
+msgstr "Финальное положение"
+
+#: admin/stats.php:86
+msgid ""
+"If standings are not correct, use mouse to drag teams into correct order and "
+"press save standings."
+msgstr ""
+"Если положение неправильное, используйте мышь, чтобы поставить команды в "
+"правильном порядке и нажмите сохранить турнирную таблицу."
+
+#: admin/stats.php:87
+msgid "Save standings"
+msgstr "Сохранить положение"
+
+#: admin/translations.php:6 admin/translations.php:91 menufunctions.php:461
+msgid "Translations"
+msgstr "Переводы"
+
+#: admin/translations.php:81
+msgid "Modify translations"
+msgstr "Изменить переводы"
+
+#: admin/translations.php:83
+msgid "The translations are used to localize all user-provided text fields"
+msgstr ""
+"Переводы используются для локализации всех введенных пользователем текстовых "
+"полей"
+
+#: admin/translations.php:84
+msgid "The key is substitituted with the text in the user-selected locale"
+msgstr "Ключ заменяется на текст в выбранном пользователем языке"
+
+#: admin/translations.php:85
+msgid "The key is case insensitive"
+msgstr "Ключ без учета регистра"
+
+#: admin/translations.php:98
+msgid "Key"
+msgstr "Ключ"
+
+#: admin/twitterconf.php:7
+msgid "Twitter configuration"
+msgstr "Конфигурация Твиттера"
+
+#: admin/twitterconf.php:49
+msgid "Twitter accounts to publish game results"
+msgstr "Аккаунт Твиттера для публикации результатов игр"
+
+#: admin/twitterconf.php:50
+msgid ""
+"Note that if you are signed in to Twitter with same browser then this "
+"account is automatically used for following twitter requests. If you want "
+"assign the division to a different account, please sign out from Twitter "
+"after establishing one twitter."
+msgstr ""
+"Обратите внимание: если вы вошли в Твиттер в этом же браузере, этот аккаунт "
+"автоматически используется для следующих обращений в Твиттер. Если вы хотите "
+"назначить дивизиону другую учетную запись, пожалуйста, выйдите из Твиттера "
+"после установки."
+
+#: admin/twitterconf.php:55
+msgid "Purpose"
+msgstr "Цель"
+
+#: admin/twitterconf.php:56
+msgid "Screen name"
+msgstr "Отображаемое имя"
+
+#: admin/twitterconf.php:57
+msgid "Calls remain"
+msgstr "Осталось вызовов"
+
+#: admin/twitterconf.php:58
+msgid "Account"
+msgstr "Аккаунт"
+
+#: admin/twitterconf.php:64 ext/export.php:27
+msgid "All results"
+msgstr "Все результаты"
+
+#: admin/twitterconf.php:95 admin/twitterconf.php:137
+msgid "Unregister"
+msgstr "Незарегестрирован"
+
+#: admin/twitterconf.php:100 admin/twitterconf.php:142 register.php:6
+#: register.php:136 user/addextraemail.php:3
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: admin/twitterconf.php:109
+msgid "Division results"
+msgstr "Результаты дивизиона"
+
+#: admin/twitterconnect.php:37 ext/twittercallback.php:24
+#: ext/twittercallback.php:56
+msgid "Twitter configuration failed"
+msgstr "Настройка твиттера не удалась"
+
+#: admin/twitterconnect.php:38
+msgid "Could not connect to Twitter. Refresh the page or try again later."
+msgstr ""
+"Не возможно подключиться к Twitter. Обновите страницу или попробуйте еще раз "
+"позже."
+
+#: admin/twitterconnect.php:39 ext/twittercallback.php:57
+msgid "HTTP Error"
+msgstr "HTTP ошибка"
+
+#: admin/users.php:6 menufunctions.php:464
+msgid "Users"
+msgstr "Пользователи"
+
+#: admin/users.php:52 login_failed.php:25 mobile/login_failed.php:25
+msgid "Reset password"
+msgstr "Поменять пароль"
+
+#: admin/visitors.php:6
+msgid "Visitor statistics"
+msgstr "Статистика посетителей"
+
+#: admin/visitors.php:20
+msgid "Summary"
+msgstr "Суммарно"
+
+#: admin/visitors.php:23
+msgid "Visitors"
+msgstr "Посетители"
+
+#: admin/visitors.php:26
+msgid "Visits"
+msgstr "Посещения"
+
+#: admin/visitors.php:29
+msgid "Page loads"
+msgstr "Загрузки страницы"
+
+#: admin/visitors.php:33
+msgid "Pageload per page"
+msgstr "Загрузки / стр."
+
+#: allclubs.php:4
+msgid "All clubs"
+msgstr "Все клубы"
+
+#: allclubs.php:26 allclubs.php:28 allplayers.php:31 allplayers.php:33
+#: allteams.php:27 allteams.php:29
+msgid "ALL"
+msgstr "ВСЕ"
+
+#: allcountries.php:4 allcountries.php:9 menufunctions.php:628
+msgid "Countries"
+msgstr "Страны"
+
+#: allplayers.php:4
+msgid "All players"
+msgstr "Все игроки"
+
+#: clubcard.php:11
+msgid "Club Card"
+msgstr "Карточка клуба"
+
+#: clubcard.php:19 playercard.php:47 teamcard.php:33 user/clubprofile.php:210
+#: user/playerprofile.php:361 user/teamprofile.php:170
+msgid "Profile image"
+msgstr "Изображение профиля"
+
+#: clubcard.php:35 user/clubprofile.php:142
+msgid "City"
+msgstr "Город"
+
+#: clubcard.php:41
+msgid "Founded"
+msgstr "Образована(создана)"
+
+#: clubcard.php:46 lib/url.functions.php:67 menufunctions.php:346
+#: menufunctions.php:350 menufunctions.php:356
+msgid "Homepage"
+msgstr "Главная страница"
+
+#: clubcard.php:56 menufunctions.php:780 user/clubprofile.php:149
+#: user/contacts.php:4 user/contacts.php:16
+msgid "Contacts"
+msgstr "Контакты"
+
+#: clubcard.php:70 playercard.php:95 teamcard.php:56 user/clubprofile.php:155
+#: user/playerprofile.php:303 user/teamprofile.php:114
+msgid "Achievements"
+msgstr "Достижения"
+
+#: clubcard.php:78
+msgid "Club pages"
+msgstr "Страницы клуба"
+
+#: clubcard.php:98 gameplay.php:275 playercard.php:125 teamcard.php:87
+msgid "Photos and Videos"
+msgstr "Фото и Видео"
+
+#: clubcard.php:110 gameplay.php:290 playercard.php:136 teamcard.php:98
+msgid "from"
+msgstr "из(от)"
+
+#: clubcard.php:134 clubcard.php:158 countrycard.php:27 countrycard.php:52
+#: gamecard.php:185 poolstatus.php:137 poolstatus.php:168 poolstatus.php:170
+#: scorestatus.php:6 scorestatus.php:35 seriesstatus.php:264 teams.php:94
+#: teams.php:116
+msgid "Scoreboard"
+msgstr "Пасс/гол"
+
+#: clubcard.php:146 countrycard.php:69 playercard.php:205 playercard.php:380
+#: teamcard.php:213 teamcard.php:376
+msgid "History"
+msgstr "История"
+
+#: conf/hki-l4314.config.inc.php:2
+msgid "%d.%m.%Y %H:%M"
+msgstr ""
+
+#: countrycard.php:77
+msgid "Club teams"
+msgstr "Команды клуба"
+
+#: cust/bula/head.php:7
+msgid "BULA"
+msgstr "BULA"
+
+#: cust/bula/pdfprinter.php:35 cust/bula/pdfprinter.php:104
+msgid "Beach Ultimate Lovers Association"
+msgstr "Ассоциация Любителей Пляжного Алтимата"
+
+#: cust/bula/pdfprinter.php:37 cust/default/pdfprinter.php:37
+#: cust/wfdf/pdfprinter.php:37 cust/windmill/pdfprinter.php:37
+msgid "Game Record"
+msgstr "Запись игры"
+
+#: cust/bula/pdfprinter.php:48 cust/default/pdfprinter.php:48
+#: cust/slkl/pdfprinter.php:48 cust/wfdf/pdfprinter.php:48
+#: cust/windmill/pdfprinter.php:48
+msgid "Game #"
+msgstr "Игра #"
+
+#: cust/bula/pdfprinter.php:50 cust/gummis/pdfprinter.php:48
+#: cust/slkl/pdfprinter.php:50 cust/wfdf/pdfprinter.php:50
+#: cust/windmill/pdfprinter.php:50 user/adddefensesheet.php:207
+#: user/addscoresheet.php:384
+msgid "Away team"
+msgstr "Гости"
+
+#: cust/bula/pdfprinter.php:53 cust/default/pdfprinter.php:54
+#: cust/gummis/pdfprinter.php:51 cust/slkl/pdfprinter.php:53
+#: cust/wfdf/pdfprinter.php:53 cust/windmill/pdfprinter.php:53
+#: user/adddefensesheet.php:211 user/addscoresheet.php:388
+msgid "Scheduled start date and time"
+msgstr "Дата и время начала по расписанию"
+
+#: cust/bula/pdfprinter.php:54 cust/default/pdfprinter.php:53
+#: cust/gummis/pdfprinter.php:52 cust/slkl/pdfprinter.php:54
+#: cust/wfdf/pdfprinter.php:54 cust/windmill/pdfprinter.php:54 gameplay.php:269
+#: mobile/addofficial.php:21 mobile/addscoresheet.php:199
+#: mobile/gameplay.php:81 scorekeeper/addofficial.php:20
+#: scorekeeper/addscoresheet.php:261 scorekeeper/gameplay.php:84
+msgid "Game official"
+msgstr "Стафф игры"
+
+#: cust/bula/pdfprinter.php:64 cust/default/pdfprinter.php:61
+#: cust/gummis/pdfprinter.php:62 cust/wfdf/pdfprinter.php:64
+#: cust/windmill/pdfprinter.php:64
+msgid "Half time ends"
+msgstr "Перерыв заканчиваетя в"
+
+#: cust/bula/pdfprinter.php:107 cust/default/pdfprinter.php:132
+#: cust/gummis/pdfprinter.php:127 cust/wfdf/pdfprinter.php:106
+#: cust/windmill/pdfprinter.php:106
+msgid "for game"
+msgstr "для игры"
+
+#: cust/bula/pdfprinter.php:132 cust/bula/pdfprinter.php:142
+#: cust/gummis/pdfprinter.php:148 cust/gummis/pdfprinter.php:158
+#: cust/wfdf/pdfprinter.php:131 cust/wfdf/pdfprinter.php:141
+#: cust/windmill/pdfprinter.php:131 cust/windmill/pdfprinter.php:141
+#: user/addplayerlists.php:213 user/addplayerlists.php:255
+msgid "Jersey#"
+msgstr "# Футболки"
+
+#: cust/bula/pdfprinter.php:195 cust/bula/pdfprinter.php:199
+#: cust/gummis/pdfprinter.php:210 cust/gummis/pdfprinter.php:214
+#: cust/wfdf/pdfprinter.php:194 cust/wfdf/pdfprinter.php:198
+#: cust/windmill/pdfprinter.php:194 cust/windmill/pdfprinter.php:198
+#: user/addplayerlists.php:246 user/addplayerlists.php:288
+msgid "Total number of players:"
+msgstr "Общее количество игроков:"
+
+#: cust/bula/pdfprinter.php:206 cust/gummis/pdfprinter.php:221
+#: cust/wfdf/pdfprinter.php:205 cust/windmill/pdfprinter.php:205
+msgid "Scoresheet filling instructions:"
+msgstr "Инструкция заполнения протокола:"
+
+#: cust/bula/pdfprinter.php:207 cust/gummis/pdfprinter.php:222
+#: cust/wfdf/pdfprinter.php:206 cust/windmill/pdfprinter.php:206
+msgid "Officials fill in their names."
+msgstr "Стафф вносит свои имена."
+
+#: cust/bula/pdfprinter.php:208 cust/gummis/pdfprinter.php:223
+#: cust/wfdf/pdfprinter.php:207 cust/windmill/pdfprinter.php:207
+msgid ""
+"Captains confirm roster by crossing out injured players, and adjusting "
+"jersey numbers if necessary."
+msgstr ""
+"Капитаны подтверждают список вычеркиванием травмированных игроков, а также "
+"корректирует номера, если это необходимо."
+
+#: cust/bula/pdfprinter.php:209 cust/gummis/pdfprinter.php:224
+#: cust/wfdf/pdfprinter.php:208 cust/windmill/pdfprinter.php:208
+msgid "After the toss, officials check the team that will start on offence."
+msgstr "После жеребьвки стаффы проверяют команду, которая начинает в атаке"
+
+#: cust/bula/pdfprinter.php:210 cust/gummis/pdfprinter.php:225
+#: cust/wfdf/pdfprinter.php:209 cust/windmill/pdfprinter.php:209
+msgid ""
+"When half time starts, fill in time it ends (the second half start time)."
+msgstr ""
+"Когда начинается перерыв, заполните время его окончания (время начала второй "
+"половины)."
+
+#: cust/bula/pdfprinter.php:211 cust/gummis/pdfprinter.php:226
+#: cust/wfdf/pdfprinter.php:210 cust/windmill/pdfprinter.php:210
+msgid ""
+"During the game, fill in which team has scored, the jersey numbers of the "
+"player who threw the goal (Assist) and the player who caught the goal "
+"(Goal), the time that the goal was scored, and the scoreline after the goal. "
+"If a player scores an intercept goal (Callahan), then mark XX as assist."
+msgstr ""
+"Заполнение протокола: 1. Команда, забившая очко. 2. Номер пасующего (Assist) "
+"3. Номер забившего (Goal). 4. Время, в которое гол был забит. 5. Счет после "
+"гола. Если игрок забивает Кэллахан (Callahan), то в поле пас (Assist) "
+"отметьте XX."
+
+#: cust/bula/pdfprinter.php:212 cust/gummis/pdfprinter.php:227
+#: cust/wfdf/pdfprinter.php:211 cust/windmill/pdfprinter.php:211
+msgid ""
+"When a team takes a time-out, mark the time in the \"Time-outs\" section."
+msgstr ""
+"Когда команда берет тайм-аут, отмечается время в разделе \"тайм-ауты\"."
+
+#: cust/bula/pdfprinter.php:213 cust/gummis/pdfprinter.php:228
+#: cust/wfdf/pdfprinter.php:212 cust/windmill/pdfprinter.php:212
+msgid ""
+"After the game, each captain signs the scoresheet to confirm the final score."
+msgstr ""
+"После игры, каждый капитан подписывает протокол для подтверждения финального "
+"счета."
+
+#: cust/bula/pdfprinter.php:214 cust/gummis/pdfprinter.php:229
+#: cust/wfdf/pdfprinter.php:213 cust/windmill/pdfprinter.php:213
+msgid "Officials return the completed scoresheet to the results headquarters."
+msgstr "Стаффы, верните заполненный протокол с результатами в штаб."
+
+#: cust/bula/pdfprinter.php:253 cust/default/pdfprinter.php:157
+#: cust/default/pdfprinter.php:167 cust/default/pdfprinter.php:256
+#: cust/fpudd/pdfprinter.php:274 cust/gummis/pdfprinter.php:259
+#: cust/slkl/pdfprinter.php:136 cust/slkl/pdfprinter.php:146
+#: cust/slkl/pdfprinter.php:243 cust/wfdf/pdfprinter.php:252
+#: cust/windmill/pdfprinter.php:252
+msgid "Play"
+msgstr "Играет"
+
+#: cust/bula/pdfprinter.php:254 cust/default/pdfprinter.php:158
+#: cust/default/pdfprinter.php:168 cust/default/pdfprinter.php:257
+#: cust/fpudd/pdfprinter.php:275 cust/gummis/pdfprinter.php:260
+#: cust/wfdf/pdfprinter.php:253 cust/windmill/pdfprinter.php:253
+msgid "Game#"
+msgstr "Игра#"
+
+#: cust/bula/pdfprinter.php:293 cust/bula/pdfprinter.php:294
+#: cust/bula/pdfprinter.php:295 cust/default/pdfprinter.php:296
+#: cust/default/pdfprinter.php:297 cust/default/pdfprinter.php:298
+#: cust/fpudd/pdfprinter.php:314 cust/fpudd/pdfprinter.php:315
+#: cust/fpudd/pdfprinter.php:316 cust/gummis/pdfprinter.php:298
+#: cust/gummis/pdfprinter.php:299 cust/gummis/pdfprinter.php:300
+#: cust/wfdf/pdfprinter.php:292 cust/wfdf/pdfprinter.php:293
+#: cust/wfdf/pdfprinter.php:294 cust/windmill/pdfprinter.php:292
+#: cust/windmill/pdfprinter.php:293 cust/windmill/pdfprinter.php:294
+msgid "NOTICE"
+msgstr "НАПОМИНАНИЕ"
+
+#: cust/bula/pdfprinter.php:293 cust/default/pdfprinter.php:296
+#: cust/fpudd/pdfprinter.php:314 cust/gummis/pdfprinter.php:298
+#: cust/wfdf/pdfprinter.php:292 cust/windmill/pdfprinter.php:292
+msgid ""
+"For new players added, accreditation id or date of birth must be written "
+"down."
+msgstr ""
+"Для добавленых игроков должны быть записаны идентификатор аккредитации или "
+"дата рождения."
+
+#: cust/bula/pdfprinter.php:294 cust/default/pdfprinter.php:297
+#: cust/fpudd/pdfprinter.php:315 cust/gummis/pdfprinter.php:299
+#: cust/wfdf/pdfprinter.php:293 cust/windmill/pdfprinter.php:293
+msgid ""
+"The team is responsible for the accreditation of <u>all</u> players on the "
+"list."
+msgstr "Команда отвечает за аккредитацию <u>всех</u> игроков в списке."
+
+#: cust/bula/pdfprinter.php:295 cust/default/pdfprinter.php:298
+#: cust/fpudd/pdfprinter.php:316 cust/gummis/pdfprinter.php:300
+#: cust/wfdf/pdfprinter.php:294 cust/windmill/pdfprinter.php:294
+msgid ""
+"<b><i>Bold italic</i></b> printed players has problems with license. They "
+"are <u>not</u> allowed to play until problems are solved (= payment recipe "
+"or note from organizer shown)."
+msgstr ""
+"<b><i>Жирным курсивом</i></b> выделяются игроки, у которых есть проблемы с "
+"лицензией. Им <u>не разрешено</u> играть, пока проблемы не будут решены "
+"(обратиться к организаторам)."
+
+#: cust/bula/pdfprinter.php:878 cust/bula/pdfprinter.php:969
+#: cust/bula/pdfprinter.php:994 cust/default/pdfprinter.php:800
+#: cust/default/pdfprinter.php:867 cust/default/pdfprinter.php:891
+#: cust/default/pdfprinter.php:926 cust/gummis/pdfprinter.php:947
+#: cust/gummis/pdfprinter.php:1024 cust/gummis/pdfprinter.php:1045
+#: cust/gummis/pdfprinter.php:1077 cust/slkl/pdfprinter.php:810
+#: cust/slkl/pdfprinter.php:905 cust/slkl/pdfprinter.php:929
+#: cust/wfdf/pdfprinter.php:860 cust/wfdf/pdfprinter.php:951
+#: cust/wfdf/pdfprinter.php:976 cust/windmill/pdfprinter.php:837
+#: cust/windmill/pdfprinter.php:928 cust/windmill/pdfprinter.php:953
+#: user/adddefensesheet.php:240 user/adddefensesheet.php:381
+#: user/addscoresheet.php:417 user/addscoresheet.php:557
+msgid "Home"
+msgstr "Главная"
+
+#: cust/bula/pdfprinter.php:890 cust/bula/pdfprinter.php:977
+#: cust/bula/pdfprinter.php:995 cust/default/pdfprinter.php:812
+#: cust/default/pdfprinter.php:875 cust/default/pdfprinter.php:892
+#: cust/default/pdfprinter.php:927 cust/gummis/pdfprinter.php:958
+#: cust/gummis/pdfprinter.php:1031 cust/gummis/pdfprinter.php:1046
+#: cust/gummis/pdfprinter.php:1078 cust/slkl/pdfprinter.php:822
+#: cust/slkl/pdfprinter.php:913 cust/slkl/pdfprinter.php:930
+#: cust/wfdf/pdfprinter.php:872 cust/wfdf/pdfprinter.php:959
+#: cust/wfdf/pdfprinter.php:977 cust/windmill/pdfprinter.php:849
+#: cust/windmill/pdfprinter.php:936 cust/windmill/pdfprinter.php:954
+#: user/adddefensesheet.php:265 user/adddefensesheet.php:381
+#: user/addscoresheet.php:442 user/addscoresheet.php:557
+msgid "Away"
+msgstr "Гости"
+
+#: cust/bula/pdfprinter.php:905 cust/gummis/pdfprinter.php:971
+#: cust/wfdf/pdfprinter.php:887 cust/windmill/pdfprinter.php:864
+#: user/adddefensesheet.php:228 user/addscoresheet.php:405
+msgid "Starting offensive team"
+msgstr "Команда, начинающая в атаке"
+
+#: cust/bula/pdfprinter.php:963 cust/default/pdfprinter.php:861
+#: cust/gummis/pdfprinter.php:1019 cust/slkl/pdfprinter.php:897
+#: cust/wfdf/pdfprinter.php:945 cust/windmill/pdfprinter.php:922
+msgid "Captains' signatures"
+msgstr "Подпись капитанов"
+
+#: cust/bula/pdfprinter.php:989 cust/default/pdfprinter.php:886
+#: cust/gummis/pdfprinter.php:1040 cust/slkl/pdfprinter.php:924
+#: cust/wfdf/pdfprinter.php:971 cust/windmill/pdfprinter.php:948
+msgid "Scoring team"
+msgstr "Забившая команда"
+
+#: cust/bula/pdfprinter.php:990 cust/default/pdfprinter.php:887
+#: cust/gummis/pdfprinter.php:1041 cust/slkl/pdfprinter.php:925
+#: cust/wfdf/pdfprinter.php:972 cust/windmill/pdfprinter.php:949
+msgid "Jersey numbers"
+msgstr "Номера на футболках"
+
+#: cust/bula/pdfprinter.php:996 cust/default/pdfprinter.php:893
+#: cust/gummis/pdfprinter.php:1047 cust/slkl/pdfprinter.php:931
+#: cust/wfdf/pdfprinter.php:978 cust/windmill/pdfprinter.php:955
+#: gameplay.php:177 mobile/addscoresheet.php:185
+#: scorekeeper/addscoresheet.php:192 user/addscoresheet.php:558
+msgid "Assist"
+msgstr "Пас"
+
+#: cust/bula/pdfprinter.php:997 cust/default/pdfprinter.php:894
+#: cust/gummis/pdfprinter.php:1048 cust/slkl/pdfprinter.php:932
+#: cust/wfdf/pdfprinter.php:979 cust/windmill/pdfprinter.php:956
+#: gameplay.php:177 mobile/addscoresheet.php:187 user/addscoresheet.php:558
+msgid "Goal"
+msgstr "Гол"
+
+#: cust/bula/pdfprinter.php:999 cust/default/pdfprinter.php:896
+#: cust/gummis/pdfprinter.php:1050 cust/slkl/pdfprinter.php:934
+#: cust/wfdf/pdfprinter.php:981 cust/windmill/pdfprinter.php:958
+#: gameplay.php:177
+msgid "Scores"
+msgstr "Счет"
+
+#: cust/bula/pdfprinter.php:1025 cust/default/pdfprinter.php:958
+#: cust/gummis/pdfprinter.php:1106 cust/slkl/pdfprinter.php:960
+#: cust/wfdf/pdfprinter.php:1007 cust/windmill/pdfprinter.php:984
+#: user/adddefensesheet.php:304 user/addscoresheet.php:481
+msgid "Final score"
+msgstr "Финальный счет"
+
+#: cust/default/countries.php:3
+msgid "Afghanistan"
+msgstr "Афганистан"
+
+#: cust/default/countries.php:4
+msgid "Albania"
+msgstr "Албания"
+
+#: cust/default/countries.php:5
+msgid "Algeria"
+msgstr "Алжир"
+
+#: cust/default/countries.php:6
+msgid "American Samoa"
+msgstr "Американское Самоа"
+
+#: cust/default/countries.php:7
+msgid "Andorra"
+msgstr "Андорра"
+
+#: cust/default/countries.php:8
+msgid "Angola"
+msgstr "Ангола"
+
+#: cust/default/countries.php:9
+msgid "Anguilla"
+msgstr "Angola"
+
+#: cust/default/countries.php:10
+msgid "Antigua and Barbuda"
+msgstr "Антигуа и Барбуда"
+
+#: cust/default/countries.php:11
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: cust/default/countries.php:12
+msgid "Armenia"
+msgstr "Армения"
+
+#: cust/default/countries.php:13
+msgid "Aruba"
+msgstr "Aruba"
+
+#: cust/default/countries.php:14
+msgid "Australia"
+msgstr "Австралия"
+
+#: cust/default/countries.php:15
+msgid "Austria"
+msgstr "Австрия"
+
+#: cust/default/countries.php:16
+msgid "Azerbaijan"
+msgstr "Азейрбаджан"
+
+#: cust/default/countries.php:17
+msgid "Bahamas"
+msgstr "Багамы"
+
+#: cust/default/countries.php:18
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: cust/default/countries.php:19
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: cust/default/countries.php:20
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: cust/default/countries.php:21
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: cust/default/countries.php:22
+msgid "Belgium"
+msgstr "Бельгия"
+
+#: cust/default/countries.php:23
+msgid "Belize"
+msgstr "Белиз"
+
+#: cust/default/countries.php:24
+msgid "Benin"
+msgstr "Бенин"
+
+#: cust/default/countries.php:25
+msgid "Bermuda"
+msgstr "Бермуда"
+
+#: cust/default/countries.php:26
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: cust/default/countries.php:27
+msgid "Bolivia"
+msgstr "Боливия"
+
+#: cust/default/countries.php:28
+msgid "Bosnia"
+msgstr "Босния и Герцеговина"
+
+#: cust/default/countries.php:29
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: cust/default/countries.php:30
+msgid "Brazil"
+msgstr "Бразилия"
+
+#: cust/default/countries.php:31
+msgid "British Virgin Islands"
+msgstr "Британские Вирджинские острова"
+
+#: cust/default/countries.php:32
+msgid "Brunei"
+msgstr "Бруней"
+
+#: cust/default/countries.php:33
+msgid "Bulgaria"
+msgstr "Болгария"
+
+#: cust/default/countries.php:34
+msgid "Burkina Faso"
+msgstr "Буркина Фасо"
+
+#: cust/default/countries.php:35
+msgid "Burundi"
+msgstr "Burundi"
+
+#: cust/default/countries.php:36
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: cust/default/countries.php:37
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: cust/default/countries.php:38
+msgid "Canada"
+msgstr "Канада"
+
+#: cust/default/countries.php:39
+msgid "Cape Verde"
+msgstr "Кабо-Верде"
+
+#: cust/default/countries.php:40
+msgid "Cayman Islands"
+msgstr "Каймановы Острова"
+
+#: cust/default/countries.php:41
+msgid "Central African Republic"
+msgstr "Центральная Африканская Республика"
+
+#: cust/default/countries.php:42
+msgid "Chad"
+msgstr "Чад"
+
+#: cust/default/countries.php:43
+msgid "Chile"
+msgstr "Чили"
+
+#: cust/default/countries.php:44
+msgid "China"
+msgstr "Китай"
+
+#: cust/default/countries.php:45
+msgid "Christmas Island"
+msgstr "Остров Рождества"
+
+#: cust/default/countries.php:46
+msgid "Colombia"
+msgstr "Колумбия"
+
+#: cust/default/countries.php:47
+msgid "Comoros"
+msgstr "Коморские Острова"
+
+#: cust/default/countries.php:48
+msgid "Cook Islands"
+msgstr "Острова Кука"
+
+#: cust/default/countries.php:49
+msgid "Costa Rica"
+msgstr "Коста Рика"
+
+#: cust/default/countries.php:50
+msgid "Croatia"
+msgstr "Хорватия"
+
+#: cust/default/countries.php:51
+msgid "Cuba"
+msgstr "Куба"
+
+#: cust/default/countries.php:52
+msgid "Cyprus"
+msgstr "Кипр"
+
+#: cust/default/countries.php:53
+msgid "Czech Republic"
+msgstr "Чехия"
+
+#: cust/default/countries.php:54
+msgid "Denmark"
+msgstr "Дания"
+
+#: cust/default/countries.php:55
+msgid "Djibouti"
+msgstr "Джибути"
+
+#: cust/default/countries.php:56
+msgid "Dominica"
+msgstr "Доминика"
+
+#: cust/default/countries.php:57
+msgid "Dominican Republic"
+msgstr "Доминиканская республика"
+
+#: cust/default/countries.php:58
+msgid "Ecuador"
+msgstr "Эквадор"
+
+#: cust/default/countries.php:59
+msgid "Egypt"
+msgstr "Египет"
+
+#: cust/default/countries.php:60
+msgid "El Salvador"
+msgstr "Эль Сальвадор "
+
+#: cust/default/countries.php:61
+msgid "Equatorial Guinea"
+msgstr "Экваториальная Гвинея"
+
+#: cust/default/countries.php:62
+msgid "Eritrea"
+msgstr "Эритрея"
+
+#: cust/default/countries.php:63
+msgid "Estonia"
+msgstr "Эстония"
+
+#: cust/default/countries.php:64
+msgid "Ethiopia"
+msgstr "Эфиопия"
+
+#: cust/default/countries.php:65
+msgid "Falkland Islands"
+msgstr "Фолклендские острова"
+
+#: cust/default/countries.php:66
+msgid "Faroe Islands"
+msgstr "Фарерские острова"
+
+#: cust/default/countries.php:67
+msgid "Fiji"
+msgstr "Фиджи"
+
+#: cust/default/countries.php:68
+msgid "Finland"
+msgstr "Финлядния"
+
+#: cust/default/countries.php:69
+msgid "France"
+msgstr "Франция"
+
+#: cust/default/countries.php:70
+msgid "French Polynesia"
+msgstr "Французская Полинезия"
+
+#: cust/default/countries.php:71
+msgid "Gabon"
+msgstr "Габон"
+
+#: cust/default/countries.php:72
+msgid "Gambia"
+msgstr "Гамбия"
+
+#: cust/default/countries.php:73
+msgid "Georgia"
+msgstr "Грузия"
+
+#: cust/default/countries.php:74
+msgid "Germany"
+msgstr "Германия"
+
+#: cust/default/countries.php:75
+msgid "Ghana"
+msgstr "Гана"
+
+#: cust/default/countries.php:76
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+#: cust/default/countries.php:77
+msgid "Greece"
+msgstr "Греция"
+
+#: cust/default/countries.php:78
+msgid "Greenland"
+msgstr "Гренландия"
+
+#: cust/default/countries.php:79
+msgid "Grenada"
+msgstr "Гренада"
+
+#: cust/default/countries.php:80
+msgid "Guam"
+msgstr "Гуам"
+
+#: cust/default/countries.php:81
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#: cust/default/countries.php:82
+msgid "Guinea"
+msgstr "Гвинея"
+
+#: cust/default/countries.php:83
+msgid "Guinea-Bissau"
+msgstr "Гвинея Биссау"
+
+#: cust/default/countries.php:84
+msgid "Guyana"
+msgstr "Гайана"
+
+#: cust/default/countries.php:85
+msgid "Haiti"
+msgstr "Гиати"
+
+#: cust/default/countries.php:86
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: cust/default/countries.php:87
+msgid "Hong Kong"
+msgstr "Гон Конг"
+
+#: cust/default/countries.php:88
+msgid "Hungary"
+msgstr "Венгрия"
+
+#: cust/default/countries.php:89
+msgid "Iceland"
+msgstr "Исландия"
+
+#: cust/default/countries.php:90
+msgid "India"
+msgstr "Индия"
+
+#: cust/default/countries.php:91
+msgid "Indonesia"
+msgstr "Индонезия"
+
+#: cust/default/countries.php:92
+msgid "Iran"
+msgstr "Иран"
+
+#: cust/default/countries.php:93
+msgid "Iraq"
+msgstr "Ирак"
+
+#: cust/default/countries.php:94
+msgid "Ireland"
+msgstr "Ирландия"
+
+#: cust/default/countries.php:95
+msgid "Israel"
+msgstr "Израиль"
+
+#: cust/default/countries.php:96
+msgid "Italy"
+msgstr "Италия"
+
+#: cust/default/countries.php:97
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: cust/default/countries.php:98
+msgid "Japan"
+msgstr "Япония"
+
+#: cust/default/countries.php:99
+msgid "Jordan"
+msgstr "Йордан"
+
+#: cust/default/countries.php:100
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: cust/default/countries.php:101
+msgid "Kenya"
+msgstr "Кения"
+
+#: cust/default/countries.php:102
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#: cust/default/countries.php:103
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: cust/default/countries.php:104
+msgid "Kyrgyzstan"
+msgstr "Кыргызстан"
+
+#: cust/default/countries.php:105
+msgid "Laos"
+msgstr "Лаос"
+
+#: cust/default/countries.php:106
+msgid "Latvia"
+msgstr "Латвия"
+
+#: cust/default/countries.php:107
+msgid "Lebanon"
+msgstr "Леван"
+
+#: cust/default/countries.php:108
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: cust/default/countries.php:109
+msgid "Liberia"
+msgstr "Либерия"
+
+#: cust/default/countries.php:110
+msgid "Libya"
+msgstr "Ливия"
+
+#: cust/default/countries.php:111
+msgid "Liechtenstein"
+msgstr "Лихтинштейн"
+
+#: cust/default/countries.php:112
+msgid "Lithuania"
+msgstr "Литва"
+
+#: cust/default/countries.php:113
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: cust/default/countries.php:114
+msgid "Macau"
+msgstr "Макао"
+
+#: cust/default/countries.php:115
+msgid "Macedonia"
+msgstr "Македония"
+
+#: cust/default/countries.php:116
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: cust/default/countries.php:117
+msgid "Malawi"
+msgstr "Малави"
+
+#: cust/default/countries.php:118
+msgid "Malaysia"
+msgstr "Малайзия"
+
+#: cust/default/countries.php:119
+msgid "Maldives"
+msgstr "Мальдивы"
+
+#: cust/default/countries.php:120
+msgid "Mali"
+msgstr "Мали"
+
+#: cust/default/countries.php:121
+msgid "Malta"
+msgstr "Мальта"
+
+#: cust/default/countries.php:122
+msgid "Marshall Islands"
+msgstr "Маршалловы острова"
+
+#: cust/default/countries.php:123
+msgid "Martinique"
+msgstr "Мартиника"
+
+#: cust/default/countries.php:124
+msgid "Mauritania"
+msgstr "Мавритания"
+
+#: cust/default/countries.php:125
+msgid "Mauritius"
+msgstr "Маврикий"
+
+#: cust/default/countries.php:126
+msgid "Mexico"
+msgstr "Мексика"
+
+#: cust/default/countries.php:127
+msgid "Micronesia"
+msgstr "Микронезия"
+
+#: cust/default/countries.php:128
+msgid "Moldova"
+msgstr "Молдова"
+
+#: cust/default/countries.php:129
+msgid "Monaco"
+msgstr "Монако"
+
+#: cust/default/countries.php:130
+msgid "Mongolia"
+msgstr "Монголия"
+
+#: cust/default/countries.php:131
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: cust/default/countries.php:132
+msgid "Morocco"
+msgstr "Марокко"
+
+#: cust/default/countries.php:133
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#: cust/default/countries.php:134
+msgid "Myanmar"
+msgstr "Мьянмар"
+
+#: cust/default/countries.php:135
+msgid "Namibia"
+msgstr "Намибия"
+
+#: cust/default/countries.php:136
+msgid "Nauru"
+msgstr "Nauru"
+
+#: cust/default/countries.php:137
+msgid "Nepal"
+msgstr "Непал"
+
+#: cust/default/countries.php:138
+msgid "Netherlands"
+msgstr "Голландия"
+
+#: cust/default/countries.php:139
+msgid "Netherlands Antilles"
+msgstr "Нидерландские Антильские острова"
+
+#: cust/default/countries.php:140
+msgid "New Zealand"
+msgstr "Новая Зеландия"
+
+#: cust/default/countries.php:141
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
+#: cust/default/countries.php:142
+msgid "Niger"
+msgstr "Нигер"
+
+#: cust/default/countries.php:143
+msgid "Nigeria"
+msgstr "Нигерия"
+
+#: cust/default/countries.php:144
+msgid "Niue"
+msgstr "Ниуэ"
+
+#: cust/default/countries.php:145
+msgid "Norfolk Island"
+msgstr "Остров Норфолк"
+
+#: cust/default/countries.php:146
+msgid "North Korea"
+msgstr "Северная Корея"
+
+#: cust/default/countries.php:147
+msgid "Norway"
+msgstr "Норвегия"
+
+#: cust/default/countries.php:148
+msgid "Oman"
+msgstr "Оман"
+
+#: cust/default/countries.php:149
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: cust/default/countries.php:150
+msgid "Palau"
+msgstr "Palau"
+
+#: cust/default/countries.php:151
+msgid "Panama"
+msgstr "Панама"
+
+#: cust/default/countries.php:152
+msgid "Papua New Guinea"
+msgstr "Папуа Новая Гвинея"
+
+#: cust/default/countries.php:153
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: cust/default/countries.php:154
+msgid "Peru"
+msgstr "Перу"
+
+#: cust/default/countries.php:155
+msgid "Philippines"
+msgstr "Филиппины"
+
+#: cust/default/countries.php:156
+msgid "Pitcairn Islands"
+msgstr "Питкэрн"
+
+#: cust/default/countries.php:157
+msgid "Poland"
+msgstr "Польша"
+
+#: cust/default/countries.php:158
+msgid "Portugal"
+msgstr "Португалия"
+
+#: cust/default/countries.php:159
+msgid "Puerto Rico"
+msgstr "Пуэрто Рико"
+
+#: cust/default/countries.php:160
+msgid "Qatar"
+msgstr "Катар"
+
+#: cust/default/countries.php:161
+msgid "Romania"
+msgstr "Румыния "
+
+#: cust/default/countries.php:162
+msgid "Russian Federation"
+msgstr "Российская Федерация"
+
+#: cust/default/countries.php:163
+msgid "Russia"
+msgstr "Россия"
+
+#: cust/default/countries.php:164
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: cust/default/countries.php:165
+msgid "Saint Kitts and Nevis"
+msgstr "Сент-Китс и Невис "
+
+#: cust/default/countries.php:166
+msgid "Saint Lucia"
+msgstr "Санта Лучиа"
+
+#: cust/default/countries.php:167
+msgid "Saint Vicent and the Grenadines"
+msgstr "Сент-Винсент и Гренадины"
+
+#: cust/default/countries.php:168
+msgid "Samoa"
+msgstr "Самоа"
+
+#: cust/default/countries.php:169
+msgid "San Marino"
+msgstr "Сан Марино"
+
+#: cust/default/countries.php:170
+msgid "São Tomé and Príncipe"
+msgstr "Сан-Томе и Принсипи"
+
+#: cust/default/countries.php:171
+msgid "Saudi Arabia"
+msgstr "Саудовская Аравия"
+
+#: cust/default/countries.php:172
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: cust/default/countries.php:173
+msgid "Serbia and Montenegro"
+msgstr "Сербия и Черногория"
+
+#: cust/default/countries.php:174
+msgid "Sierra Leone"
+msgstr "Сьерра Лионе"
+
+#: cust/default/countries.php:175
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: cust/default/countries.php:176
+msgid "Slovakia"
+msgstr "Словакия"
+
+#: cust/default/countries.php:177
+msgid "Slovenia"
+msgstr "Словения"
+
+#: cust/default/countries.php:178
+msgid "Soloman Islands"
+msgstr "Соломоновы Острова"
+
+#: cust/default/countries.php:179
+msgid "Somalia"
+msgstr "Сомали"
+
+#: cust/default/countries.php:180
+msgid "South Africa"
+msgstr "Южная Африка"
+
+#: cust/default/countries.php:181
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "South Georgia and the South Sandwich Islands"
+
+#: cust/default/countries.php:182
+msgid "South Korea"
+msgstr "Южная Корея"
+
+#: cust/default/countries.php:183
+msgid "Spain"
+msgstr "Испания"
+
+#: cust/default/countries.php:184
+msgid "Sri Lanka"
+msgstr "Шри Ланка"
+
+#: cust/default/countries.php:185
+msgid "Sudan"
+msgstr "Судан"
+
+#: cust/default/countries.php:186
+msgid "Suriname"
+msgstr "Суринаме"
+
+#: cust/default/countries.php:187
+msgid "Swaziland"
+msgstr "Свазиленд"
+
+#: cust/default/countries.php:188
+msgid "Sweden"
+msgstr "Швеция"
+
+#: cust/default/countries.php:189
+msgid "Switzerland"
+msgstr "Щвейцария"
+
+#: cust/default/countries.php:190
+msgid "Syria"
+msgstr "Сирия"
+
+#: cust/default/countries.php:191
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: cust/default/countries.php:192
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: cust/default/countries.php:193
+msgid "Tanzania"
+msgstr "Танзания"
+
+#: cust/default/countries.php:194
+msgid "Thailand"
+msgstr "Тайланд"
+
+#: cust/default/countries.php:195
+msgid "Togo"
+msgstr "Того"
+
+#: cust/default/countries.php:196
+msgid "Tonga"
+msgstr "Тонго"
+
+#: cust/default/countries.php:197
+msgid "Trinidad and Tobago"
+msgstr "Тринидад и Тобаго"
+
+#: cust/default/countries.php:198
+msgid "Tunisia"
+msgstr "Тунис"
+
+#: cust/default/countries.php:199
+msgid "Turkey"
+msgstr "Турция"
+
+#: cust/default/countries.php:200
+msgid "Turkmenistan"
+msgstr "Туркменистан"
+
+#: cust/default/countries.php:201
+msgid "Turks and Caicos Islands"
+msgstr "Теркс и Кайкос"
+
+#: cust/default/countries.php:202
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: cust/default/countries.php:203
+msgid "Uganda"
+msgstr "Уганда"
+
+#: cust/default/countries.php:204
+msgid "Ukraine"
+msgstr "Украина"
+
+#: cust/default/countries.php:205
+msgid "United Kingdom"
+msgstr "Соединенное Королевство"
+
+#: cust/default/countries.php:206
+msgid "United States of America"
+msgstr "Соединенные Штаты Америки"
+
+#: cust/default/countries.php:207
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: cust/default/countries.php:208
+msgid "US Virgin Islands"
+msgstr "Вирджинские острова США"
+
+#: cust/default/countries.php:209
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: cust/default/countries.php:210
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: cust/default/countries.php:211
+msgid "Venezuela"
+msgstr "Венесуела"
+
+#: cust/default/countries.php:212
+msgid "Vietnam"
+msgstr "Вьетнам"
+
+#: cust/default/countries.php:213
+msgid "Wallis and Futuna"
+msgstr "Уоллис и Футуна"
+
+#: cust/default/countries.php:214
+msgid "Yemen"
+msgstr "Йемен"
+
+#: cust/default/countries.php:215
+msgid "Zambia"
+msgstr "Замбия"
+
+#: cust/default/countries.php:216
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#: cust/default/head.php:8
+#, fuzzy
+#| msgid "EXAMPLE"
+msgid "LOGO EXAMPLE"
+msgstr "ПРИМЕР"
+
+#: cust/default/head.php:12 ext/countrystatus.php:17 ext/eventpools.php:18
+#: ext/poolscoreboard.php:16 ext/poolstatus.php:17 ext/teamcoming.php:17
+#: ext/teamplayed.php:18 ext/teamscoreboard.php:17 ext/tournament.php:22
+#: ical.php:47 lib/user.functions.php:869 lib/user.functions.php:922
+#: restful/index.php:7 restful/seasons/index.php:12
+#: restful/seasons/series.php:5 scorekeeper/index.php:98
+msgid "Ultiorganizer"
+msgstr "Ultiorganizer"
+
+#: cust/default/mass-accreditation.php:2 cust/fpudd/mass-accreditation.php:2
+msgid "Mass accreditation"
+msgstr "Массовая аккредитация"
+
+#: cust/default/mass-accreditation.php:11 cust/fpudd/mass-accreditation.php:11
+#: cust/slkl/mass-accreditation.php:135
+msgid "Accredit"
+msgstr "Аккредитовать"
+
+#: cust/default/pdfprinter.php:35 cust/default/pdfprinter.php:100
+#: cust/default/pdfprinter.php:129 cust/gummis/pdfprinter.php:95
+msgid "Organization"
+msgstr "Организация"
+
+#: cust/default/pdfprinter.php:55 cust/slkl/pdfprinter.php:837
+#: scorekeeper/addfirstoffence.php:32
+msgid "First Offence"
+msgstr "Первая атака"
+
+#: cust/default/pdfprinter.php:79
+msgid ""
+"After the match has ended, update result:\n"
+"\n"
+msgstr ""
+"После окончания игры обновите результат:\n"
+"\n"
+
+#: cust/default/pdfprinter.php:102 cust/gummis/pdfprinter.php:97
+msgid "Defenses record"
+msgstr ""
+
+#: cust/default/pdfprinter.php:159 cust/default/pdfprinter.php:169
+msgid "License ok"
+msgstr "Лицензия ок"
+
+#: cust/default/pdfprinter.php:929 cust/gummis/pdfprinter.php:1080
+#: user/adddefensesheet.php:383
+msgid "Touched"
+msgstr ""
+
+#: cust/default/pdfprinter.php:930 cust/gummis/pdfprinter.php:1081
+#: user/adddefensesheet.php:382
+msgid "Caught"
+msgstr ""
+
+#: cust/default/pdfprinter.php:931 cust/fpudd/pdfprinter.php:973
+#: cust/gummis/pdfprinter.php:1082 user/adddefensesheet.php:383
+msgid "Callahan"
+msgstr "Келлехен"
+
+#: cust/default/teamplayers.functions.php:27
+#: cust/fpudd/teamplayers.functions.php:27
+#: cust/slkl/teamplayers.functions.php:27
+msgid "Name must be at least 2 letters long!"
+msgstr "Имя должно быть не менее 2 букв!"
+
+#: cust/default/teamplayers.functions.php:52
+#: cust/fpudd/teamplayers.functions.php:52
+#: cust/slkl/teamplayers.functions.php:50 result.php:78
+#: scorekeeper/result.php:82 user/enrollteam.php:114
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: cust/default/teamplayers.functions.php:102
+#: cust/fpudd/teamplayers.functions.php:102 user/teamplayers.php:166
+msgid "Profile Id"
+msgstr "Номер профиля"
+
+#: cust/default/teamplayers.functions.php:103
+#: cust/fpudd/teamplayers.functions.php:103 cust/slkl/pdfprinter.php:137
+#: cust/slkl/pdfprinter.php:147 user/teamplayers.php:155
+msgid "#"
+msgstr "#"
+
+#: cust/default/teamplayers.functions.php:104
+#: cust/fpudd/teamplayers.functions.php:104
+#: cust/slkl/teamplayers.functions.php:93 user/playerprofile.php:209
+#: user/teamplayers.php:156
+msgid "First name"
+msgstr "Имя"
+
+#: cust/default/teamplayers.functions.php:105
+#: cust/fpudd/teamplayers.functions.php:105
+#: cust/slkl/teamplayers.functions.php:94 user/playerprofile.php:213
+#: user/teamplayers.php:157
+msgid "Last name"
+msgstr "Фамилия"
+
+#: cust/default/teamplayers.functions.php:106
+#: cust/fpudd/teamplayers.functions.php:106
+#: cust/slkl/teamplayers.functions.php:97 playercard.php:59
+#: user/playerprofile.php:258
+msgid "Date of birth"
+msgstr "Дата рождения"
+
+#: cust/default/teamplayers.functions.php:107
+#: cust/fpudd/teamplayers.functions.php:107
+msgid "Prev. Team"
+msgstr "Пред. Команда"
+
+#: cust/default/teamplayers.functions.php:108
+#: cust/fpudd/teamplayers.functions.php:108
+msgid "Prev. Event"
+msgstr "Пред. Событие"
+
+#: cust/default/teamplayers.inc.php:3 cust/fpudd/teamplayers.inc.php:3
+#: cust/slkl/teamplayers.inc.php:3
+msgid "Choose best match"
+msgstr "Выберите наиболее подходящий"
+
+#: cust/default/teamplayers.inc.php:14 cust/fpudd/teamplayers.inc.php:14
+#: cust/slkl/teamplayers.inc.php:14
+msgid "Close"
+msgstr "Закрыть"
+
+#: cust/fpudd/pdfprinter.php:37
+msgid "APUDD"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:39
+msgid "Folha do jogo da"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:50
+msgid "Jogo #"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:51
+msgid "Equipa da casa"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:52
+msgid "Equipa Visitante"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:53
+#, fuzzy
+#| msgid "Division"
+msgid "Divisão"
+msgstr "Дивизион"
+
+#: cust/fpudd/pdfprinter.php:53
+msgid "Grupo"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:54
+msgid "Campo"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:55
+msgid "Hora e data do jogo"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:56
+msgid "Estatísticas feitas por:"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:66
+msgid "Fim do intervalo aos"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:100 cust/fpudd/pdfprinter.php:133
+msgid "FPUDD"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:102
+msgid "Lista de defesas"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:135
+msgid "Lista de jogadores"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:136
+msgid "para o jogo"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:160
+msgid "Nome"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:161
+msgid "Número"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:171
+msgid "Number"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:818 cust/fpudd/pdfprinter.php:909
+#: cust/fpudd/pdfprinter.php:933 cust/fpudd/pdfprinter.php:968
+msgid "Casa"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:830 cust/fpudd/pdfprinter.php:917
+#, fuzzy
+#| msgid "Visits"
+msgid "Visitante"
+msgstr "Посещения"
+
+#: cust/fpudd/pdfprinter.php:845
+msgid "Primeiro ataque"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:869
+msgid "Pontos espírito do jogo"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:903
+msgid "Assinaturas dos capitães"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:928
+msgid "Equipa"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:929
+msgid "Número T-shirt"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:934 cust/fpudd/pdfprinter.php:969
+msgid "Visit."
+msgstr "Гости"
+
+#: cust/fpudd/pdfprinter.php:935
+msgid "Assist."
+msgstr "Пас"
+
+#: cust/fpudd/pdfprinter.php:936
+msgid "Golo"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:937 cust/fpudd/pdfprinter.php:974
+#, fuzzy
+#| msgid "Template"
+msgid "Tempo"
+msgstr "Шаблон"
+
+#: cust/fpudd/pdfprinter.php:938
+#, fuzzy
+#| msgid "Ecuador"
+msgid "Marcador"
+msgstr "Эквадор"
+
+#: cust/fpudd/pdfprinter.php:970
+msgid "Jogador"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:971
+msgid "Apanhado"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:972
+msgid "Rejeitado"
+msgstr ""
+
+#: cust/fpudd/pdfprinter.php:1000
+msgid "Marcador final"
+msgstr ""
+
+#: cust/gummis/pdfprinter.php:124
+msgid "Gummis"
+msgstr ""
+
+#: cust/slkl/head.php:4
+msgid "Ultimate.fi"
+msgstr "Ultimate.fi"
+
+#: cust/slkl/head.php:16
+#, fuzzy
+#| msgid "Ultimate results"
+msgid "Ultimate Pelikone"
+msgstr "Ultimate результаты"
+
+#: cust/slkl/head.php:17 cust/slkl/pdfprinter.php:35
+#: cust/slkl/pdfprinter.php:108
+msgid "Finnish Flying Disc Association"
+msgstr "Финская Федерация Летающих Дисков"
+
+#: cust/slkl/mass-accreditation.php:26
+msgid "No divisions selected!"
+msgstr "Дивизионы не выбраны!"
+
+#: cust/slkl/mass-accreditation.php:66
+msgid "new accreditations."
+msgstr "новые аккредитации."
+
+#: cust/slkl/mass-accreditation.php:67 playercard.php:354 playercard.php:511
+#: statistics.php:115 statistics.php:155 teamcard.php:354 teamcard.php:507
+msgid "Total"
+msgstr "Всего"
+
+#: cust/slkl/mass-accreditation.php:67
+msgid "players accredited."
+msgstr "игроки аккредитованы."
+
+#: cust/slkl/mass-accreditation.php:73
+msgid "Update ultiorganizer license database"
+msgstr "Обновить базу данных лицензий Ultiorganizer"
+
+#: cust/slkl/mass-accreditation.php:77
+msgid "Membership database (a file with .mdb/.csv suffix)"
+msgstr "База данных игрокв (mdb/cvs формата)"
+
+#: cust/slkl/mass-accreditation.php:78
+msgid "Upload"
+msgstr "Загрузить"
+
+#: cust/slkl/mass-accreditation.php:83
+msgid "License file imported."
+msgstr "Файл лецензии импортирован."
+
+#: cust/slkl/mass-accreditation.php:86
+msgid "New licensed players added:"
+msgstr "Добавлены новые лицензированные игроки:"
+
+#: cust/slkl/mass-accreditation.php:93
+msgid "Accredit players against license database with selected conditions."
+msgstr "Аккредитация игроков из базы даных лицензий, с выбранными условиями."
+
+#: cust/slkl/mass-accreditation.php:98
+msgid "Select divisions to check:"
+msgstr "Выберите дивизионы для проверки:"
+
+#: cust/slkl/mass-accreditation.php:108
+msgid "Select licenses validity required:"
+msgstr "Выберите лицензию на необходимый срок:"
+
+#: cust/slkl/mass-accreditation.php:118
+msgid "License for year:"
+msgstr "Годовая лицензия:"
+
+#: cust/slkl/mass-accreditation.php:124
+msgid "Select license type(s) accepted:"
+msgstr "Выберите принятый тип(ы) лицензии:"
+
+#: cust/slkl/mass-accreditation.php:132
+msgid "Accept any"
+msgstr "Подтвердить все"
+
+#: cust/slkl/mass-accreditation.php:135
+msgid "Accredit all players in selected divisions:"
+msgstr "Аккредитовать всех игроков в выбранных дивизионах:"
+
+#: cust/slkl/mass-accreditation.php:235
+msgid "License database update ok"
+msgstr "Обновление базы данных лицензий прошло успешно"
+
+#: cust/slkl/mass-accreditation.php:238
+msgid "License database update failed"
+msgstr "Обновление базы данных лицензий не удалось"
+
+#: cust/slkl/pdfprinter.php:63
+msgid "Half time ends (time)"
+msgstr "Перерыв заканчивается в"
+
+#: cust/slkl/pdfprinter.php:95
+msgid "After the match has ended, update result:"
+msgstr "После окончания игры обновите результат:"
+
+#: cust/slkl/pdfprinter.php:197
+msgid "Filling instructions:"
+msgstr "Заполнение инструкции:"
+
+#: cust/slkl/pdfprinter.php:198
+msgid "1. Mark team's captain with C letter after name."
+msgstr "1. Отметьте капитана команды буквой С после имени."
+
+#: cust/slkl/pdfprinter.php:199
+msgid "2. Mark players playing with X on Play -column."
+msgstr "2. Отметьте игроков играющих в игре крестиком Х в колонке Играет."
+
+#: cust/slkl/pdfprinter.php:200
+msgid "3. Add jersey numbers for players on # -column."
+msgstr "3. Добавьте номера игроков в #-колонке."
+
+#: cust/slkl/pdfprinter.php:244 scorekeeper/addplayerlists.php:101
+msgid "Jersey"
+msgstr "Футболка"
+
+#: cust/slkl/pdfprinter.php:802
+msgid "Time-outs (time)"
+msgstr "Тайм-ауты (время)"
+
+#: cust/slkl/teamplayers.functions.php:92
+msgid "Accr. Id"
+msgstr "Номер аккредитации"
+
+#: cust/slkl/teamplayers.functions.php:95 user/playerprofile.php:194
+#: user/teamplayers.php:162
+msgid "Membership"
+msgstr "Членство"
+
+#: cust/slkl/teamplayers.functions.php:96 user/playerprofile.php:184
+#: user/teamplayers.php:163
+msgid "License"
+msgstr "Лицензия"
+
+#: cust/slkl/translations.inc.php:3
+msgid "Open"
+msgstr "Открытый"
+
+#: cust/slkl/translations.inc.php:4
+msgid "Women"
+msgstr "Женский"
+
+#: cust/slkl/translations.inc.php:5
+msgid "Juniors"
+msgstr "Юниорский"
+
+#: cust/slkl/translations.inc.php:6
+msgid "Winter"
+msgstr "Зима"
+
+#: cust/slkl/translations.inc.php:7
+msgid "Summer"
+msgstr "Лето"
+
+#: cust/slkl/translations.inc.php:8
+msgid "Final"
+msgstr "Финал"
+
+#: cust/slkl/translations.inc.php:9 lib/pool.functions.php:266
+#: statistics.php:40 teams.php:209
+msgid "Bronze"
+msgstr "Бронза"
+
+#: cust/slkl/translations.inc.php:10
+msgid "SM-Final"
+msgstr "Полуфинал"
+
+#: cust/slkl/translations.inc.php:11
+msgid "SM-qualification"
+msgstr "SM-квалификация"
+
+#: cust/slkl/translations.inc.php:12
+msgid "SM-upper round"
+msgstr "SM-верхний пул"
+
+#: cust/slkl/translations.inc.php:13
+msgid "SM-regular round"
+msgstr "SM-обычный круг"
+
+#: cust/slkl/translations.inc.php:14
+msgid "I-division"
+msgstr "I-Дивизион"
+
+#: cust/slkl/translations.inc.php:15
+msgid "I-division continuation pool"
+msgstr "I-дивизион продолжающаяся группа"
+
+#: cust/slkl/translations.inc.php:16
+msgid "Southwest division"
+msgstr "Дивизион Юго-Запад"
+
+#: cust/slkl/translations.inc.php:17
+msgid "Northeast division"
+msgstr "Дивизион Северо-Восток"
+
+#: cust/slkl/translations.inc.php:18
+msgid "Continuation pool"
+msgstr "Продолжающаяся группа"
+
+#: cust/slkl/translations.inc.php:19
+msgid "Upper"
+msgstr "Верхний"
+
+#: cust/slkl/translations.inc.php:20
+msgid "Lower"
+msgstr "Нижний"
+
+#: cust/wfdf/pdfprinter.php:35 cust/wfdf/pdfprinter.php:103
+#: cust/windmill/pdfprinter.php:35 cust/windmill/pdfprinter.php:103
+msgid "World Flying Disc Federation"
+msgstr "Всемирная Федерация Летающих Дисков"
+
+#: cust/wfdf/pdfprinter.php:85 cust/windmill/pdfprinter.php:85
+msgid "After the match has ended, send SMS"
+msgstr "После того, как матч закончился, отправьте SMS"
+
+#: cust/wfdf/pdfprinter.php:87 cust/windmill/pdfprinter.php:87
+msgid "home score"
+msgstr "счет хозяев"
+
+#: cust/wfdf/pdfprinter.php:87 cust/windmill/pdfprinter.php:87
+msgid "guest score"
+msgstr "счет гостей"
+
+#: cust/wfdf/pdfprinter.php:87 cust/windmill/pdfprinter.php:87
+msgid "without the quotes"
+msgstr "без кавычек"
+
+#: cust/wfdf/pdfprinter.php:87 cust/windmill/pdfprinter.php:87
+msgid "to number +358404761685"
+msgstr "номер +71234567890"
+
+#: cust/wfdf/pdfprinter.php:88 cust/windmill/pdfprinter.php:88
+msgid "e.g."
+msgstr "т.к."
+
+#: defensestatus.php:13 defensestatus.php:36 poolstatus.php:197
+#: poolstatus.php:227 poolstatus.php:229 seriesstatus.php:284
+msgid "Defenseboard"
+msgstr "ЗАщиты"
+
+#: defensestatus.php:64 defensestatus.php:66 gameplay.php:529 gameplay.php:554
+#: playercard.php:158 teamcard.php:118 teamcard.php:230 teamcard.php:304
+msgid "Defenses"
+msgstr "Защиты"
+
+#: ext/countrystatus.php:134 ext/eventpools.php:91 ext/poolstatus.php:82
+#: poolstatus.php:475
+msgid "No playoff tree template found."
+msgstr "Не найдены шаблоны сетки плейофф."
+
+#: ext/eventpools.php:48 ext/poolstatus.php:40 seriesstatus.php:136
+#: seriesstatus.php:138
+msgid "Goals against"
+msgstr "Пропущенные"
+
+#: ext/eventpools.php:49 ext/poolstatus.php:41
+msgid "Goal diff"
+msgstr "Разница голов"
+
+#: ext/eventpools.php:128
+msgid "Warning: missing team"
+msgstr ""
+
+#: ext/export.php:9 menufunctions.php:639
+msgid "Data export"
+msgstr "Экспорт данных"
+
+#: ext/export.php:22
+msgid "CSV-files"
+msgstr "CSV-файлы"
+
+#: ext/export.php:23
+msgid "Get comma separated UTF-8 encoded files by clicking links below."
+msgstr ""
+"Получите файлы с разделением запятыми, в кодировке UTF-8, по ссылкам ниже."
+
+#: ext/export.php:24
+msgid "You can also change encoding and separator."
+msgstr "Вы также можете изменить кодировку и разделитель."
+
+#: ext/export.php:26
+msgid "All scheduled games"
+msgstr "Все игры расписания"
+
+#: ext/export.php:28
+msgid "Player statistics"
+msgstr "Статистика игрока"
+
+#: ext/export.php:29
+msgid "Team statistics"
+msgstr "Статистика команды"
+
+#: ext/image.php:48 user/clubprofile.php:215 user/playerprofile.php:367
+#: user/teamprofile.php:175
+msgid "No image"
+msgstr "Нет изображения"
+
+#: ext/index.php:10 menufunctions.php:638
+msgid "Ultiorganizer links"
+msgstr "Ссылки Алтиорганайзера"
+
+#: ext/index.php:28
+msgid "default"
+msgstr "по умолчанию"
+
+#: ext/index.php:28
+msgid "black and white"
+msgstr "черно-белый"
+
+#: ext/index.php:28
+msgid "no borders"
+msgstr "без рамок"
+
+#: ext/index.php:56
+msgid "Embedding Ultiorganizer into other pages"
+msgstr "Вставка Алтиорганайзера в другие страницы"
+
+#: ext/index.php:58
+msgid ""
+"You can embed the following statistics from ultiorganizer directly into your "
+"own pages"
+msgstr ""
+"Вы можете вставить следующую статистику из алтиорганайзера в ваши "
+"собственные страницы"
+
+#: ext/index.php:80
+msgid "Select grouping"
+msgstr "Выберите группирование"
+
+#: ext/index.php:99
+msgid "Select division"
+msgstr "Выберите дивизион"
+
+#: ext/index.php:116
+msgid "Select country"
+msgstr "Выберите страну"
+
+#: ext/index.php:121
+msgid "Select pool"
+msgstr "Выберите группу"
+
+#: ext/index.php:138
+msgid "Select team"
+msgstr "Выберите команду"
+
+#: ext/index.php:155
+msgid "Select style"
+msgstr "Выберите стиль"
+
+#: ext/index.php:168
+msgid "or a link to a style definition of your own"
+msgstr "или укажите ссылку на собственное определение стиля"
+
+#: ext/index.php:172
+msgid "Select and Update"
+msgstr "Выбрать и Обновить"
+
+#: ext/index.php:175
+msgid "RSS"
+msgstr "RSS"
+
+#: ext/index.php:178 ext/index.php:181 ext/index.php:184 ext/index.php:196
+#: ext/index.php:203 ext/rss.php:46 ext/rss.php:52 ext/rss.php:200
+#: ext/rss.php:202
+msgid "Ultimate results"
+msgstr "Ultimate результаты"
+
+#: ext/index.php:190 lib/url.functions.php:67
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ext/index.php:210
+msgid "Score counter"
+msgstr "Счётчик очков"
+
+#: ext/index.php:228
+msgid "All games in selected grouping"
+msgstr "Все игры в выбранной группе"
+
+#: ext/index.php:239
+msgid "Selected pool standings and scoreboard"
+msgstr "Результаты выбранного этапа"
+
+#: ext/index.php:256
+msgid "Selected country's teams pool standings and game result"
+msgstr "Результаты команд выбранной страны"
+
+#: ext/index.php:265
+msgid "Selected team's games and scoreboard"
+msgstr "Результаты выбранной команды"
+
+#: ext/poolscoreboard.php:35 ext/teamscoreboard.php:43 gamecard.php:215
+#: gamecard.php:219 gameplay.php:52 gameplay.php:79 poolstatus.php:123
+#: poolstatus.php:142 scorestatus.php:62 scorestatus.php:64
+#: seriesstatus.php:251
+msgid "Assists"
+msgstr "Пасы"
+
+#: ext/poolscoreboard.php:37 ext/teamscoreboard.php:45 gamecard.php:234
+#: gameplay.php:53 gameplay.php:80 playercard.php:156 playercard.php:209
+#: playercard.php:286 playercard.php:385 playercard.php:453 playerlist.php:26
+#: poolstatus.php:123 poolstatus.php:142 scorestatus.php:79 scorestatus.php:81
+#: seriesstatus.php:251 seriesstatus.php:298 teamcard.php:117 teamcard.php:163
+msgid "Tot."
+msgstr "Итого"
+
+#: ext/rss.php:96
+msgid "Ultimate game"
+msgstr "Ultimate игра"
+
+#: ext/rss.php:134 ext/rss.php:166 gameplay.php:220
+msgid "Time-out"
+msgstr "Тайм-аут"
+
+#: ext/rss.php:136 ext/rss.php:168 gameplay.php:222
+msgid "Turnover"
+msgstr "Перехват"
+
+#: ext/rss.php:138 ext/rss.php:170 gameplay.php:224
+msgid "Offence"
+msgstr "Атака"
+
+#: ext/rss.php:183
+msgid "Latest events"
+msgstr "Последние события"
+
+#: ext/score-update.php:43
+msgid "Game number missing"
+msgstr "Не хватает номера игры"
+
+#: ext/score-update.php:46
+msgid "Erroneous game number"
+msgstr "Неверный номер игры"
+
+#: ext/score-update.php:50
+msgid "Home score missing"
+msgstr "Счет хозяев пропущен"
+
+#: ext/score-update.php:53
+msgid "Visitor score missing"
+msgstr "Счет гостей пропущен"
+
+#: ext/score-update.php:61
+msgid "Unknown game number"
+msgstr "Неизвестный номер игры"
+
+#: ext/score-update.php:71
+msgid "result saved"
+msgstr "результат сохранен"
+
+#: ext/score-update.php:72
+msgid "You can restore the old result by sending a message:"
+msgstr "Вы можете восстановить старый результат отправив сообщение:"
+
+#: ext/score-update.php:72
+msgid "to the same number"
+msgstr "на тот же номер"
+
+#: ext/score-update.php:79
+msgid "Invalid game update entry found. Can not undo"
+msgstr "Найдена неверная запись обновления игры. Невозможно отменить"
+
+#: ext/score-update.php:89
+msgid "result restored"
+msgstr "результат восстановлен"
+
+#: ext/score-update.php:90
+msgid "Could not find a previous game update entry"
+msgstr "Не удалось найти предыдущую запись обновления игры"
+
+#: ext/score-update.php:91
+msgid "Missing sender information"
+msgstr "Информация об отправителе пропущена"
+
+#: ext/scorecounter.php:17
+msgid "Ultiorganizer Score Counter"
+msgstr "Счётчик Очков Алтиорганайзера"
+
+#: ext/teamcoming.php:33 ext/teamplayed.php:34 games.php:189
+msgid "No games"
+msgstr "Нет игр"
+
+#: ext/twittercallback.php:25
+msgid "The oauth_token is old"
+msgstr "Жетон oauth устарел"
+
+#: ext/twittercallback.php:51
+msgid "Twitter configuration done"
+msgstr "Настройка твиттера успешно завершена"
+
+#: frontpage.php:3
+msgid "Frontpage"
+msgstr "Главная страница"
+
+#: frontpage.php:21 menufunctions.php:664 user_guide.php:3
+msgid "User Guide"
+msgstr "Инструкция пользователя"
+
+#: frontpage.php:27
+msgid ""
+"In case of feedback, improvement ideas or any other questions, please "
+"contact:"
+msgstr "С пожеланиями, предложениями или вопросами обращайтесь:"
+
+#: gamecard.php:27
+msgid "Game card"
+msgstr "Профиль игры"
+
+#: gamecard.php:89 playercard.php:165 playercard.php:213 playercard.php:289
+#: playercard.php:385 playercard.php:454 seriesstatus.php:148
+#: seriesstatus.php:150 teamcard.php:224 teamcard.php:298 teamcard.php:387
+#: teamcard.php:457
+msgid "Win-%"
+msgstr "Побед-%"
+
+#: gamecard.php:89 gamecard.php:90
+msgid "Scored"
+msgstr "Счет"
+
+#: gamecard.php:90
+msgid "game"
+msgstr "игра"
+
+#: gamecard.php:90
+msgid "Let scores"
+msgstr "Давайте счет"
+
+#: gamecard.php:90
+msgid "Goal difference"
+msgstr "Разница голов"
+
+#: gameplay.php:15 lib/timetable.functions.php:533 mobile/gameplay.php:11
+#: poolstatus.php:762 scorekeeper/gameplay.php:10 scorekeeper/respgames.php:134
+#: user/addscoresheet.php:357 user/respgames.php:192
+msgid "Game play"
+msgstr "Ход игры"
+
+#: gameplay.php:35
+msgid "ongoing"
+msgstr "продолжается"
+
+#: gameplay.php:40 mobile/gameplay.php:21 scorekeeper/gameplay.php:23
+msgid "Not fed in"
+msgstr "Не заполнен"
+
+#: gameplay.php:41
+msgid "Please check the status again later"
+msgstr "Пожалуйста, проверьте еще раз статус позже"
+
+#: gameplay.php:62 gameplay.php:90 gameplay.php:538 gameplay.php:563
+msgid "(C)"
+msgstr "(C)"
+
+#: gameplay.php:177
+msgid "Dur."
+msgstr "Продолж."
+
+#: gameplay.php:179
+msgid "Game events "
+msgstr "Игровые события "
+
+#: gameplay.php:203 mobile/gameplay.php:72 playercard.php:555
+#: scorekeeper/gameplay.php:72
+msgid "Callahan-goal"
+msgstr "Келлехен"
+
+#: gameplay.php:301
+msgid "Game statistics"
+msgstr "Статистика игры"
+
+#: gameplay.php:458 gameplay.php:466
+msgid "Time on offence"
+msgstr "Время в атаке"
+
+#: gameplay.php:462 gameplay.php:470
+msgid "Time on defence"
+msgstr "Время в защите"
+
+#: gameplay.php:466 gameplay.php:470
+msgid "goal"
+msgstr "гол"
+
+#: gameplay.php:477
+msgid "Goals from starting on offence"
+msgstr "Голы забитые с атаки"
+
+#: gameplay.php:484
+msgid "Goals from starting on defence"
+msgstr "Голы забитые с защиты"
+
+#: gameplay.php:489
+msgid "Turnovers"
+msgstr "Перехваты"
+
+#: gameplay.php:494
+msgid "Goals from turnovers"
+msgstr "Голы после перехвата"
+
+#: gameplay.php:510 lib/timetable.functions.php:522 teamcard.php:535
+msgid "Game history"
+msgstr "История игр"
+
+#: gameplay.php:519
+msgid "Defensive plays"
+msgstr "Удачные защиты"
+
+#: gameplay.php:575
+msgid "Time defense play"
+msgstr "Время в защите"
+
+#: gameplay.php:575
+msgid "Callahan defense"
+msgstr "Защита Келлехена"
+
+#: gameplay.php:639 result.php:50 scorekeeper/result.php:54
+msgid "on field"
+msgstr "на поле"
+
+#: games.php:29 games.php:34 games.php:39 games.php:45 games.php:50
+#: games.php:56 poolstatus.php:304 poolstatus.php:442 poolstatus.php:679
+#: poolstatus.php:804
+msgid "Schedule"
+msgstr "Расписание"
+
+#: games.php:156
+msgid "By grouping"
+msgstr "По группам"
+
+#: games.php:157
+msgid "By timeslot"
+msgstr "По временн0му интервалу"
+
+#: games.php:158 teams.php:24
+msgid "By division"
+msgstr "По дивизионам"
+
+#: games.php:159
+msgid "By location"
+msgstr "По местонахождению"
+
+#: games.php:160
+msgid "Today"
+msgstr "Сегодня"
+
+#: games.php:161
+msgid "Tomorrow"
+msgstr "Завтра"
+
+#: games.php:162
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: games.php:216
+msgid "iCalendar (.ical)"
+msgstr "iCalendar (.ical)"
+
+#: games.php:217
+msgid "Grid (PDF)"
+msgstr "Сетка (PDF)"
+
+#: games.php:218
+msgid "List (PDF)"
+msgstr "Список (PDF)"
+
+#: install.php:445
+msgid "Invalid password (min. 5, max. 20 letters)."
+msgstr "Короткий пароль (мин. 5 символов)."
+
+#: lib/club.functions.php:197 lib/player.functions.php:516
+#: lib/team.functions.php:1201
+msgid "File is too large"
+msgstr "Файл слишком большой"
+
+#: lib/club.functions.php:205 lib/player.functions.php:524
+#: lib/team.functions.php:1209
+msgid "File is not supported image format"
+msgstr "Формат файла не поддерживается"
+
+#: lib/club.functions.php:209 lib/player.functions.php:528
+#: lib/team.functions.php:1213
+msgid "Missing gd extension for image handling."
+msgstr "Отсутствует GD extensinon для обработки изображений."
+
+#: lib/common.functions.php:58
+msgid "Sun"
+msgstr "ВС"
+
+#: lib/common.functions.php:61
+msgid "Mon"
+msgstr "ПН"
+
+#: lib/common.functions.php:64
+msgid "Tue"
+msgstr "ВТ"
+
+#: lib/common.functions.php:67
+msgid "Wed"
+msgstr "СР"
+
+#: lib/common.functions.php:70
+msgid "Thu"
+msgstr "ЧТ"
+
+#: lib/common.functions.php:73
+msgid "Fri"
+msgstr "ПТ"
+
+#: lib/common.functions.php:76
+msgid "Sat"
+msgstr "СБ"
+
+#: lib/data.functions.php:519
+msgid "Target event is not the same as in a file."
+msgstr "Целевое событие не то же как в файле."
+
+#: lib/data.functions.php:522
+msgid "Event to replace doesn't exist"
+msgstr "Событие для замены не существует"
+
+#: lib/facebook.functions.php:9
+msgid ""
+"and their team $team just won against $opponent by $teamscore to "
+"$opponentscore. Huzzah!"
+msgstr ""
+"и его команда $team только что выигирала у $opponent со счетом $teamscore - "
+"$opponentscore. Ура!"
+
+#: lib/facebook.functions.php:10
+msgid ""
+"and their team $team just lost to $opponent by $opponentscore to $teamscore. "
+"Bummer :("
+msgstr ""
+"и его команда $team только что проиграла $opponent со счетом $teamscore - "
+"$opponentscore.  Жаль:("
+
+#: lib/facebook.functions.php:11
+msgid ""
+"just passed point $teamscore for their team $team against $opponent. The "
+"game is now $teamscore to $opponentscore. The goal was caught by: "
+"$scorername."
+msgstr ""
+"отдал голевой пас $teamscore для своей команды $team против $opponent. "
+"Сейчас игра $teamscore - $opponentscore. Диск пойман: $scorername."
+
+#: lib/facebook.functions.php:12
+msgid ""
+"just scored point $teamscore for their team $team against $opponent. The "
+"game is now $teamscore to $opponentscore. The goal was passed by: "
+"$passername."
+msgstr ""
+"занес поинт $teamscore для своей команды $team против $opponent. Сейчас игра "
+"$teamscore - $opponentscore. Пас отдал: $passername."
+
+#: lib/facebook.functions.php:14
+msgid "game won"
+msgstr "игра выиграна"
+
+#: lib/facebook.functions.php:15
+msgid "game lost"
+msgstr "игра проиграна"
+
+#: lib/facebook.functions.php:16
+msgid "game passes"
+msgstr "игровые пасы"
+
+#: lib/facebook.functions.php:17
+msgid "game scores"
+msgstr "игровые очки"
+
+#: lib/game.functions.php:556
+msgid "Erroneous scoresheet number:"
+msgstr "Неверный номер протокола:"
+
+#: lib/game.functions.php:560
+msgid "Game has no pool."
+msgstr "У игры нет группы."
+
+#: lib/game.functions.php:563
+msgid "Pool is locked."
+msgstr ""
+
+#: lib/game.functions.php:568
+msgid "Event played."
+msgstr "Турнир сыгран."
+
+#: lib/game.functions.php:571
+msgid "No goals."
+msgstr "Нет голов."
+
+#: lib/game.functions.php:1230
+#, php-format
+msgid "Results cleared: %s."
+msgstr "Результаты сброшены: %s."
+
+#: lib/game.functions.php:1232
+#, php-format
+msgid "Results changed: %s."
+msgstr "Результаты изменены: %s."
+
+#: lib/game.functions.php:1234
+#, php-format
+msgid "Errors: %s."
+msgstr "Ошибки: %s."
+
+#: lib/game.functions.php:1545
+msgid "Total points"
+msgstr "Всего очков"
+
+#: lib/pool.functions.php:233 lib/pool.functions.php:260
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: lib/pool.functions.php:262 statistics.php:40 teams.php:205
+msgid "Gold"
+msgstr "Золото"
+
+#: lib/pool.functions.php:264 statistics.php:40 teams.php:207
+msgid "Silver"
+msgstr "Серебро"
+
+#: lib/search.functions.php:158 user/enrollteam.php:117 user/enrollteam.php:143
+msgid "Unconfirmed"
+msgstr "Не подтверждено"
+
+#: lib/search.functions.php:344
+msgid "separate with a comma"
+msgstr "разделить запятыми"
+
+#: lib/search.functions.php:580
+msgid "Rights"
+msgstr "Права"
+
+#: lib/search.functions.php:580
+msgid "Last login"
+msgstr "Последний вход"
+
+#: lib/team.functions.php:443
+msgid "Move not allowed. Game already played!"
+msgstr "Перемещения не разрешены. Игры уже сыграны!"
+
+#: lib/timetable.functions.php:504
+msgid "Live Broadcasting"
+msgstr "Прямая трансляция"
+
+#: lib/timetable.functions.php:540 lib/timetable.functions.php:542
+#: poolstatus.php:769 poolstatus.php:771 scorekeeper/respgames.php:132
+msgid "Ongoing"
+msgstr "Продолжается"
+
+#: lib/timetable.functions.php:560
+msgid "Local time"
+msgstr "Местное время"
+
+#: lib/translation.functions.php:89
+msgid "None"
+msgstr "Нет"
+
+#: lib/twitter.functions.php:80
+msgid "Last score"
+msgstr "Последнее очко"
+
+#: lib/url.functions.php:67
+msgid "Forum"
+msgstr "Форум"
+
+#: lib/url.functions.php:67
+msgid "Blogger"
+msgstr "Блоггер"
+
+#: lib/url.functions.php:67
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lib/url.functions.php:67
+msgid "Flickr"
+msgstr "Flickr"
+
+#: lib/url.functions.php:67
+msgid "Picasa"
+msgstr "Picasa"
+
+#: lib/url.functions.php:67 user/playerprofile.php:249
+#: user/playerprofile.php:251
+msgid "Other"
+msgstr "Другое"
+
+#: lib/url.functions.php:79
+msgid "Image"
+msgstr "Изображение"
+
+#: lib/url.functions.php:79
+msgid "Video"
+msgstr "Видео"
+
+#: lib/url.functions.php:79
+msgid "Live video"
+msgstr "Трансляция видео"
+
+#: lib/user.functions.php:876
+msgid "Confirm your account to ultiorganizer"
+msgstr "Подтвердите ваш аккаунт в Ultiorganizer"
+
+#: lib/user.functions.php:929
+msgid "Confirm extra email address for ultiorganizer"
+msgstr "Подтвердите дополнительные email-адреса для Ultiorganizer"
+
+#: lib/user.functions.php:1264
+msgid "New password to ultiorganizer"
+msgstr "Новый пароль для Ultiorganizer"
+
+#: login_failed.php:6 mobile/login_failed.php:6
+msgid "Login failed"
+msgstr ""
+
+#: login_failed.php:13 mobile/login_failed.php:13
+msgid "New password sent."
+msgstr "Новый пароль отправлен."
+
+#: login_failed.php:15 mobile/login_failed.php:15
+#, php-format
+msgid ""
+"Resetting password for '%s' failed. Email address may be invalid. Password "
+"was not sent."
+msgstr ""
+
+#: login_failed.php:23 mobile/index.php:7 mobile/login_failed.php:23
+#: scorekeeper/login.php:6
+msgid "Check the username and password."
+msgstr "Проверьте имя пользователя и пароль."
+
+#: login_failed.php:24 mobile/login_failed.php:24
+msgid ""
+"If you have forgotten your password, click the button below and a new "
+"password will be sent to your e-mail address given at registration."
+msgstr ""
+"Если вы забыли пароль, нажмите кнопку ниже и новый пароль будет отправлен на "
+"e-mail адрес, указанный при регистрации."
+
+#: login_failed.php:28 mobile/login_failed.php:28
+#, php-format
+msgid "Invalid username %s."
+msgstr "Неверное имя пользователя %s."
+
+#: logout.php:2 menufunctions.php:170 menufunctions.php:282
+#: scorekeeper/index.php:100
+msgid "Logout"
+msgstr "Выйти"
+
+#: logout.php:7
+msgid "You have logged out"
+msgstr "Вы вышли"
+
+#: menufunctions.php:159 menufunctions.php:263 mobile/index.php:15
+#: scorekeeper/login.php:23
+msgid "Login"
+msgstr "Войти"
+
+#: menufunctions.php:168
+msgid "New user?"
+msgstr "Регистрация?"
+
+#: menufunctions.php:267 menufunctions.php:280
+msgid "Back to the Ultiorganizer"
+msgstr "Назад к Ultiorganizer"
+
+#: menufunctions.php:416
+msgid "Go"
+msgstr "Перейти"
+
+#: menufunctions.php:446 menufunctions.php:488
+msgid "Administration"
+msgstr "Администрирование"
+
+#: menufunctions.php:452
+msgid "Clubs & Countries"
+msgstr "Клубы и Страны"
+
+#: menufunctions.php:453
+msgid "Field locations"
+msgstr "Игровые поля"
+
+#: menufunctions.php:454
+msgid "Field reservations"
+msgstr "Резервирование полей"
+
+#: menufunctions.php:465
+msgid "Logs"
+msgstr "Logs"
+
+#: menufunctions.php:467
+msgid "Database"
+msgstr "База данных"
+
+#: menufunctions.php:468
+msgid "Settings"
+msgstr "Настройки"
+
+#: menufunctions.php:505
+msgid "Create new event"
+msgstr "Создать новый турнир"
+
+#: menufunctions.php:515
+msgid "Team registration"
+msgstr "Регистрация команды"
+
+#: menufunctions.php:527
+msgid "Player profiles"
+msgstr "Профиль игрока"
+
+#: menufunctions.php:553 seasonlist.php:29
+msgid "Final standings"
+msgstr "Итоговое положение"
+
+#: menufunctions.php:565 seriesstatus.php:247
+msgid "Show all pools"
+msgstr "Показать все группы"
+
+#: menufunctions.php:584 teams.php:110
+msgid "Pools not yet created"
+msgstr "Группы еще не созданы"
+
+#: menufunctions.php:592
+msgid "Event Links"
+msgstr "Ссылки турнира"
+
+#: menufunctions.php:605
+msgid "Result Feed"
+msgstr "Лента результатов"
+
+#: menufunctions.php:611
+msgid "Result Twitter"
+msgstr "Twitter результатов"
+
+#: menufunctions.php:630
+msgid "All time"
+msgstr "За всё время"
+
+#: menufunctions.php:636
+msgid "Client access"
+msgstr "Доступ пользователей"
+
+#: menufunctions.php:640
+msgid "Mobile Administration"
+msgstr "Мобильное администрирование"
+
+#: menufunctions.php:641
+#, fuzzy
+#| msgid "Scorekeepers"
+msgid "Scorekeeper"
+msgstr "Счетовод"
+
+#: menufunctions.php:646
+msgid "Links"
+msgstr "Ссылки"
+
+#: menufunctions.php:665
+msgid "Admin Help"
+msgstr ""
+
+#: menufunctions.php:666 privacy.php:6 register.php:99
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: menufunctions.php:692 poolstatus.php:8
+msgid "Standings"
+msgstr "Положение"
+
+#: menufunctions.php:731 menufunctions.php:755 user/respteams.php:7
+#: user/respteams.php:17
+msgid "Team responsibilities"
+msgstr "Обязанности команды"
+
+#: menufunctions.php:779 mobile/respgames.php:7 user/respgames.php:8
+msgid "Game responsibilities"
+msgstr "Игровые обязаности"
+
+#: mobile/addfirstoffence.php:23 mobile/addhalftime.php:25
+#: mobile/addofficial.php:16 mobile/addscoresheet.php:148
+#: mobile/addspiritpoints.php:10 mobile/addtimeouts.php:46 mobile/tweet.php:22
+msgid "Score&nbsp;sheet"
+msgstr "Протокол"
+
+#: mobile/addfirstoffence.php:38
+msgid "starting on offence"
+msgstr "начинают в атаке"
+
+#: mobile/addfirstoffence.php:47 mobile/addhalftime.php:36
+#: mobile/addofficial.php:27 mobile/addspiritpoints.php:58
+#: mobile/addtimeouts.php:97 mobile/deletescore.php:46 mobile/tweet.php:51
+#: scorekeeper/addfirstoffence.php:46 scorekeeper/addhalftime.php:68
+#: scorekeeper/addofficial.php:23 scorekeeper/addplayerlists.php:149
+#: scorekeeper/addspiritpoints.php:75 scorekeeper/addtimeouts.php:204
+#: scorekeeper/deletescore.php:52 scorekeeper/tweet.php:37
+msgid "Back to score sheet"
+msgstr "Назад к протоколу"
+
+#: mobile/addhalftime.php:30 mobile/addscoresheet.php:196
+#: scorekeeper/addscoresheet.php:259
+msgid "Half time"
+msgstr "Перерыв"
+
+#: mobile/addplayerlists.php:62 scorekeeper/addplayerlists.php:58
+#: user/addplayerlists.php:75 user/addplayerlists.php:137
+msgid "and"
+msgstr "и"
+
+#: mobile/addplayerlists.php:63 scorekeeper/addplayerlists.php:59
+#: user/addplayerlists.php:76 user/addplayerlists.php:138
+msgid "same number"
+msgstr "одинаковые номера"
+
+#: mobile/addplayerlists.php:73 scorekeeper/addplayerlists.php:69
+#: user/addplayerlists.php:87 user/addplayerlists.php:149
+msgid "erroneous number"
+msgstr "неверный номер"
+
+#: mobile/addplayerlists.php:88 user/addplayerlists.php:8
+msgid "Rosters"
+msgstr "Списки игроков"
+
+#: mobile/addplayerlists.php:95 teamcard.php:110 teamcard.php:156
+msgid "roster"
+msgstr "список игроков"
+
+#: mobile/addplayerlists.php:128 mobile/addresult.php:53
+#: mobile/addscoresheet.php:218 mobile/gameplay.php:84
+#: scorekeeper/addplayerlists.php:150 scorekeeper/addresult.php:70
+#: scorekeeper/addscoresheet.php:282 scorekeeper/addspiritpoints.php:76
+#: scorekeeper/gameplay.php:90 user/adddefensesheet.php:358
+#: user/addscoresheet.php:535
+msgid "Back to game responsibilities"
+msgstr "Назад к game responsibilities"
+
+#: mobile/addresult.php:30
+msgid "Game result"
+msgstr "Результат игры"
+
+#: mobile/addresult.php:44
+msgid "If game ongoing:"
+msgstr "Если игра продолжается:"
+
+#: mobile/addresult.php:46
+msgid "Update as current result"
+msgstr "Обновите как текущий результат"
+
+#: mobile/addresult.php:49
+msgid "If game ended:"
+msgstr "Если игра закончилась:"
+
+#: mobile/addresult.php:51 scorekeeper/addresult.php:68 user/addresult.php:104
+msgid "Save as final result"
+msgstr "Сохранить как финальный результат"
+
+#: mobile/addscoresheet.php:77 user/adddefensesheet.php:127
+#: user/addscoresheet.php:286
+msgid "time can not be the same or earlier than the previous point"
+msgstr "время не может совпадать или быть ранее чем предыдущее очко"
+
+#: mobile/addscoresheet.php:89 mobile/addscoresheet.php:106
+#: user/addscoresheet.php:302 user/addscoresheet.php:330
+msgid "assisting player's number"
+msgstr "номер пасующего"
+
+#: mobile/addscoresheet.php:89 mobile/addscoresheet.php:96
+#: mobile/addscoresheet.php:106 mobile/addscoresheet.php:114
+#: user/adddefensesheet.php:159 user/adddefensesheet.php:170
+#: user/addscoresheet.php:302 user/addscoresheet.php:311
+#: user/addscoresheet.php:330 user/addscoresheet.php:339
+msgid "Not on the roster"
+msgstr "Нет в списке игроков команды"
+
+#: mobile/addscoresheet.php:96 mobile/addscoresheet.php:114
+#: user/addscoresheet.php:311 user/addscoresheet.php:339
+msgid "scorer's number"
+msgstr "номер забросившего"
+
+#: mobile/addscoresheet.php:118 scorekeeper/addscoresheet.php:99
+#: user/addscoresheet.php:316
+msgid "Scorer and assist are the same player!"
+msgstr "Забросивший и поймавший не могут иметь одинаковые номера!"
+
+#: mobile/addscoresheet.php:121
+msgid "Select scoring team!"
+msgstr "Выберите занесшую команду!"
+
+#: mobile/addscoresheet.php:158 mobile/addscoresheet.php:170
+#: mobile/deletescore.php:29 mobile/deletescore.php:41
+#: scorekeeper/addscoresheet.php:144 scorekeeper/addscoresheet.php:161
+#: scorekeeper/deletescore.php:48 user/addscoresheet.php:559
+msgid "Score"
+msgstr "Счет"
+
+#: mobile/addscoresheet.php:190 scorekeeper/addhalftime.php:36
+#: scorekeeper/addscoresheet.php:228
+msgid "min"
+msgstr "мин"
+
+#: mobile/addscoresheet.php:190 scorekeeper/addhalftime.php:36
+#: scorekeeper/addscoresheet.php:228
+msgid "sec"
+msgstr "сек"
+
+#: mobile/addscoresheet.php:193 mobile/addscoresheet.php:213
+#: scorekeeper/addscoresheet.php:256
+msgid "Save goal"
+msgstr "Сохранить гол"
+
+#: mobile/addscoresheet.php:198 scorekeeper/addscoresheet.php:260
+msgid "First offence"
+msgstr "Первая атака"
+
+#: mobile/addscoresheet.php:202 scorekeeper/addscoresheet.php:263
+#: scorekeeper/tweet.php:21
+msgid "Tweet"
+msgstr "Tweet"
+
+#: mobile/addscoresheet.php:207 user/addscoresheet.php:526
+msgid "Delete the last goal"
+msgstr "Удалить последний гол"
+
+#: mobile/addscoresheet.php:209 scorekeeper/addscoresheet.php:270
+msgid "Save as result"
+msgstr "Сохранить как результат"
+
+#: mobile/addscoresheet.php:211 scorekeeper/addscoresheet.php:278
+msgid "Correct the errors or save goal with errors"
+msgstr "Исправьте ошибки или сохраните запись с ошибками"
+
+#: mobile/addspiritpoints.php:25 mobile/addspiritpoints.php:34
+#: scorekeeper/addspiritpoints.php:26 scorekeeper/addspiritpoints.php:35
+#: user/addspirit.php:27 user/addspirit.php:36
+#, php-format
+msgid "Missing score for %s. "
+msgstr "Отсутствует счёт для %s. "
+
+#: mobile/addspiritpoints.php:43 mobile/addspiritpoints.php:48
+#, php-format
+msgid "Spirit points given for %s"
+msgstr "Очки духа команде %s"
+
+#: mobile/addspiritpoints.php:62 scorekeeper/addspiritpoints.php:72
+#: user/addspirit.php:74
+#, php-format
+msgid "Spirit points not given for %s."
+msgstr "Очки Духа команде %s не выставлены."
+
+#: mobile/addtimeouts.php:51 mobile/addtimeouts.php:72
+#: scorekeeper/addtimeouts.php:56 scorekeeper/addtimeouts.php:131
+msgid "time outs"
+msgstr "тайм ауты"
+
+#: mobile/deletescore.php:20
+msgid "Delete score"
+msgstr "Удалить счет"
+
+#: mobile/gameplay.php:23 scorekeeper/gameplay.php:25 user/addscoresheet.php:16
+msgid "Feed in score sheet"
+msgstr "Заполнить протокол"
+
+#: mobile/gameplay.php:25
+msgid "home team"
+msgstr "хозяева"
+
+#: mobile/gameplay.php:26
+msgid "guest team"
+msgstr "гости"
+
+#: mobile/gameplay.php:49 scorekeeper/gameplay.php:41
+msgid "time-out"
+msgstr "таум аут"
+
+#: mobile/gameplay.php:51 scorekeeper/gameplay.php:43
+msgid "turnover"
+msgstr "перехват"
+
+#: mobile/gameplay.php:53 scorekeeper/gameplay.php:45
+msgid "offence"
+msgstr "атака"
+
+#: mobile/gameplay.php:86
+msgid "Desktop score sheet"
+msgstr "Настольный протокол"
+
+#: mobile/respgames.php:63 user/respgames.php:130
+msgid "No game responsibilities"
+msgstr "No game responsibilities"
+
+#: mobile/respgames.php:138
+msgid "Group games"
+msgstr "Групповые игры"
+
+#: mobile/respgames.php:140
+msgid "Show all"
+msgstr "Показать все"
+
+#: mobile/scoreboard.php:13 scorekeeper/scoreboard.php:10
+msgid "Players of the game"
+msgstr "Игроки в игре"
+
+#: mobile/scoreboard.php:26 scorekeeper/scoreboard.php:36
+msgid "Back to game sheet"
+msgstr "Назад к игровому протоколу"
+
+#: mobile/tweet.php:39 scorekeeper/tweet.php:27
+msgid "Game end result is sent automatically to Twitter."
+msgstr "Финальный результат игры автоматически отправляется в Twitter."
+
+#: mobile/tweet.php:41 scorekeeper/tweet.php:29
+msgid "Tweet last score"
+msgstr "Tweet последнее очко"
+
+#: mobile/tweet.php:48 scorekeeper/tweet.php:31 scorekeeper/tweet.php:36
+msgid "Tweet text"
+msgstr "Tweet текст"
+
+#: playercard.php:55 user/playerprofile.php:217
+msgid "Nickname"
+msgstr "Ник"
+
+#: playercard.php:63 user/playerprofile.php:262
+msgid "Place of birth"
+msgstr "Место рождения"
+
+#: playercard.php:67 user/playerprofile.php:266
+msgid "Nationality"
+msgstr "Национальность"
+
+#: playercard.php:71 user/playerprofile.php:270
+msgid "Hand"
+msgstr "Рука"
+
+#: playercard.php:75 user/playerprofile.php:287
+msgid "Height"
+msgstr "Рост"
+
+#: playercard.php:76 user/playerprofile.php:288
+msgid "cm"
+msgstr "см"
+
+#: playercard.php:79 user/playerprofile.php:291
+msgid "Weight"
+msgstr "Вес"
+
+#: playercard.php:80 user/playerprofile.php:292
+msgid "kg"
+msgstr "кг"
+
+#: playercard.php:83
+msgid "Position"
+msgstr "Позиция"
+
+#: playercard.php:106
+msgid "Player pages"
+msgstr "Страницы игрока"
+
+#: playercard.php:156 playercard.php:209 playercard.php:286 playercard.php:384
+#: playercard.php:453 playerlist.php:24 statistics.php:115 statistics.php:155
+#: teamcard.php:115 teamcard.php:161
+msgid "Passes"
+msgstr "Пасы"
+
+#: playercard.php:160 playercard.php:211 playercard.php:287 playercard.php:385
+#: playercard.php:453
+msgid "Pass avg."
+msgstr "Пассов в среднем"
+
+#: playercard.php:161
+msgid "Goals avg."
+msgstr "Голов в среднем"
+
+#: playercard.php:161 playercard.php:211 playercard.php:288 playercard.php:385
+#: playercard.php:454
+msgid "Point avg."
+msgstr "Поинтов в среднем"
+
+#: playercard.php:163
+msgid "Defenses avg."
+msgstr "Защит в среднем"
+
+#: playercard.php:209 playercard.php:286 playercard.php:385 playercard.php:453
+#: scorestatus.php:73 scorestatus.php:75
+msgid "Cal."
+msgstr "Келлехен"
+
+#: playercard.php:210 playercard.php:287
+msgid "Defenses."
+msgstr "Защиты"
+
+#: playercard.php:211 playercard.php:288 playercard.php:385 playercard.php:454
+msgid "Goal avg."
+msgstr "Голов в среднем"
+
+#: playercard.php:212 playercard.php:289
+msgid "Def. avg."
+msgstr ""
+
+#: playercard.php:286 playercard.php:453 teamcard.php:294 teamcard.php:453
+msgid "Event type"
+msgstr "Тип турнира"
+
+#: playercard.php:536
+msgid "game events"
+msgstr "игровые события"
+
+#: plugins/import_xml_ffindr.php:73
+msgid ""
+"This operation updates and adds event data in database with one from file. "
+"It will not delete any data or change user rights."
+msgstr ""
+"Эта операция обновляет и добавляет в базу данные о событиях  из файла. Это "
+"не приведет к удалению каких-либо данных или изменению прав пользователей."
+
+#: poolstatus.php:120 poolstatus.php:139 seriesstatus.php:248
+msgid "Scoreboard leaders"
+msgstr "Лидеры пасс/гол"
+
+#: poolstatus.php:182 poolstatus.php:200 seriesstatus.php:268
+msgid "Defenseboard leaders"
+msgstr "Лидеры защиты"
+
+#: poolstatus.php:185 poolstatus.php:203 seriesstatus.php:271
+msgid "Total defenses"
+msgstr "Всего защит"
+
+#: poolstatus.php:500
+msgid "Round"
+msgstr "Раунд"
+
+#: poolstatus.php:650 poolstatus.php:663
+msgid "???"
+msgstr ""
+
+#: poolstatus.php:781
+msgid "Winners continues in:"
+msgstr "Победители продолжают в:"
+
+#: poolstatus.php:792
+msgid "Losers continues in:"
+msgstr "Проигравшие продолжают в:"
+
+#: register.php:64
+msgid "Passwords do not match"
+msgstr "Пароли не совпадают"
+
+#: register.php:70
+msgid ""
+"Confirmation e-mail has been sent to the email address provided. You have to "
+"follow the link in the mail to finalize registration, before you can use the "
+"account."
+msgstr ""
+"Сообщение подтверждения отправлено на предоставленный имейл-адрес. Перед тем "
+"как использовать учётную запись, вам следует пройти по ссылке в сообщении "
+"для завершения регистрации."
+
+#: register.php:83
+msgid "Registration was confirmed successfully"
+msgstr "Регистрация успешно подтверждена"
+
+#: register.php:86
+msgid "Confirming registration failed"
+msgstr "Подтверждение регистрации не удалось"
+
+#: register.php:91
+msgid ""
+"Registration is only needed for event organizers, team contact persons and "
+"players needing to create or change data in system."
+msgstr ""
+"Регистрация необходима только организаторам турниров, представителям команди "
+"и игрокам, которым нужно стоздать или изменить данные в системе."
+
+#: register.php:92
+msgid "Registration process:"
+msgstr "Процесс регистрации:"
+
+#: register.php:94
+msgid "Fill registration information in fields below."
+msgstr "Заполните регистрационную информацию."
+
+#: register.php:95
+msgid ""
+"Confirmation mail will be sent immediately to the email address provided. "
+"(Note that confirmation mail can be incorrectly filterd as spam by e-mail "
+"client and in this case you can find the mail from spam -folder instead of "
+"inbox.)"
+msgstr ""
+"Письмо подтверждения будет отправлено немедленно на предоставленный имейл "
+"адрес. (Учтите, что сообщение подтверждения может быть неверно отмечено как "
+"спам имейл-клиентом и в этом случае вы можете найти сообщение в папке спама "
+"вместо входящих.)"
+
+#: register.php:96
+msgid "Follow the link in the mail to confirm registration."
+msgstr ""
+"Пройдите по ссылке в электроннном письме для подтверждения регистрации."
+
+#: register.php:126 user/userinfo.php:572
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+#: reservationinfo.php:9
+msgid "Reservation"
+msgstr "Резервирование"
+
+#: restful/seasons/index.php:12
+msgid "Seasons"
+msgstr "Сезоны"
+
+#: restful/seasons/index.php:18 user/select_poolselector.php:16
+#: user/userinfo.php:383 user/userinfo.php:412
+msgid "Current event"
+msgstr "Текущее событие"
+
+#: restful/seasons/series.php:9
+msgid "Valid divisions"
+msgstr "Доступные дивизионы"
+
+#: result.php:32 scorekeeper/result.php:39
+msgid "Result not saved!"
+msgstr "Результаты не сохранены!"
+
+#: result.php:34
+msgid "Add result"
+msgstr "Добавить результат"
+
+#: result.php:63 scorekeeper/result.php:67
+msgid "Game is already played. Result:"
+msgstr "Игра уже сыграна. Результат:"
+
+#: result.php:65 scorekeeper/result.php:69
+msgid "Change result to"
+msgstr "Изменить результат"
+
+#: result.php:71 scorekeeper/result.php:75
+msgid "Winner is"
+msgstr "Победитель"
+
+#: result.php:85
+msgid "Scoresheet #"
+msgstr "Протокол #"
+
+#: result.php:89
+msgid "Home Goals"
+msgstr "Голы"
+
+#: result.php:93
+msgid "Away Goals"
+msgstr "Голы"
+
+#: result.php:102 seasonlist.php:28
+msgid "Played games"
+msgstr "Завершенные игры"
+
+#: scorekeeper/addhalftime.php:29
+msgid "Halftime ends"
+msgstr "Перерыв заканчивается"
+
+#: scorekeeper/addhalftime.php:36
+msgid "Halftime ends at"
+msgstr "Перерыв заканчивается в"
+
+#: scorekeeper/addofficial.php:15
+msgid "Officials"
+msgstr "Стафф игры"
+
+#: scorekeeper/addplayerlists.php:145 scorekeeper/addplayerlists.php:147
+msgid "playerlist"
+msgstr "список игроков"
+
+#: scorekeeper/addresult.php:15
+#, php-format
+msgid "Game result %s - %s saved!"
+msgstr "Результат %s - %s сохранён!"
+
+#: scorekeeper/addresult.php:21
+#, php-format
+msgid "Game result %s - %s updated!"
+msgstr "Результат %s - %s обновлён!"
+
+#: scorekeeper/addresult.php:64
+msgid "Save again"
+msgstr "Сохранить снова"
+
+#: scorekeeper/addresult.php:65
+msgid "Fill Playerlists"
+msgstr "Заполнить список игроков"
+
+#: scorekeeper/addresult.php:67
+msgid "Game ongoing, update scores"
+msgstr "Игра продолжается, обновить как текущий результат"
+
+#: scorekeeper/addscoresheet.php:67
+msgid "Time can not be the same or earlier than the previous point"
+msgstr "Время не может совпадать или быть ранее чем предыдущее очко"
+
+#: scorekeeper/addscoresheet.php:78 scorekeeper/addscoresheet.php:90
+msgid "Assisting player not on the roster"
+msgstr "Забросивший игрок не в ростере"
+
+#: scorekeeper/addscoresheet.php:82 scorekeeper/addscoresheet.php:94
+msgid "Scorer's player not on the roster"
+msgstr "Поймавший игрок не в ростере"
+
+#: scorekeeper/addscoresheet.php:102
+msgid "Select team scored"
+msgstr "Выберите забившую команду"
+
+#: scorekeeper/addscoresheet.php:157
+msgid "Delete the goal"
+msgstr "Удалить гол"
+
+#: scorekeeper/addscoresheet.php:174
+msgid "New goal"
+msgstr "Новый гол"
+
+#: scorekeeper/addscoresheet.php:206 scorekeeper/addscoresheet.php:297
+#: scorekeeper/addscoresheet.php:308
+msgid "Callahan Goal"
+msgstr "Келлехен"
+
+#: scorekeeper/addscoresheet.php:209
+msgid "Scorer"
+msgstr "Поймал"
+
+#: scorekeeper/addscoresheet.php:228
+msgid "In time"
+msgstr "Время окончания"
+
+#: scorekeeper/addscoresheet.php:257
+msgid "Additional game data"
+msgstr "Дополнительная информация"
+
+#: scorekeeper/addscoresheet.php:266
+msgid "Game has ended"
+msgstr "Игра закончилась"
+
+#: scorekeeper/addscoresheet.php:279
+msgid "Save goal with errors"
+msgstr "Исправьте ошибки или сохраните запись с ошибками"
+
+#: scorekeeper/addspiritpoints.php:45 scorekeeper/addspiritpoints.php:50
+#: user/addspirit.php:56 user/addspirit.php:61
+msgid "Spirit points given for"
+msgstr "Очки духа команде"
+
+#: scorekeeper/addspiritpoints.php:64 scorekeeper/addspiritpoints.php:68
+msgid "Spirit points for"
+msgstr "Очки Духа для"
+
+#: scorekeeper/deletescore.php:24
+msgid "Delete last goal"
+msgstr "Удалить последний гол"
+
+#: scorekeeper/deletescore.php:35
+msgid "Delete goal number"
+msgstr "Удалить гол номер"
+
+#: scorekeeper/gameplay.php:88 scorekeeper/gameplay.php:89
+msgid "scoreboard"
+msgstr "пасс/гол"
+
+#: scorekeeper/login.php:14
+msgid "Log in"
+msgstr "Войти"
+
+#: scorekeeper/login.php:24
+msgid "Quick add result"
+msgstr "Быстро добавить результат"
+
+#: scorekeeper/respgames.php:27
+msgid "Games you are responsible for"
+msgstr "Игры, за которые вы отвечаете"
+
+#: scorekeeper/respgames.php:53
+msgid "Games in selected event"
+msgstr "Игры на выбранном турнире"
+
+#: scorekeeper/result.php:25
+msgid "Error: Could not save result."
+msgstr "Ошибка: Не удалось сохранить результат."
+
+#: scorekeeper/result.php:31
+msgid "Add result with game id"
+msgstr "Добавить результат с номером игры"
+
+#: scorekeeper/result.php:42
+msgid "Result saved!"
+msgstr "Результаты сохранены!"
+
+#: scorekeeper/result.php:87
+msgid "Game number from Scoresheet"
+msgstr "Номер игры из Протокола"
+
+#: scorekeeper/result.php:90
+msgid "Home team goals"
+msgstr "Хозяева"
+
+#: scorekeeper/result.php:93
+msgid "Visitor team goals"
+msgstr "Гости"
+
+#: scorekeeper/result.php:97
+msgid "Games list"
+msgstr "История игр"
+
+#: seasonlist.php:5
+msgid "Old events"
+msgstr "Предыдущие турниры"
+
+#: seasonlist.php:36 user/contacts.php:47
+msgid "division"
+msgstr "дивизион"
+
+#: seriesstatus.php:69
+msgid "Division statistics:"
+msgstr "Статистика дивизиона:"
+
+#: seriesstatus.php:100 seriesstatus.php:102
+msgid "Seeding"
+msgstr "Посев"
+
+#: seriesstatus.php:106 seriesstatus.php:108
+msgid "Ranking"
+msgstr "Положение"
+
+#: seriesstatus.php:142 seriesstatus.php:144
+msgid "Goals diff"
+msgstr "Разница голов"
+
+#: seriesstatus.php:289
+msgid "Spirit points average per category"
+msgstr "В среднем очков Духа по категориям"
+
+#: sql/upgrade_db.php:496
+msgid "One simple score"
+msgstr "Одна простая оценка"
+
+#: sql/upgrade_db.php:499
+msgid "Spirit score"
+msgstr "Очки Духа"
+
+#: sql/upgrade_db.php:503
+msgid "WFDF (four categories plus comparison)"
+msgstr "WFDF (четыре категории и сравнение)"
+
+#: sql/upgrade_db.php:505 sql/upgrade_db.php:520
+msgid "Rules Knowledge and Use"
+msgstr "Знание и использование правил"
+
+#: sql/upgrade_db.php:507 sql/upgrade_db.php:522
+msgid "Fouls and Body Contact"
+msgstr "Фолы и физический контакт"
+
+#: sql/upgrade_db.php:509 sql/upgrade_db.php:524
+msgid "Fair-Mindedness"
+msgstr "Справедливость"
+
+#: sql/upgrade_db.php:512 sql/upgrade_db.php:527
+msgid "Positive Attitude and Self-Control"
+msgstr "Позитивное отношение и самоконтроль"
+
+#: sql/upgrade_db.php:515
+msgid "Our Spirit compared to theirs"
+msgstr "Наш Дух по сравнению с ними"
+
+#: sql/upgrade_db.php:518
+msgid "WFDF (five categories)"
+msgstr "WFDF (пять категорий)"
+
+#: sql/upgrade_db.php:529
+msgid "Communication"
+msgstr "Общение"
+
+#: sql/upgrade_db.php:533
+msgid "WFDF (five categories, theirs and ours)"
+msgstr "WFDF (пять категорий, их и наши)"
+
+#: sql/upgrade_db.php:536
+msgid "Rules Knowledge and Use (theirs)"
+msgstr "Знание и использование правил (ими)"
+
+#: sql/upgrade_db.php:539
+msgid "Rules Knowledge and Use (ours)"
+msgstr "Знание и использование правил (нами)"
+
+#: sql/upgrade_db.php:542
+msgid "Fouls and Body Contact (theirs)"
+msgstr "Фолы и физический контакт (их)"
+
+#: sql/upgrade_db.php:545
+msgid "Fouls and Body Contact (ours)"
+msgstr "Фолы и физический контакт (наши)"
+
+#: sql/upgrade_db.php:547
+msgid "Fair-Mindedness (theirs)"
+msgstr "Справедливость (их)"
+
+#: sql/upgrade_db.php:550
+msgid "Fair-Mindedness (ours)"
+msgstr "Справедливость (наша)"
+
+#: sql/upgrade_db.php:553
+msgid "Positive Attitude and Self-Control (theirs)"
+msgstr "Позитивное отношение и самоконтроль (их)"
+
+#: sql/upgrade_db.php:556
+msgid "Positive Attitude and Self-Control (ours)"
+msgstr "Позитивное отношение и самоконтроль (наши)"
+
+#: sql/upgrade_db.php:558
+msgid "Communication (theirs)"
+msgstr "Общение (их)"
+
+#: sql/upgrade_db.php:561
+msgid "Communication (ours)"
+msgstr "Общение (наше)"
+
+#: statistics.php:15
+msgid "Events' Standings"
+msgstr "Результаты турнира"
+
+#: statistics.php:16
+msgid "Events' Scoreboards"
+msgstr "Показатели турниров"
+
+#: statistics.php:17
+msgid "Alltime Scoreboards"
+msgstr "Показатели за все время"
+
+#: statistics.php:21
+msgid "Team Standings"
+msgstr "Положение команд"
+
+#: statistics.php:63
+msgid "Season statistics have not yet been computed"
+msgstr "Статистика сезона ещё не подсчитывалась"
+
+#: statistics.php:66
+msgid "Scoreboard TOP 3"
+msgstr "TOP 3 по поинтам"
+
+#: statistics.php:84
+msgid "First"
+msgstr "Первый"
+
+#: statistics.php:84
+msgid "Second"
+msgstr "Второй"
+
+#: statistics.php:84
+msgid "Third"
+msgstr "Третий"
+
+#: statistics.php:111
+msgid "All time scoreboard TOP 100"
+msgstr "TOP 100 по поинтам за всё время"
+
+#: statistics.php:114 statistics.php:154
+msgid "Latest event / team"
+msgstr "Последний турнир/команда"
+
+#: teamcard.php:39 user/teamprofile.php:105
+msgid "Coach"
+msgstr "Тренер"
+
+#: teamcard.php:43 user/teamprofile.php:108
+msgid "Captain"
+msgstr "Капитан"
+
+#: teamcard.php:68
+msgid "Team pages"
+msgstr "Страницы команды"
+
+#: teamcard.php:132 teamcard.php:177
+msgid "Photo"
+msgstr "Фото"
+
+#: teamcard.php:226 teamcard.php:300 teamcard.php:389 teamcard.php:459
+msgid "GF/game"
+msgstr "Забито/игру"
+
+#: teamcard.php:228 teamcard.php:302 teamcard.php:391 teamcard.php:461
+msgid "GA/game"
+msgstr "Пропущено/игру"
+
+#: teams.php:25
+msgid "By pool"
+msgstr "По группам"
+
+#: teams.php:26
+msgid "By seeding"
+msgstr "По посеву"
+
+#: teams.php:27
+msgid "By result"
+msgstr "По результату"
+
+#: user/adddefensesheet.php:14
+msgid "Feed in defense sheet"
+msgstr "Заполнить лист защиты"
+
+#: user/adddefensesheet.php:62 user/addplayerlists.php:192
+#: user/addresult.php:58 user/addscoresheet.php:173 user/addspirit.php:46
+msgid "Score sheet"
+msgstr "Протокол игры"
+
+#: user/adddefensesheet.php:68 user/addplayerlists.php:198
+#: user/addresult.php:64 user/addscoresheet.php:179 user/addspirit.php:50
+#: user/respgames.php:206
+msgid "Defense sheet"
+msgstr "Лист защиты"
+
+#: user/adddefensesheet.php:122 user/adddefensesheet.php:127
+#: user/adddefensesheet.php:159 user/adddefensesheet.php:170
+msgid "Defense"
+msgstr "Защита"
+
+#: user/adddefensesheet.php:122 user/addscoresheet.php:281
+msgid "time can not be the same as half-time ending"
+msgstr "время не может совпадать с окончанием перерыва"
+
+#: user/adddefensesheet.php:159 user/adddefensesheet.php:170
+msgid "player's number"
+msgstr "номер игрока"
+
+#: user/adddefensesheet.php:178
+msgid "Defense sheet saved"
+msgstr "Лист защиты сохранён"
+
+#: user/adddefensesheet.php:190 user/adddefensesheet.php:193
+#: user/addscoresheet.php:367 user/addscoresheet.php:370
+#, php-format
+msgid "No players given for team %s."
+msgstr "У команды %s не заполнены игроки."
+
+#: user/adddefensesheet.php:190 user/adddefensesheet.php:193
+#: user/addscoresheet.php:367 user/addscoresheet.php:370
+msgid "Feed in the players in the game."
+msgstr "Введите игроков."
+
+#: user/adddefensesheet.php:200
+msgid "Defense score sheet"
+msgstr "Протокол защиты"
+
+#: user/adddefensesheet.php:213 user/addscoresheet.php:390
+msgid "Game official(s)"
+msgstr "Стафф игры"
+
+#: user/adddefensesheet.php:294 user/addscoresheet.php:471
+msgid "Half-time ended at"
+msgstr "Перерыв закончился в"
+
+#: user/adddefensesheet.php:302 user/addscoresheet.php:479
+msgid "Current score"
+msgstr "Текущий счет"
+
+#: user/adddefensesheet.php:310 user/addscoresheet.php:487
+msgid "Captains"
+msgstr "Капитаны"
+
+#: user/adddefensesheet.php:345
+msgid "Save defenses"
+msgstr "Сохранить защиты"
+
+#: user/adddefensesheet.php:352 user/addscoresheet.php:529
+msgid "Feed in the scoresheet"
+msgstr "Заполнить протокол"
+
+#: user/adddefensesheet.php:354 user/addscoresheet.php:531
+msgid ""
+"In addition to the tab-key you can use the + key to change fields and the "
+"enter key to select a radio button."
+msgstr ""
+"В дополнение к кнопке Tab вы можете использовать кнопку + для перемещения "
+"между полями и кнопку Enter для выбора переключателя."
+
+#: user/adddefensesheet.php:355 user/addscoresheet.php:532
+msgid ""
+"As separator in the time field you can use any of the '.', ',', ':', or ';' "
+"characters"
+msgstr ""
+"В качестве разделителя в полях времени вы можете использовать '.', ',', ':', "
+"или ';'"
+
+#: user/adddefensesheet.php:356 user/addscoresheet.php:533
+msgid "Input XX as the assist in Callahan goals"
+msgstr "Укажите ХХ вместо бросающего при Келлехене"
+
+#: user/adddefensesheet.php:357 user/addscoresheet.php:534
+msgid "You can save the score sheet at any time while feeding it in"
+msgstr "Вы можете сохранять протокол в любое время в течение заполнения"
+
+#: user/adddefensesheet.php:384
+msgid "Not callahan"
+msgstr "Не Келлехен"
+
+#: user/addextraemail.php:34
+msgid "Email address already registered"
+msgstr "Этот адрес email уже зарегистрирован"
+
+#: user/addextraemail.php:40
+msgid "Confirmation email has been sent to the email address provided"
+msgstr ""
+"Подтверждающее письмо было отправлено на указанный вами адрес электронной "
+"почты"
+
+#: user/addextraemail.php:51
+msgid "Extra email address was confirmed successfully"
+msgstr "Дополнительный адрес успешно подтверждён"
+
+#: user/addextraemail.php:54
+msgid "Confirming extra email address failed"
+msgstr "Не удалось подтвердить дополнительный адрес"
+
+#: user/addextraemail.php:61 user/userinfo.php:272
+msgid "Extra emails"
+msgstr "Дополнительные адреса"
+
+#: user/addextraemail.php:63
+msgid "Fill in the extra email address below"
+msgstr "Укажите дополнительный адрес ниже"
+
+#: user/addextraemail.php:64
+msgid "Confirmation email will be sent to the email address provided"
+msgstr "Сообщение подтверждения будет отправлено на указанный адрес"
+
+#: user/addextraemail.php:65
+msgid "Follow the instructions in the e-mail to confirm the address"
+msgstr "Следуйте инструкциям в электронном письме для подтверждения адреса"
+
+#: user/addmedialink.php:14
+msgid "Add links"
+msgstr "Добавить ссылки"
+
+#: user/addmedialink.php:94
+msgid "Added media links"
+msgstr "Добавленные ссылки на медиа"
+
+#: user/addmedialink.php:170 user/addmedialink.php:190 user/clubprofile.php:186
+#: user/playerprofile.php:337 user/teamprofile.php:146
+msgid "URL"
+msgstr "URL"
+
+#: user/addmedialink.php:187 user/addmedialink.php:191
+#: user/addmedialink.php:192 user/clubprofile.php:187
+#: user/playerprofile.php:338 user/teamprofile.php:147
+msgid "optional"
+msgstr "опционально"
+
+#: user/addmedialink.php:192
+msgid "Media owner"
+msgstr "Владелец медиа"
+
+#: user/addmedialink.php:193
+msgid "Publisher"
+msgstr "Опубликовал"
+
+#: user/addplayerlists.php:153
+msgid "Player lists saved!"
+msgstr "Списки игроков сохранены!"
+
+#: user/addresult.php:26 user/addscoresheet.php:353
+#, php-format
+msgid "Final result saved: %s - %s."
+msgstr "Окончательные результаты сохранены:  %s - %s."
+
+#: user/addresult.php:28 user/addresult.php:30
+#, php-format
+msgid "Winner is <span style='font-weight:bold'>%s</span>."
+msgstr ""
+
+#: user/addresult.php:39 user/addscoresheet.php:348
+#, php-format
+msgid "Game ongoing. Current score: %s - %s."
+msgstr "Игра продолжается. Текущий результат: %s - %s."
+
+#: user/addresult.php:44
+msgid "Game reset"
+msgstr "Сбросить игру"
+
+#: user/addresult.php:76
+msgid "Game is running."
+msgstr "Игра продолжается."
+
+#: user/addresult.php:78
+msgid "Game is finished."
+msgstr "Игра закончилась."
+
+#: user/addresult.php:95
+msgid "If game ongoing, update as current result: "
+msgstr "Если игра продолжается, обновить как текущий результат: "
+
+#: user/addresult.php:96
+msgid "update"
+msgstr "обновить"
+
+#: user/addresult.php:98
+msgid "If this is all wrong, clear the result: "
+msgstr "Если всё неправильно, очистить результат: "
+
+#: user/addscoresheet.php:79
+msgid "Are you sure you want to delete last score?"
+msgstr "Вы уверены что хотите удалить последнее очко?"
+
+#: user/addscoresheet.php:281 user/addscoresheet.php:286
+#: user/addscoresheet.php:302 user/addscoresheet.php:311
+#: user/addscoresheet.php:316 user/addscoresheet.php:330
+#: user/addscoresheet.php:339
+msgid "Point"
+msgstr "Очко"
+
+#: user/addscoresheet.php:356
+msgid "Score sheet saved"
+msgstr "Протокол сохранен"
+
+#: user/addscoresheet.php:377 user/respgames.php:24
+msgid "Game score sheet"
+msgstr "Игровой Протокол"
+
+#: user/addscoresheet.php:520
+msgid "Game ongoing"
+msgstr "Игра продолжается"
+
+#: user/addscoresheet.php:522
+msgid "Save scores"
+msgstr "Сохранить счет"
+
+#: user/clubprofile.php:109
+msgid "Club information"
+msgstr "Информация о клубе"
+
+#: user/clubprofile.php:113 user/teamplayers.php:132 user/teamprofile.php:92
+msgid "Team Profile"
+msgstr "Профиль команды"
+
+#: user/clubprofile.php:114 user/teamplayers.php:133 user/teamprofile.php:93
+msgid "Club Profile"
+msgstr "Профиль клуба"
+
+#: user/clubprofile.php:124
+msgid "Show on club list"
+msgstr "Показать в списке клубов"
+
+#: user/clubprofile.php:145
+msgid "Founded on year"
+msgstr "Основана в году"
+
+#: user/clubprofile.php:158 user/playerprofile.php:307 user/teamprofile.php:117
+msgid "Web pages (homepage, blogs, images, videos)"
+msgstr "Веб-страницы (сайты, блоги, фото, видео)"
+
+#: user/clubprofile.php:207 user/playerprofile.php:358 user/teamprofile.php:167
+msgid "Current image"
+msgstr "Текущее изображение"
+
+#: user/clubprofile.php:213 user/playerprofile.php:365 user/teamprofile.php:172
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+#: user/clubprofile.php:218 user/playerprofile.php:370 user/teamprofile.php:178
+msgid "New image"
+msgstr "Новое изображение"
+
+#: user/clubprofile.php:230
+msgid "Check Club card"
+msgstr "Проверить карточку клуба"
+
+#: user/contacts.php:8
+msgid "Event mandatory"
+msgstr "обязательное событие"
+
+#: user/contacts.php:13
+msgid "Inadequate user rights"
+msgstr "Недостаточные права пользователя"
+
+#: user/contacts.php:23
+msgid "Mail to everyone registered for the event"
+msgstr "Отправить сообщения всем зарегистрированным на турнир"
+
+#: user/contacts.php:25
+msgid "Contact to Event organizer"
+msgstr "Связаться с организатором турнира"
+
+#: user/contacts.php:36
+msgid "Contact to Teams"
+msgstr "Связаться с командами"
+
+#: user/contacts.php:47
+msgid "Mail to teams in"
+msgstr "Написать командам в"
+
+#: user/enrollteam.php:9
+msgid "Season mandatory"
+msgstr "Обязательный сезон"
+
+#: user/enrollteam.php:13
+msgid "Enrolled teams"
+msgstr "Зарегистрированные команды"
+
+#: user/enrollteam.php:73
+msgid "No divisions."
+msgstr "Нет дивизионов."
+
+#: user/enrollteam.php:88
+msgid "Enrolled"
+msgstr "Зарегистрировано"
+
+#: user/enrollteam.php:88
+msgid "State"
+msgstr "Состояние"
+
+#: user/enrollteam.php:120
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+#: user/facebookpublishing.php:9
+msgid "Manage player Facebook feeds for"
+msgstr "Manage player Facebook feeds for"
+
+#: user/facebookpublishing.php:20
+msgid "Player card"
+msgstr "Карточка игрока"
+
+#: user/facebookpublishing.php:49
+msgid "Facebook feed messages"
+msgstr "Сообщения ленты Фейсбука"
+
+#: user/facebookpublishing.php:51
+msgid "Messages will be published on your feed when the event happens"
+msgstr "Messages will be published on your feed when the event happens"
+
+#: user/facebookpublishing.php:52
+msgid "Placeholders will be replaced from with information from the events"
+msgstr "Placeholders will be replaced from with information from the events"
+
+#: user/facebookpublishing.php:53
+msgid "The available placeholders are the following:"
+msgstr "The available placeholders are the following:"
+
+#: user/facebookpublishing.php:55
+msgid "Player's team name"
+msgstr "Название команды игрока"
+
+#: user/facebookpublishing.php:56
+msgid "Opponent team name"
+msgstr "Название команды соперника"
+
+#: user/facebookpublishing.php:57
+msgid "Player's team score"
+msgstr "Счет команды игроков"
+
+#: user/facebookpublishing.php:58
+msgid "Opponent team score"
+msgstr "Счет команды соперника"
+
+#: user/facebookpublishing.php:59
+msgid "Name of the player passing the goal (goal events only)"
+msgstr "Имя игрока отдавшего голевой пас(только для голевых событий)"
+
+#: user/facebookpublishing.php:60
+msgid "Name of the player catching the goal (goal events only)"
+msgstr "Имя игрока забившего гол(только для голевых событий)"
+
+#: user/facebookpublishing.php:66
+msgid "Facebook publishing options"
+msgstr "Опции публикации на Facebook"
+
+#: user/facebookpublishing.php:72
+msgid "Publish event"
+msgstr "Опубликовать событие"
+
+#: user/facebookpublishing.php:79 user/facebookpublishing.php:85
+msgid "Message"
+msgstr "Сообщение"
+
+#: user/facebookpublishing.php:82
+msgid "Publish player card"
+msgstr "Опубликовать карточку игрока"
+
+#: user/facebookpublishing.php:85
+msgid "Check out my player profile in ultiorganizer"
+msgstr "Проверьте мой профиль в Алтиорганайзере"
+
+#: user/facebookpublishing.php:86 user/userinfo.php:521
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: user/playerprofile.php:38
+msgid "Player information"
+msgstr "Информация об игроке"
+
+#: user/playerprofile.php:169
+msgid "Player details"
+msgstr "Детали игрока"
+
+#: user/playerprofile.php:169
+msgid "Show in public profile"
+msgstr "Показывать в общем профиле"
+
+#: user/playerprofile.php:174
+msgid "License Id"
+msgstr "Номер лицензии"
+
+#: user/playerprofile.php:205
+msgid "Jersey number"
+msgstr "Номер на футболке"
+
+#: user/playerprofile.php:221
+msgid "E-mail"
+msgstr "E-mail"
+
+#: user/playerprofile.php:225
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: user/playerprofile.php:229
+msgid "National membership number"
+msgstr "Национальный членский номер"
+
+#: user/playerprofile.php:233
+msgid "Gender"
+msgstr "Пол"
+
+#: user/playerprofile.php:239 user/playerprofile.php:241
+msgid "Female"
+msgstr "Женщина"
+
+#: user/playerprofile.php:244 user/playerprofile.php:246
+msgid "Male"
+msgstr "Мужчина"
+
+#: user/playerprofile.php:275
+msgid "left"
+msgstr "левша"
+
+#: user/playerprofile.php:275
+msgid "right"
+msgstr "правша"
+
+#: user/playerprofile.php:275
+msgid "both"
+msgstr "амбидекстр"
+
+#: user/playerprofile.php:295
+msgid "Field position/role"
+msgstr "Позиция на поле / роль"
+
+#: user/playerprofile.php:381
+msgid "Check public player card"
+msgstr "Просмотр карточки игрока"
+
+#: user/respgames.php:20
+msgid "Feed in the data for your game responsibilities"
+msgstr "Заполните данные для стаффства"
+
+#: user/respgames.php:23
+msgid "Players in the game"
+msgstr "Игроки в игре"
+
+#: user/respgames.php:26
+msgid "Click on Mass input to input multiple results at once, then Save"
+msgstr ""
+"Нажмите на Массовый ввод для ввода множества результатов за раз, а затем "
+"Сохраните"
+
+#: user/respgames.php:27
+msgid "Check the game play after feeding in the score sheet"
+msgstr "Проверить ход игры после заполнения протокола"
+
+#: user/respgames.php:111
+msgid "Hide future games"
+msgstr "Скрыть будущие игры"
+
+#: user/respgames.php:114
+msgid "Show all games"
+msgstr "Показать все игры"
+
+#: user/respgames.php:133
+msgid ""
+"Feeding in the score sheet requires JavaScript. Please enable JavaScript in "
+"your browser to continue!"
+msgstr ""
+"Заполнение протокола требует JavaScript. Пожалуйста, разрешите JavaScript "
+"для продолжения!"
+
+#: user/respgames.php:162
+msgid "No location"
+msgstr "Нет местоположения"
+
+#: user/respteams.php:23
+msgid "Team profile"
+msgstr "Профиль команды"
+
+#: user/respteams.php:25
+msgid "Club profile"
+msgstr "Профиль клуба"
+
+#: user/respteams.php:39
+msgid "Team card"
+msgstr "Карточка команды"
+
+#: user/respteams.php:41
+msgid "Club card"
+msgstr "Карточка клуба"
+
+#: user/select_poolselector.php:4
+msgid "Choose pools to show"
+msgstr "Выберите группы для отображения"
+
+#: user/select_poolselector.php:22 user/userinfo.php:385 user/userinfo.php:413
+msgid "Team pools"
+msgstr "Командные группы"
+
+#: user/teamplayers.php:22
+msgid "can not be removed from the roster"
+msgstr "не может быть удален из списка команды"
+
+#: user/teamplayers.php:23
+msgid "Games played in the team:"
+msgstr "Играл в команде:"
+
+#: user/teamplayers.php:137
+msgid "Add players to team's roster:"
+msgstr "Добавить игроков в список команды:"
+
+#: user/teamplayers.php:139
+msgid ""
+"Players already having a profile in Ultiorganizer: Enter full or part of the "
+"player name and press the search-button. Select correct player from the "
+"dialog and press the confirm-button."
+msgstr ""
+"У игрока уже есть профиль в системе: Введите полностью или частично имя "
+"игрока и нажмите кнопку поиска. Выберите нужного игрока в открывшемся "
+"диалоги и нажмите кнопку подтверждения."
+
+#: user/teamplayers.php:140
+msgid ""
+"New players: Enter jersey number, first and last name. Press add-button."
+msgstr ""
+"Новые игроки: Введите номер на майке, имя и фамилию. Нажмите кнопку добавить."
+
+#: user/teamplayers.php:158
+msgid "Profile"
+msgstr "Профиль"
+
+#: user/teamplayers.php:159
+msgid "Accredited"
+msgstr "Аккредитован"
+
+#: user/teamplayers.php:161
+msgid "Member ID"
+msgstr "Членский номер"
+
+#: user/teamplayers.php:179
+msgid "Copy team roster from:"
+msgstr "Скопировать список игроков команды из:"
+
+#: user/teamplayers.php:204
+msgid "view"
+msgstr "просмотреть"
+
+#: user/teamplayers.php:217
+msgid "Yes"
+msgstr "Да"
+
+#: user/teamplayers.php:218
+msgid "No"
+msgstr "Нет"
+
+#: user/teamplayers.php:281
+msgid "Back to feeding in player numbers"
+msgstr "Назад к заполнению номеров игроков"
+
+#: user/teamplayers.php:291
+msgid "Print roster"
+msgstr "Распечатать список игроков"
+
+#: user/teamprofile.php:23
+msgid "Team details"
+msgstr "Детали команды"
+
+#: user/teamprofile.php:42
+msgid "Abbreviation too short."
+msgstr "Сокращение слишком короткое."
+
+#: user/teamprofile.php:48
+msgid "Abbreviation already used by"
+msgstr "Сокращение уже используется как"
+
+#: user/teamprofile.php:191
+msgid "Check Team card"
+msgstr "Проверить карточку клуба"
+
+#: user/userinfo.php:62
+msgid "The username is already in use."
+msgstr "Это имя пользователя уже используется."
+
+#: user/userinfo.php:67
+msgid "Name can not be empty."
+msgstr "Имя не может быть пустым."
+
+#: user/userinfo.php:74
+msgid "Illegal characters in the username."
+msgstr "Недопустимые символы в имени пользователя."
+
+#: user/userinfo.php:80
+msgid "Unsupported language:"
+msgstr "Не поддерживаемые языки:"
+
+#: user/userinfo.php:85 user/userinfo.php:133
+msgid "Changes were saved"
+msgstr "Изменения были сохранены"
+
+#: user/userinfo.php:87 user/userinfo.php:135
+msgid "Changes were NOT saved"
+msgstr "Изменения НЕ СОХРАНЕНЫ"
+
+#: user/userinfo.php:119
+msgid "Password cannot be empty."
+msgstr "Пароль не может быть пустым."
+
+#: user/userinfo.php:129
+msgid "Passwords do not match."
+msgstr "Пароли не совпадают."
+
+#: user/userinfo.php:240
+msgid "User information"
+msgstr "Информация о пользователе"
+
+#: user/userinfo.php:267
+msgid "Primary email"
+msgstr "Основной email"
+
+#: user/userinfo.php:269
+msgid "Add extra address"
+msgstr "Добавить дополнительные адреса"
+
+#: user/userinfo.php:282
+msgid "Set as primary"
+msgstr "Сделать основным"
+
+#: user/userinfo.php:292 user/userinfo.php:297 user/userinfo.php:301
+#: user/userinfo.php:306 user/userinfo.php:310
+msgid "Login via Facebook"
+msgstr "Войти через Фейсбук"
+
+#: user/userinfo.php:298 user/userinfo.php:311
+msgid "Change link from this account to my current Facebook account"
+msgstr "Изменить ссылку с этого аккаунта на мой текущий аккаунт Фейсбука"
+
+#: user/userinfo.php:302
+msgid "Link this account to my Facebook account"
+msgstr "Связать этот аккаунт с моим аккаунтом на Facebook"
+
+#: user/userinfo.php:307
+msgid "Remove link from this account to my Facebook account"
+msgstr "Удалить ссылку с этого аккаунта на мой текущий аккаунт Фейсбука"
+
+#: user/userinfo.php:315
+msgid "Language"
+msgstr "Язык"
+
+#: user/userinfo.php:346
+msgid "Show administration responsibilities"
+msgstr "Показать обязаности администратора"
+
+#: user/userinfo.php:358
+msgid "Hide"
+msgstr "Скрыть"
+
+#: user/userinfo.php:359
+msgid "Show"
+msgstr "Показать"
+
+#: user/userinfo.php:372
+msgid "Show pools"
+msgstr "Показать группы"
+
+#: user/userinfo.php:430
+msgid "User roles"
+msgstr "Роли пользователей"
+
+#: user/userinfo.php:500 user/userinfo.php:551
+msgid "Game input responsibility"
+msgstr "Game input responsibility"
+
+#: user/userinfo.php:516
+msgid "Do not publish the game events of this player on my Facebook feed"
+msgstr "Не публиковать игры этого игрока в моей ленте на Фейсбуке"
+
+#: user/userinfo.php:517
+msgid "Unpublish"
+msgstr "Неопубликованно"
+
+#: user/userinfo.php:518
+msgid "Options"
+msgstr "Опции"
+
+#: user/userinfo.php:520
+msgid "Publish the game events of this player on my Facebook feed"
+msgstr "Публиковать игры этого игрока в моей ленте на Фейсбуке"
+
+#: user/userinfo.php:570
+msgid "New  password"
+msgstr "Новый пароль"
+
+#: user/userinfo.php:575
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#~ msgid "hh:mm,hh:mm"
+#~ msgstr "чч:мм,чч:мм"
+
+#~ msgid "Pool format"
+#~ msgstr "Формат группы"
+
+#~ msgid "Move"
+#~ msgstr "Движение"
+
+#~ msgid "Spirit points given"
+#~ msgstr "Дух игры оценивается"
+
+#~ msgid "BYE"
+#~ msgstr "BYE"
+
+#~ msgid "Edit pool format"
+#~ msgstr "Редактировать формат группы"
+
+#~ msgid "Add pool format"
+#~ msgstr "Добавить формат группы"
+
+#~ msgid "SHOW TABLE STATUS"
+#~ msgstr "ПОКАЗАТЬ СТАТУС ТАБЛИЦЫ"
+
+#~ msgid "SHOW GLOBAL STATUS"
+#~ msgstr "ПОКАЗАТЬ ОБЩИЙ СТАТУС"
+
+#~ msgid "Playoff -type of pool"
+#~ msgstr "Плей-Офф - тип группы"
+
+#~ msgid "matches"
+#~ msgstr "совпадение"
+
+#~ msgid "with"
+#~ msgstr "с"
+
+#~ msgid "Crossmatch -type of pool"
+#~ msgstr "Стыковые игры - тип группы"
+
+#~ msgid "Game location reservations"
+#~ msgstr "Бронирование места игры"
+
+#~ msgid "Pause"
+#~ msgstr "Пауза"
+
+#~ msgid "Event: "
+#~ msgstr "Событие:"
+
+#~ msgid "given"
+#~ msgstr "дает"
+
+#~ msgid "Print scoresheets from games"
+#~ msgstr "Печать бланков игр"
+
+#~ msgid "All listed"
+#~ msgstr "Все перечисленные"
+
+#~ msgid "Not played with Teams"
+#~ msgstr "Не сыгранные с Командами"
+
+#~ msgid "Save game names"
+#~ msgstr "Сохранить названия игр"
+
+#~ msgid "No pools"
+#~ msgstr "Нет групп"
+
+#~ msgid "Goals scored"
+#~ msgstr "Забитые голы"
+
+#~ msgid "Team has"
+#~ msgstr "Команда"
+
+#~ msgid "players"
+#~ msgstr "игроков"
+
+#~ msgid "Players must be removed before removing the team"
+#~ msgstr "Игроки должны быть удалены перед удалением команды"
+
+#~ msgid "Pool formats"
+#~ msgstr "Форматы групп"
+
+#~ msgid "Play off -type of pool"
+#~ msgstr "Плей-офф - тип группы"
+
+#~ msgid ""
+#~ "When half time starts fill in time it ends (the second half start time)."
+#~ msgstr ""
+#~ "Когда начинается перерыв, заполните время его окончания (время начала "
+#~ "второй половины)."
+
+#~ msgid "Timeouts"
+#~ msgstr "Тайм-ауты"
+
+#~ msgid "to number +358415819744"
+#~ msgstr "номер +71234567890"
+
+#~ msgid "Welcome to the Ultiorganizer"
+#~ msgstr "Добро пожаловать в Ultiorganizer "
+
+#~ msgid "Timeout"
+#~ msgstr "Тайм-аут"
+
+#~ msgid ""
+#~ "If you have forgot the password, click button belowe and new password is "
+#~ "sent to e-mail address given on registration."
+#~ msgstr ""
+#~ "Если вы забыли пароль, нажмите кнопку ниже и новый пароль будет отправлен "
+#~ "на e-mail адрес, указанный при регистрации."
+
+#~ msgid "Invalid username."
+#~ msgstr "Неверное имя пользователя."
+
+#~ msgid "Game schedule"
+#~ msgstr "Расписание игр"
+
+#~ msgid "Past events"
+#~ msgstr "Прошедшие турниры"
+
+#~ msgid "Scorer and assist have the same number"
+#~ msgstr "Забивающий и пасующий не могут иметь одинаковые номера"
+
+#~ msgid "select team scored"
+#~ msgstr "выберите забившую команду"
+
+#~ msgid "Time outs"
+#~ msgstr "Тайм ауты"
+
+#~ msgid "spirit points"
+#~ msgstr "очки за дух игры"
+
+#~ msgid "set rosters"
+#~ msgstr "выбрать списки игроков"
+
+#~ msgid "record scores"
+#~ msgstr "записать счет"
+
+#~ msgid "No games scheduled"
+#~ msgstr "Нет расписания игр"
+
+#~ msgid "Feed in the players in the game"
+#~ msgstr "Введите игроков"
+
+#~ msgid "at"
+#~ msgstr "в"
+
+#~ msgid ""
+#~ "In addition of tab-key you can use + key to swap between fields and enter "
+#~ "key to select radio button."
+#~ msgstr ""
+#~ "В дополнение к кнопке Tab вы можете использовать кнопку + для перемещения "
+#~ "между полями и кнопку Enter для выбора переключателя (radio-button)."
+
+#~ msgid "As a separator in the time field you can use "
+#~ msgstr "В качестве разделителя в полях времени вы можете использовать"
+
+#~ msgid "characters"
+#~ msgstr "символы"
+
+#~ msgid "Give XX as the assist in Callahan goals"
+#~ msgstr "Укажите ХХ вместо пасующего при Келлехене"
+
+#~ msgid "You can save the score sheet any time while feeding it in"
+#~ msgstr "Вы можете сохранять протокол в любое время в течение заполнения"
+
+#~ msgid " "
+#~ msgstr "(jos ei lähetetty tekstiviestillä)"
+
+#~ msgid "team responsibilities"
+#~ msgstr "ответственность команды"
+
+#~ msgid "Edit Team profile"
+#~ msgstr "Редактировать профиль команды"
+
+#~ msgid "Edit Club profile"
+#~ msgstr "Редактировать профиль клуба"
+
+#~ msgid "N/A"
+#~ msgstr "Н/Д"
+
+#~ msgid "Username is too short (min. 3 letters)."
+#~ msgstr "Имя пользователя слишком короткое (мин. 3 символа)."
+
+#~ msgid "Show games from divisions"
+#~ msgstr "Показать игры из дивизионов"
+
+#~ msgid "Show only unschduled games"
+#~ msgstr "Показать только нерасписаные игры"
+
+#~ msgid "Save and Update"
+#~ msgstr "Сохранить и Обновить"
+
+#~ msgid "Edit reservation"
+#~ msgstr "Редактировать резервацию"

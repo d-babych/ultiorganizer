@@ -1,0 +1,213 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+table {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	max-width: 450px;
+}
+
+
+#gamelist td {
+	padding: 5px;
+	
+}
+
+#gamelist td b {
+	 text-transform: uppercase;
+	 COLOR: #666;
+}
+
+#gamelist tr  td.day {
+		font-size: 100%;
+		height: 35px;
+		background: #fefefe;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(goldenrod));
+		background: -webkit-linear-gradient(#fefefe, goldenrod);
+		background: -moz-linear-gradient(top, #fefefe, goldenrod);
+		background: -ms-linear-gradient(#fefefe, goldenrod);
+		background: -o-linear-gradient(#fefefe, goldenrod);
+		background: linear-gradient(#fefefe, goldenrod);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='goldenrod');
+		zoom: 1;
+	
+}
+
+#gamelist tr  td.day a {
+		text-decoration: none;
+}
+
+#gamelist tr  td.field {
+		font-size: 100%;
+		height: 35px;
+		background: #fefefe;
+		background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#fefefe));
+		background: -webkit-linear-gradient(#bbb, #fefefe);
+		background: -moz-linear-gradient(top, #bbb, #fefefe);
+		background: -ms-linear-gradient(#bbb, #fefefe);
+		background: -o-linear-gradient(#bbb, #fefefe);
+		background: linear-gradient(#bbb, #fefefe);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbb', endColorstr='#fefefe');
+		zoom: 1;
+	
+}
+#gamelist tr  td.field  a {
+		font-size: 100%;
+		font-weight: bold;
+		padding: 7px 0;
+		display: block;
+		text-decoration: none;
+		color: #666;
+}
+
+#gamelist tr.gamehead  {
+		display: none;
+		vertical-align: center;
+}
+
+#gamelist tr.gamehead  td.date {
+	width: 40px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 10pt;
+	line-height: 12px; 
+	font-weight: bold;
+	color: #666;
+	background: #eeeeee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#999));
+	background: -webkit-linear-gradient(#eee, #999);
+	background: -moz-linear-gradient(top, #eee, #999);
+	background: -ms-linear-gradient(#eee, #999);
+	background: -o-linear-gradient(#eee, #999);
+	background: linear-gradient(#eee, #999);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#999999');
+	zoom: 1;	
+}
+
+#gamelist tr.gamehead  td.date  i {
+	font-size: 6pt;
+	line-height: 10pt;
+	font-style: normal;
+}
+
+#gamelist tr.gamehead  td.game {
+	font-size: 90%;
+	
+		background: #fefefe;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#ccc));
+		background: -webkit-linear-gradient(#fefefe, #ccc);
+		background: -moz-linear-gradient(top, #fefefe, #ccc);
+		background: -ms-linear-gradient(#fefefe, #ccc);
+		background: -o-linear-gradient(#fefefe, #ccc);
+		background: linear-gradient(#fefefe, #ccc);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#cccccc');
+		zoom: 1;
+	
+}
+
+#gamelist tr.gamehead  td.score {
+	padding-left: 10px;
+	width: 70px;
+	white-space: nowrap;	
+	background: #eeeeee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#666));
+	background: -webkit-linear-gradient(#eee, #666);
+	background: -moz-linear-gradient(top, #eee, #666);
+	background: -ms-linear-gradient(#eee, #666);
+	background: -o-linear-gradient(#eee, #666);
+	background: linear-gradient(#eee, #666);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#666666');
+	zoom: 1;
+}
+
+#gamelist tr.gamehead  td.score.ongoing {
+	padding-left: 10px;
+	width: 70px;
+	white-space: nowrap;	
+	background: #00ee00;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0e0), to(#666));
+	background: -webkit-linear-gradient(#0e0, #666);
+	background: -moz-linear-gradient(top, #0e0, #666);
+	background: -ms-linear-gradient(#0e0, #666);
+	background: -o-linear-gradient(#0e0, #666);
+	background: linear-gradient(#0e0, #666);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ee00', endColorstr='#666666');
+	zoom: 1;
+}
+
+#gamelist tr.gamehead  td.score a {
+	text-decoration: none;
+}
+
+#gamelist tr.gamehead  td a.clicked b {
+	background-color: orange;
+	text-decoration: none;
+}
+
+#gamelist tr.gamehead  td.score b {
+ 	display: block;
+	float: left;
+	background-color: #333;
+	padding: 7px 5px;
+	color: #eee;
+	font-weight: bold;
+	font: 140% Arial, sans-serif;
+	margin: 2px;
+	width: 17px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+#gamelist tr.gamehead  td.score i {
+ 	display: none;
+}
+
+#gamelist tr.gameedit {
+	display: none;
+	white-space: nowrap;
+}
+
+
+#gamelist tr.gameedit a {
+	display: block;
+	white-space: normal;	
+	float: left;
+	/*width: 60px;*/
+	max-width: 100px;
+	height: 45px;
+	text-align: center;
+	vertical-align: center;
+	padding: 5px;
+	margin: 3px;
+	background-color: #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#gamelist tr.gameedit a.imp {
+	background-color: orange;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 8px;
+	font-width: bold;
+}
+tr.bottommenu a {
+	display: block;
+	white-space: normal;	
+	float: left;
+	/*width: 60px;*/
+	max-width: 100px;
+	height: 45px;
+	text-align: center;
+	vertical-align: center;
+	padding: 5px;
+	margin: 3px;
+	background-color: #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
