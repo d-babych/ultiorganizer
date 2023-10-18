@@ -22,6 +22,7 @@ elseif(isset($_POST['tweetresult'])) {
 mobilePageTop(_("Score&nbsp;sheet"));
 ?>
 <script type="text/javascript">
+<!--
 function update() {
    
    if(document.form.textbox.value.length > 140) {
@@ -29,7 +30,7 @@ function update() {
     }
 	document.form.counter.value=document.form.textbox.value.length;
 }
-
+//-->
 </script>
 <?php
 $html .= "<form action='?".utf8entities($_SERVER['QUERY_STRING'])."' method='post' name='form'>\n"; 
