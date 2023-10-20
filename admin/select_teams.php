@@ -217,7 +217,7 @@ foreach ($teamsNotInPool as $team) {
         foreach ($pools as $poolId) {
    			echo "	var res".$poolId."=Dom.get(\"res".$poolId."\");\n";
         }
-        echo "	var request = parseList(unpooled, \"0\") + \"\\n\"";
+        echo "	var request = parseList(unpooled, \"0\") + \"|\"";
         foreach ($pools as $poolId) {
           	echo " + \"|\" + parseList(res".$poolId.", \"".$poolId."\")";
 		}

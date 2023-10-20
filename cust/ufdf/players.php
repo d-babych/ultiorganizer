@@ -5,20 +5,23 @@ include_once '../../lib/user.functions.php';
 include_once 'players2utf8.php';
 
 if (isset($_GET['firstname'])) {
-	$firstname = request_to_utf8(utf8_encode(trim(urldecode($_GET['firstname']))));
+    //$firstname = request_to_utf8(utf8_encode(trim(urldecode($_GET['firstname']))));
+    $firstname = trim(urldecode($_GET['firstname']));
 } else {
-	$firstname = '';
+    $firstname = '';
 }
 if (isset($_GET['lastname'])) {
-	$lastname = request_to_utf8(utf8_encode(trim(urldecode($_GET['lastname']))));
+    //$lastname = request_to_utf8(utf8_encode(trim(urldecode($_GET['lastname']))));
+    $lastname = trim(urldecode($_GET['lastname']));
 } else {
-	$lastname = '';
+    $lastname = '';
 }
 
 if (isset($_GET['team'])) {
-	$teamId = utf8_encode(trim(urldecode($_GET['team'])));
+    //$teamId = utf8_encode(trim(urldecode($_GET['team'])));
+    $teamId = trim(urldecode($_GET['team']));
 } else {
-	$teamId = '';
+    $teamId = '';
 }
 header("Content-type: text/xml; charset=UTF-8");
 header("Cache-Control: no-cache, must-revalidate");
@@ -41,8 +44,8 @@ if (hasEditPlayersRight($teamId)) {
 			LEFT JOIN uo_player AS p1 ON (p1.profile_id=pp.profile_id)
 			WHERE pp.firstname like '%%%s%%' and pp.lastname like '%%%s%%'
 			GROUP BY pp.profile_id ORDER BY pp.lastname, pp.firstname",
-						mysql_real_escape_string($firstname), mysql_real_escape_string($lastname));
-	$result = mysql_query($query);
+                     DBEscapeString($firstname), DBEscapeString($lastname));
+	$result = DBQuery($query);
 	if (!$result) { die('Invalid query: ' . mysql_error()); }
 
 	// for php 5 onwards
@@ -51,7 +54,7 @@ if (hasEditPlayersRight($teamId)) {
 		$node = $dom->createElement("MemberSet");
 		$parnode = $dom->appendChild($node);
 
-		while ($row = mysql_fetch_assoc($result)) {
+		while ($row = mysqli_fetch_assoc($result)) {
 		  $node = $dom->createElement("Member");
 		  $newNode = $parnode->appendChild($node);
 		  
@@ -115,7 +118,7 @@ if (hasEditPlayersRight($teamId)) {
 		echo "<MemberSet>\n";
 
 		// Iterate through the rows, adding XML nodes for each
-		while ($row = mysql_fetch_assoc($result)){
+		while ($row = mysqli_fetch_assoc($result)){
 			echo "<Member>\n";
 			echo "<AccreditationId>". $row['accreditation_id'] ."</AccreditationId>\n";
 			echo "<ProfileId>". $row['profile_id'] ."</ProfileId>\n";
