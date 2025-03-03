@@ -6229,19 +6229,19 @@ msgstr "Вкажіть додаткову адресу email нижче"
 
 #: user/addextraemail.php:64
 msgid "Confirmation email will be sent to the email address provided"
-msgstr "Сообщение подтверждения будет отправлено на указанный адрес"
+msgstr "Повідомлення про підтвердження буде відправлено на вказану адресу"
 
 #: user/addextraemail.php:65
 msgid "Follow the instructions in the e-mail to confirm the address"
-msgstr "Следуйте инструкциям в электронном письме для подтверждения адреса"
+msgstr "Слідкуйте інструкціям в електронному листі для підтвердження адреси"
 
 #: user/addmedialink.php:14
 msgid "Add links"
-msgstr "Добавить ссылки"
+msgstr "Додати посилання"
 
 #: user/addmedialink.php:94
 msgid "Added media links"
-msgstr "Добавленные ссылки на медиа"
+msgstr "Додані посилання на медіа"
 
 #: user/addmedialink.php:170 user/addmedialink.php:190 user/clubprofile.php:186
 #: user/playerprofile.php:337 user/teamprofile.php:146
@@ -6252,62 +6252,62 @@ msgstr "URL"
 #: user/addmedialink.php:192 user/clubprofile.php:187
 #: user/playerprofile.php:338 user/teamprofile.php:147
 msgid "optional"
-msgstr "опционально"
+msgstr "опціонально"
 
 #: user/addmedialink.php:192
 msgid "Media owner"
-msgstr "Владелец медиа"
+msgstr "Власник медіа"
 
 #: user/addmedialink.php:193
 msgid "Publisher"
-msgstr "Опубликовал"
+msgstr "Опублікував"
 
 #: user/addplayerlists.php:153
 msgid "Player lists saved!"
-msgstr "Списки игроков сохранены!"
+msgstr "Списки гравців збережено!"
 
 #: user/addresult.php:26 user/addscoresheet.php:353
 #, php-format
 msgid "Final result saved: %s - %s."
-msgstr "Окончательные результаты сохранены:  %s - %s."
+msgstr "Фінальний результат збережено:  %s - %s."
 
 #: user/addresult.php:28 user/addresult.php:30
 #, php-format
 msgid "Winner is <span style='font-weight:bold'>%s</span>."
-msgstr ""
+msgstr "Переможець <span style=‘font-weight:bold’>%s</span>."
 
 #: user/addresult.php:39 user/addscoresheet.php:348
 #, php-format
 msgid "Game ongoing. Current score: %s - %s."
-msgstr "Игра продолжается. Текущий результат: %s - %s."
+msgstr "Гра триває. Поточний рахунок: %s - %s."
 
 #: user/addresult.php:44
 msgid "Game reset"
-msgstr "Сбросить игру"
+msgstr "Скинути гру"
 
 #: user/addresult.php:76
 msgid "Game is running."
-msgstr "Игра продолжается."
+msgstr "Гра триває."
 
 #: user/addresult.php:78
 msgid "Game is finished."
-msgstr "Игра закончилась."
+msgstr "Гру закінчено."
 
 #: user/addresult.php:95
 msgid "If game ongoing, update as current result: "
-msgstr "Если игра продолжается, обновить как текущий результат: "
+msgstr "Якщо гра триває, оноити як поточний результат: "
 
 #: user/addresult.php:96
 msgid "update"
-msgstr "обновить"
+msgstr "оновити"
 
 #: user/addresult.php:98
 msgid "If this is all wrong, clear the result: "
-msgstr "Если всё неправильно, очистить результат: "
+msgstr "Якщо все невірно, очистити результат: "
 
 #: user/addscoresheet.php:79
 msgid "Are you sure you want to delete last score?"
-msgstr "Вы уверены что хотите удалить последнее очко?"
+msgstr "Ви впевнені, що хочете видалити останнє очко?"
 
 #: user/addscoresheet.php:281 user/addscoresheet.php:286
 #: user/addscoresheet.php:302 user/addscoresheet.php:311
@@ -6318,59 +6318,59 @@ msgstr "Очко"
 
 #: user/addscoresheet.php:356
 msgid "Score sheet saved"
-msgstr "Протокол сохранен"
+msgstr "Протокол збережено"
 
 #: user/addscoresheet.php:377 user/respgames.php:24
 msgid "Game score sheet"
-msgstr "Игровой Протокол"
+msgstr "Протокол гри"
 
 #: user/addscoresheet.php:520
 msgid "Game ongoing"
-msgstr "Игра продолжается"
+msgstr "Гра триває"
 
 #: user/addscoresheet.php:522
 msgid "Save scores"
-msgstr "Сохранить счет"
+msgstr "Зберегти рахунок"
 
 #: user/clubprofile.php:109
 msgid "Club information"
-msgstr "Информация о клубе"
+msgstr "Інформація про клуб"
 
 #: user/clubprofile.php:113 user/teamplayers.php:132 user/teamprofile.php:92
 msgid "Team Profile"
-msgstr "Профиль команды"
+msgstr "Профіль команди"
 
 #: user/clubprofile.php:114 user/teamplayers.php:133 user/teamprofile.php:93
 msgid "Club Profile"
-msgstr "Профиль клуба"
+msgstr "Профіль клубу"
 
 #: user/clubprofile.php:124
 msgid "Show on club list"
-msgstr "Показать в списке клубов"
+msgstr "Показати в списку клубів"
 
 #: user/clubprofile.php:145
 msgid "Founded on year"
-msgstr "Основана в году"
+msgstr "Засновано в році"
 
 #: user/clubprofile.php:158 user/playerprofile.php:307 user/teamprofile.php:117
 msgid "Web pages (homepage, blogs, images, videos)"
-msgstr "Веб-страницы (сайты, блоги, фото, видео)"
+msgstr "Веб-сторінки (сайти, блоги, фото, відео)"
 
 #: user/clubprofile.php:207 user/playerprofile.php:358 user/teamprofile.php:167
 msgid "Current image"
-msgstr "Текущее изображение"
+msgstr "Поточне зображення"
 
 #: user/clubprofile.php:213 user/playerprofile.php:365 user/teamprofile.php:172
 msgid "Delete image"
-msgstr "Удалить изображение"
+msgstr "Видалити зображення"
 
 #: user/clubprofile.php:218 user/playerprofile.php:370 user/teamprofile.php:178
 msgid "New image"
-msgstr "Новое изображение"
+msgstr "Нове зображення"
 
 #: user/clubprofile.php:230
 msgid "Check Club card"
-msgstr "Проверить карточку клуба"
+msgstr "Перевірити картку клубу"
 
 #: user/contacts.php:8
 msgid "Event mandatory"
@@ -6378,47 +6378,47 @@ msgstr "Обовʼязкова подія"
 
 #: user/contacts.php:13
 msgid "Inadequate user rights"
-msgstr "Недостаточные права пользователя"
+msgstr "Недостатні права користувача"
 
 #: user/contacts.php:23
 msgid "Mail to everyone registered for the event"
-msgstr "Отправить сообщения всем зарегистрированным на турнир"
+msgstr "Відправити повідомлення всім, хто зареєструвався на подію"
 
 #: user/contacts.php:25
 msgid "Contact to Event organizer"
-msgstr "Связаться с организатором турнира"
+msgstr "Звʼязатися з організаторами турніру"
 
 #: user/contacts.php:36
 msgid "Contact to Teams"
-msgstr "Связаться с командами"
+msgstr "Звʼязатися з командами"
 
 #: user/contacts.php:47
 msgid "Mail to teams in"
-msgstr "Написать командам в"
+msgstr "Написати командам в"
 
 #: user/enrollteam.php:9
 msgid "Season mandatory"
-msgstr "Обязательный сезон"
+msgstr "Обовʼязковий сезон"
 
 #: user/enrollteam.php:13
 msgid "Enrolled teams"
-msgstr "Зарегистрированные команды"
+msgstr "Зареєстровані команди"
 
 #: user/enrollteam.php:73
 msgid "No divisions."
-msgstr "Нет дивизионов."
+msgstr "Немає дивізіонів."
 
 #: user/enrollteam.php:88
 msgid "Enrolled"
-msgstr "Зарегистрировано"
+msgstr "Зареєстровано"
 
 #: user/enrollteam.php:88
 msgid "State"
-msgstr "Состояние"
+msgstr "Стан"
 
 #: user/enrollteam.php:120
 msgid "Confirmed"
-msgstr "Подтверждено"
+msgstr "Підтверджено"
 
 #: user/facebookpublishing.php:9
 msgid "Manage player Facebook feeds for"
@@ -6426,11 +6426,11 @@ msgstr "Manage player Facebook feeds for"
 
 #: user/facebookpublishing.php:20
 msgid "Player card"
-msgstr "Карточка игрока"
+msgstr "Картка клієнта"
 
 #: user/facebookpublishing.php:49
 msgid "Facebook feed messages"
-msgstr "Сообщения ленты Фейсбука"
+msgstr "Повідомлення стрічки Фейсбуку"
 
 #: user/facebookpublishing.php:51
 msgid "Messages will be published on your feed when the event happens"
@@ -6446,71 +6446,71 @@ msgstr "The available placeholders are the following:"
 
 #: user/facebookpublishing.php:55
 msgid "Player's team name"
-msgstr "Название команды игрока"
+msgstr "Назва команди гравця"
 
 #: user/facebookpublishing.php:56
 msgid "Opponent team name"
-msgstr "Название команды соперника"
+msgstr "Назва команди суперника"
 
 #: user/facebookpublishing.php:57
 msgid "Player's team score"
-msgstr "Счет команды игроков"
+msgstr "Рахунок команди гравців"
 
 #: user/facebookpublishing.php:58
 msgid "Opponent team score"
-msgstr "Счет команды соперника"
+msgstr "Рахунок команди суперника"
 
 #: user/facebookpublishing.php:59
 msgid "Name of the player passing the goal (goal events only)"
-msgstr "Имя игрока отдавшего голевой пас(только для голевых событий)"
+msgstr "Імʼя гравця, що віддав результативний пас (тільки для занесених голів)"
 
 #: user/facebookpublishing.php:60
 msgid "Name of the player catching the goal (goal events only)"
-msgstr "Имя игрока забившего гол(только для голевых событий)"
+msgstr "Імʼя гравця, що заніс гол (тільки для занесених голів)"
 
 #: user/facebookpublishing.php:66
 msgid "Facebook publishing options"
-msgstr "Опции публикации на Facebook"
+msgstr "Варіанти публікації на Facebook"
 
 #: user/facebookpublishing.php:72
 msgid "Publish event"
-msgstr "Опубликовать событие"
+msgstr "Опублікувати подію"
 
 #: user/facebookpublishing.php:79 user/facebookpublishing.php:85
 msgid "Message"
-msgstr "Сообщение"
+msgstr "Повідомлення"
 
 #: user/facebookpublishing.php:82
 msgid "Publish player card"
-msgstr "Опубликовать карточку игрока"
+msgstr "Опублікувати картку гравця"
 
 #: user/facebookpublishing.php:85
 msgid "Check out my player profile in ultiorganizer"
-msgstr "Проверьте мой профиль в Алтиорганайзере"
+msgstr "Перевірте мій профіль гравця в Алтиорганайзері"
 
 #: user/facebookpublishing.php:86 user/userinfo.php:521
 msgid "Publish"
-msgstr "Опубликовать"
+msgstr "Опублікувати"
 
 #: user/playerprofile.php:38
 msgid "Player information"
-msgstr "Информация об игроке"
+msgstr "Інформація про гравця"
 
 #: user/playerprofile.php:169
 msgid "Player details"
-msgstr "Детали игрока"
+msgstr "Детальна інформація про гравця"
 
 #: user/playerprofile.php:169
 msgid "Show in public profile"
-msgstr "Показывать в общем профиле"
+msgstr "Показувати в публічному профілі"
 
 #: user/playerprofile.php:174
 msgid "License Id"
-msgstr "Номер лицензии"
+msgstr "Номер ліцензії"
 
 #: user/playerprofile.php:205
 msgid "Jersey number"
-msgstr "Номер на футболке"
+msgstr "Номер на футболці"
 
 #: user/playerprofile.php:221
 msgid "E-mail"
@@ -6518,11 +6518,11 @@ msgstr "E-mail"
 
 #: user/playerprofile.php:225
 msgid "Additional information"
-msgstr "Дополнительная информация"
+msgstr "Додаткова інформація"
 
 #: user/playerprofile.php:229
 msgid "National membership number"
-msgstr "Национальный членский номер"
+msgstr "Національний членський номер"
 
 #: user/playerprofile.php:233
 msgid "Gender"
@@ -6530,15 +6530,15 @@ msgstr "Пол"
 
 #: user/playerprofile.php:239 user/playerprofile.php:241
 msgid "Female"
-msgstr "Женщина"
+msgstr "Жінка"
 
 #: user/playerprofile.php:244 user/playerprofile.php:246
 msgid "Male"
-msgstr "Мужчина"
+msgstr "Чоловік"
 
 #: user/playerprofile.php:275
 msgid "left"
-msgstr "левша"
+msgstr "шульга"
 
 #: user/playerprofile.php:275
 msgid "right"
@@ -6546,89 +6546,89 @@ msgstr "правша"
 
 #: user/playerprofile.php:275
 msgid "both"
-msgstr "амбидекстр"
+msgstr "амбідекстр"
 
 #: user/playerprofile.php:295
 msgid "Field position/role"
-msgstr "Позиция на поле / роль"
+msgstr "Позиція на полі/роль"
 
 #: user/playerprofile.php:381
 msgid "Check public player card"
-msgstr "Просмотр карточки игрока"
+msgstr "Перегляд картки гравця"
 
 #: user/respgames.php:20
 msgid "Feed in the data for your game responsibilities"
-msgstr "Заполните данные для стаффства"
+msgstr "Заповніть дані щодо своїх обовʼязків ведення гри"
 
 #: user/respgames.php:23
 msgid "Players in the game"
-msgstr "Игроки в игре"
+msgstr "Гравці в грі"
 
 #: user/respgames.php:26
 msgid "Click on Mass input to input multiple results at once, then Save"
 msgstr ""
-"Нажмите на Массовый ввод для ввода множества результатов за раз, а затем "
-"Сохраните"
+"Натисніть на Масове введення для введення кількох результатів одночасно, і "
+"натисніть Зберегти"
 
 #: user/respgames.php:27
 msgid "Check the game play after feeding in the score sheet"
-msgstr "Проверить ход игры после заполнения протокола"
+msgstr "Перевірити хід гри після заповнення протоколу"
 
 #: user/respgames.php:111
 msgid "Hide future games"
-msgstr "Скрыть будущие игры"
+msgstr "Сховати майбутні ігри"
 
 #: user/respgames.php:114
 msgid "Show all games"
-msgstr "Показать все игры"
+msgstr "Показати всі ігри"
 
 #: user/respgames.php:133
 msgid ""
 "Feeding in the score sheet requires JavaScript. Please enable JavaScript in "
 "your browser to continue!"
 msgstr ""
-"Заполнение протокола требует JavaScript. Пожалуйста, разрешите JavaScript "
-"для продолжения!"
+"Заповнення протоколу потребує JavaScript. Будь ласка, дозвольте використання "
+"JavaScript для продовження!"
 
 #: user/respgames.php:162
 msgid "No location"
-msgstr "Нет местоположения"
+msgstr "Без локації"
 
 #: user/respteams.php:23
 msgid "Team profile"
-msgstr "Профиль команды"
+msgstr "Профіль команди"
 
 #: user/respteams.php:25
 msgid "Club profile"
-msgstr "Профиль клуба"
+msgstr "Профіль клуба"
 
 #: user/respteams.php:39
 msgid "Team card"
-msgstr "Карточка команды"
+msgstr "Картка команди"
 
 #: user/respteams.php:41
 msgid "Club card"
-msgstr "Карточка клуба"
+msgstr "Картка клуба"
 
 #: user/select_poolselector.php:4
 msgid "Choose pools to show"
-msgstr "Выберите группы для отображения"
+msgstr "Оберіть групи для відображення"
 
 #: user/select_poolselector.php:22 user/userinfo.php:385 user/userinfo.php:413
 msgid "Team pools"
-msgstr "Командные группы"
+msgstr "Командні групи"
 
 #: user/teamplayers.php:22
 msgid "can not be removed from the roster"
-msgstr "не может быть удален из списка команды"
+msgstr "не може бути видалено з ростеру"
 
 #: user/teamplayers.php:23
 msgid "Games played in the team:"
-msgstr "Играл в команде:"
+msgstr "Ігри, зіграні в команді:"
 
 #: user/teamplayers.php:137
 msgid "Add players to team's roster:"
-msgstr "Добавить игроков в список команды:"
+msgstr "Додати гравців в командний ростер:"
 
 #: user/teamplayers.php:139
 msgid ""
@@ -6636,156 +6636,157 @@ msgid ""
 "player name and press the search-button. Select correct player from the "
 "dialog and press the confirm-button."
 msgstr ""
-"У игрока уже есть профиль в системе: Введите полностью или частично имя "
-"игрока и нажмите кнопку поиска. Выберите нужного игрока в открывшемся "
-"диалоги и нажмите кнопку подтверждения."
+"У гравця вже є профіль в системі: Введіть повністю або частково імʼя гравця "
+"і натисніть кнопку пошуку. Оберіть потрібного гравця і діалозі, що "
+"зʼявиться, і натисніть кнопку підтрведження."
 
 #: user/teamplayers.php:140
 msgid ""
 "New players: Enter jersey number, first and last name. Press add-button."
 msgstr ""
-"Новые игроки: Введите номер на майке, имя и фамилию. Нажмите кнопку добавить."
+"Нові гравці: Введіть номер на майці, імʼя і прізвище. Натисніть кнопку "
+"Додати."
 
 #: user/teamplayers.php:158
 msgid "Profile"
-msgstr "Профиль"
+msgstr "Профіль"
 
 #: user/teamplayers.php:159
 msgid "Accredited"
-msgstr "Аккредитован"
+msgstr "Акредитовано"
 
 #: user/teamplayers.php:161
 msgid "Member ID"
-msgstr "Членский номер"
+msgstr "Членський номер"
 
 #: user/teamplayers.php:179
 msgid "Copy team roster from:"
-msgstr "Скопировать список игроков команды из:"
+msgstr "Скопіювати ростер команди з:"
 
 #: user/teamplayers.php:204
 msgid "view"
-msgstr "просмотреть"
+msgstr "дивитися"
 
 #: user/teamplayers.php:217
 msgid "Yes"
-msgstr "Да"
+msgstr "Так"
 
 #: user/teamplayers.php:218
 msgid "No"
-msgstr "Нет"
+msgstr "Ні"
 
 #: user/teamplayers.php:281
 msgid "Back to feeding in player numbers"
-msgstr "Назад к заполнению номеров игроков"
+msgstr "Назад до заповнення номерів гравців"
 
 #: user/teamplayers.php:291
 msgid "Print roster"
-msgstr "Распечатать список игроков"
+msgstr "Роздрукувати ростер"
 
 #: user/teamprofile.php:23
 msgid "Team details"
-msgstr "Детали команды"
+msgstr "Деталі команди"
 
 #: user/teamprofile.php:42
 msgid "Abbreviation too short."
-msgstr "Сокращение слишком короткое."
+msgstr "Скорочення занадто коротке."
 
 #: user/teamprofile.php:48
 msgid "Abbreviation already used by"
-msgstr "Сокращение уже используется как"
+msgstr "Скорочення вже використовується як"
 
 #: user/teamprofile.php:191
 msgid "Check Team card"
-msgstr "Проверить карточку клуба"
+msgstr "Дивитися картку Команди"
 
 #: user/userinfo.php:62
 msgid "The username is already in use."
-msgstr "Это имя пользователя уже используется."
+msgstr "Імʼя користувача вже використовується."
 
 #: user/userinfo.php:67
 msgid "Name can not be empty."
-msgstr "Имя не может быть пустым."
+msgstr "Імʼя не може бути порожнім."
 
 #: user/userinfo.php:74
 msgid "Illegal characters in the username."
-msgstr "Недопустимые символы в имени пользователя."
+msgstr "Недопустимі символи в імені користувача."
 
 #: user/userinfo.php:80
 msgid "Unsupported language:"
-msgstr "Не поддерживаемые языки:"
+msgstr "Мова не підтримується:"
 
 #: user/userinfo.php:85 user/userinfo.php:133
 msgid "Changes were saved"
-msgstr "Изменения были сохранены"
+msgstr "Зміни було збережено"
 
 #: user/userinfo.php:87 user/userinfo.php:135
 msgid "Changes were NOT saved"
-msgstr "Изменения НЕ СОХРАНЕНЫ"
+msgstr "Зміни НЕ ЗБЕРЕЖЕНО"
 
 #: user/userinfo.php:119
 msgid "Password cannot be empty."
-msgstr "Пароль не может быть пустым."
+msgstr "Пароль не може бути порожнім."
 
 #: user/userinfo.php:129
 msgid "Passwords do not match."
-msgstr "Пароли не совпадают."
+msgstr "Паролі не співпадають."
 
 #: user/userinfo.php:240
 msgid "User information"
-msgstr "Информация о пользователе"
+msgstr "Інформація про користувача"
 
 #: user/userinfo.php:267
 msgid "Primary email"
-msgstr "Основной email"
+msgstr "Основний email"
 
 #: user/userinfo.php:269
 msgid "Add extra address"
-msgstr "Добавить дополнительные адреса"
+msgstr "Додати адресу"
 
 #: user/userinfo.php:282
 msgid "Set as primary"
-msgstr "Сделать основным"
+msgstr "Зробити основним"
 
 #: user/userinfo.php:292 user/userinfo.php:297 user/userinfo.php:301
 #: user/userinfo.php:306 user/userinfo.php:310
 msgid "Login via Facebook"
-msgstr "Войти через Фейсбук"
+msgstr "Увійти через Фейсбук"
 
 #: user/userinfo.php:298 user/userinfo.php:311
 msgid "Change link from this account to my current Facebook account"
-msgstr "Изменить ссылку с этого аккаунта на мой текущий аккаунт Фейсбука"
+msgstr "Замінити посилання з цього акаунту на мій поточний Фейсбук акаунт"
 
 #: user/userinfo.php:302
 msgid "Link this account to my Facebook account"
-msgstr "Связать этот аккаунт с моим аккаунтом на Facebook"
+msgstr "Привʼязати цей акаунт до мого акаунту Facebook"
 
 #: user/userinfo.php:307
 msgid "Remove link from this account to my Facebook account"
-msgstr "Удалить ссылку с этого аккаунта на мой текущий аккаунт Фейсбука"
+msgstr "Видалити посилання з цього акаунту на мій акаунт Фейсбук"
 
 #: user/userinfo.php:315
 msgid "Language"
-msgstr "Язык"
+msgstr "Мова"
 
 #: user/userinfo.php:346
 msgid "Show administration responsibilities"
-msgstr "Показать обязаности администратора"
+msgstr "Показати обовʼязки адміністратора"
 
 #: user/userinfo.php:358
 msgid "Hide"
-msgstr "Скрыть"
+msgstr "Сховати"
 
 #: user/userinfo.php:359
 msgid "Show"
-msgstr "Показать"
+msgstr "Показати"
 
 #: user/userinfo.php:372
 msgid "Show pools"
-msgstr "Показать группы"
+msgstr "Показати групи"
 
 #: user/userinfo.php:430
 msgid "User roles"
-msgstr "Роли пользователей"
+msgstr "Ролі користувача"
 
 #: user/userinfo.php:500 user/userinfo.php:551
 msgid "Game input responsibility"
@@ -6793,27 +6794,27 @@ msgstr "Game input responsibility"
 
 #: user/userinfo.php:516
 msgid "Do not publish the game events of this player on my Facebook feed"
-msgstr "Не публиковать игры этого игрока в моей ленте на Фейсбуке"
+msgstr "Не публікувати ігри цього гравця в моїй стрічці Фейсбука"
 
 #: user/userinfo.php:517
 msgid "Unpublish"
-msgstr "Неопубликованно"
+msgstr "Відмінити публікацію"
 
 #: user/userinfo.php:518
 msgid "Options"
-msgstr "Опции"
+msgstr "Опції"
 
 #: user/userinfo.php:520
 msgid "Publish the game events of this player on my Facebook feed"
-msgstr "Публиковать игры этого игрока в моей ленте на Фейсбуке"
+msgstr "Публікувати ігри цього гравця в моїй стрічці Фейсбука"
 
 #: user/userinfo.php:570
 msgid "New  password"
-msgstr "Новый пароль"
+msgstr "Новий  пароль"
 
 #: user/userinfo.php:575
 msgid "Change Password"
-msgstr "Изменить пароль"
+msgstr "Змінити пароль"
 
 #~ msgid "hh:mm,hh:mm"
 #~ msgstr "чч:мм,чч:мм"
