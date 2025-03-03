@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:admin">
+   </FileRef>
+   <FileRef
+      location = "group:allclubs.php">
+   </FileRef>
+   <FileRef
+      location = "group:allcountries.php">
+   </FileRef>
+   <FileRef
+      location = "group:allplayers.php">
+   </FileRef>
+   <FileRef
+      location = "group:allteams.php">
+   </FileRef>
+   <FileRef
+      location = "group:CHANGELOG.txt">
+   </FileRef>
+   <FileRef
+      location = "group:clubcard.php">
+   </FileRef>
+   <FileRef
+      location = "group:conf">
+   </FileRef>
+   <FileRef
+      location = "group:COPYING.txt">
+   </FileRef>
+   <FileRef
+      location = "group:countrycard.php">
+   </FileRef>
+   <FileRef
+      location = "group:cust">
+   </FileRef>
+   <FileRef
+      location = "group:defensestatus.php">
+   </FileRef>
+   <FileRef
+      location = "group:ext">
+   </FileRef>
+   <FileRef
+      location = "group:frontpage.php">
+   </FileRef>
+   <FileRef
+      location = "group:gamecard.php">
+   </FileRef>
+   <FileRef
+      location = "group:gameplay.php">
+   </FileRef>
+   <FileRef
+      location = "group:games.php">
+   </FileRef>
+   <FileRef
+      location = "group:ical.php">
+   </FileRef>
+   <FileRef
+      location = "group:images">
+   </FileRef>
+   <FileRef
+      location = "group:index.php">
+   </FileRef>
+   <FileRef
+      location = "group:install.php">
+   </FileRef>
+   <FileRef
+      location = "group:lib">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:locale">
+   </FileRef>
+   <FileRef
+      location = "group:localization.php">
+   </FileRef>
+   <FileRef
+      location = "group:login_failed.php">
+   </FileRef>
+   <FileRef
+      location = "group:logout.php">
+   </FileRef>
+   <FileRef
+      location = "group:menufunctions.php">
+   </FileRef>
+   <FileRef
+      location = "group:mobile">
+   </FileRef>
+   <FileRef
+      location = "group:new">
+   </FileRef>
+   <FileRef
+      location = "group:played.php">
+   </FileRef>
+   <FileRef
+      location = "group:playercard.php">
+   </FileRef>
+   <FileRef
+      location = "group:playerlist.php">
+   </FileRef>
+   <FileRef
+      location = "group:plugins">
+   </FileRef>
+   <FileRef
+      location = "group:poolstatus.php">
+   </FileRef>
+   <FileRef
+      location = "group:privacy.php">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:register.php">
+   </FileRef>
+   <FileRef
+      location = "group:reservationinfo.php">
+   </FileRef>
+   <FileRef
+      location = "group:restful">
+   </FileRef>
+   <FileRef
+      location = "group:result.php">
+   </FileRef>
+   <FileRef
+      location = "group:scorekeeper">
+   </FileRef>
+   <FileRef
+      location = "group:scorestatus.php">
+   </FileRef>
+   <FileRef
+      location = "group:script">
+   </FileRef>
+   <FileRef
+      location = "group:seasonlist.php">
+   </FileRef>
+   <FileRef
+      location = "group:seriesstatus.php">
+   </FileRef>
+   <FileRef
+      location = "group:sql">
+   </FileRef>
+   <FileRef
+      location = "group:statistics.php">
+   </FileRef>
+   <FileRef
+      location = "group:teamcard.php">
+   </FileRef>
+   <FileRef
+      location = "group:teams.php">
+   </FileRef>
+   <FileRef
+      location = "group:timetables.php">
+   </FileRef>
+   <FileRef
+      location = "group:touch">
+   </FileRef>
+   <FileRef
+      location = "group:user">
+   </FileRef>
+   <FileRef
+      location = "group:user_guide.php">
+   </FileRef>
+   <FileRef
+      location = "group:view_ids.inc.php">
+   </FileRef>
+</Workspace>
